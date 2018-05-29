@@ -16,18 +16,24 @@
           <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           <!-- /Submit Button -->
            
-          <img src="../img/facebook.png" class="mx-1" width="32px"/>
-          <img src="../img/twitter.png" class="mx-1" width="32px"/>
-          <img src="../img/instagram.png" class="mx-1" width="32px"/>
+          <a target="_blank" href="https://www.facebook.com/NeriumSkinCareInc"><img src="../img/facebook.png" class="mx-1" width="32px"/></a>
+          <a target="_blank" href="https://twitter.com/NeriumSkin_Inc"><img src="../img/twitter.png" class="mx-1" width="32px"/></a>
+          <a target="_blank" href="https://www.instagram.com/neriumskincare_inc/"><img src="../img/instagram.png" class="mx-1" width="32px"/></a>
           </div>
       </form>
     </div>
     <!--End mc_embed_signup-->
 
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center">&copy; 2018 Nerium SkinCare, Inc.  All Rights Reserved  Contact | Sitemap | Terms of Service</p>
+        </div>
+      </div>
+    </div>
 
   <!--Container div-->
   </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

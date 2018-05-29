@@ -1,83 +1,33 @@
-<?php include('homeHeader.php'); ?>
-
-    <style>
-        .container {
-            position: relative;
-        }
-
-        .bottom-left {
+<?php include('../deepPageHeader.php'); ?>
+<style>
+        .img-middle-right {
             position: absolute;
-            bottom: 8px;
-            left: 16px;
+            top: 30%;
+            right: 30px;
         }
+        .shop-btn {
+          padding:8px 16px;
+          background: none;
+          border: 1px black solid;
 
-        .top-left {
-            position: absolute;
-            top: 8px;
-            left: 16px;
         }
-
-        .top-right {
-            position: absolute;
-            top: 8px;
-            right: 16px;
-        }
-
-        .bottom-right {
-            position: absolute;
-            bottom: 8px;
-            right: 16px;
-        }
-
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
-    <!--Slider/Carousel Start-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="img/index-slider1-placeholder-sm.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label would be here</h5>
-              <p>Text and more text</p>
-              <button>Read More</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="img/index-slider2-placeholder-sm.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some supporting text here</p>
-              <button>Buy Now!</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="img/index-slider3-placeholder-sm.jpg" alt="Third slide">
-        </div>
+</style>
+  <div class="row">
+    <div class="col-12 img-container">
+      <img src="../img/about-hero-placeholder.jpg" width="100%"/>
+      <div class="img-middle-right text-center">
+        <h1>ADVANCED</h1>
+        <h3>The Beauty of Science</h3>
+        <button class="shop-btn">SHOP NOW</button>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-    <!--END Slider/Carousel Start-->
-    <div class="container">
+  </div>
+
+<div class="container mb-5">
+  <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="italiana text-center mt-2"> Our Best Sellers </h1>
+                <h1 class="italiana text-center mt-5"> ADVANCED COLLECTION</h1>
             </div>
         </div>
 
@@ -85,7 +35,7 @@
 
             <div id='product-component-8683e9dba0a'>
               <a href="../newProducts-Advanced-Night/index.php">
-                <img src="img/Updated-Advanced-Packaging/NSC.ADV.NC.Bottle.HR.CMYK.V2.png" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
+                <img src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Nightly Face Treatment</p>
                 <p class="p-index">$120</p>
               </a>
@@ -93,7 +43,7 @@
 
             <div id='product-component-c857cfc0b09'>
               <a href="../newProducts-Advanced-Day/index.php">
-                <img src="img/Updated-Advanced-Packaging/NSC.ADV.DC.Bottle.HR.CMYK.V2.png" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
+                <img src="../img/Updated-Advanced-Packaging/NSC.ADV.DC.BottleAndCarton.HR.CMYK.V1.png" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Daily <br/>Face Cream</p>
                 <p class="p-index">$100</p>
               </a>
@@ -101,7 +51,7 @@
 
             <div id='product-component-f6809364766!!DELETEWHENAVAILABLE'>
               <a href="../newProducts-Advanced-Firm/index.php">
-                <img src="img/Updated-Advanced-Packaging/NSC.NADA.BF.Tube.Front.200ml.LR.RGB.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
+                <img src="../img/Updated-Advanced-Packaging/NSC.NADA.BF.Tube.Front.200ml.LR.RGB.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NeriumFirm Advanced <br/>Firming Body Cream</p>
                 <p class="p-index">$120</p>
               </a>
@@ -112,70 +62,10 @@
 
         </div>
     </div>
+  <!--END Container Div-->
+  </div>
 
-    <!--Call to action images-->
-    <div class="container mb-4">
-        <img src="img/index-shopnow-placeholder.jpg" alt="Norway" style="width:100%;">
-        <div class="bottom-left">Bottom Left <button>Hi there</button></div>
-        <div class="top-left">Top Left</div>
-        <div class="top-right">Top Right</div>
-        <div class="bottom-right">Bottom Right</div>
-        <div class="centered">Centered</div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-          <div class="col-4"> 
-            <img src="img/index-core-placeholder.jpg" alt="Core Science" style="width:100%;"> 
-          </div>
-          <div class="col-4"> 
-              <img src="img/index-real-placeholder.jpg" alt="Real Results" style="width:100%;"> 
-            </div>
-            <div class="col-4"> 
-                <img src="img/index-ing-placeholder.jpg" alt="Ingredients" style="width:100%;"> 
-              </div>
-        </div>
-      </div>
-
-    <div class="container">
-        <div class="row">
-          <div class="col-4 mt-2"> 
-            <h1 class="italiana float-left">CORE SCIENCE</h1>
-           </div>
-          <div class="col-4 mt-2">
-            <h1 class="italiana float-left">REAL RESULTS</h1>
-          </div>
-          <div class="col-4 mt-2"> 
-            <h1 class="italiana float-left">INGREDIENTS</h1>
-           </div>
-        </div>
-
-      <div class="row">
-        <div class="col-4 text-justify"> 
-          <p>The foundation of Nerium SkinCare is established in biotechnology research, and on our commitment to core science. We are a company founded by scientists and guided by a board of elite scientific advisory members. It is no wonder that as a company, we are dedicated to offering skin care solutions based on the latest scientific research and breakthrough technology.</p>
-        </div>
-        <div class="col-4 text-justify">
-          <p>Nerium SkinCare’s success is the direct result of the company’s dedication to making products that are based on rigorous scientific research and results. By sharing our knowledge and research results with the consumer, our studies, we are fostering honest transparent communications. </p>
-        </div>
-        <div class="col-4 text-justify"> 
-          <p>Nerium SkinCare created the patented technology that is used to develop our line of skin care products. This technology utilizes pure liquid Aloe vera as the medium to extract the natural components of the Nerium oleander plant in a way that preserves the unique and beneficial properties of both plants.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-4"> 
-            <a href="#"><p>Read More >></p></a>
-        </div>
-        <div class="col-4">
-            <a href="#"><p>Read More >></p></a>
-        </div>
-        <div class="col-4"> 
-            <a href="#"><p>Read More >></p></a>
-        </div>
-      </div>
-    </div>
-
-        <!--Scrips Per Shopify Buy Button-->
+  <!--Scrips Per Shopify Buy Button-->
       <!--Night cream-->
       <script type="text/javascript">
           /*<![CDATA[*/
@@ -819,5 +709,5 @@
           /*]]>*/
         </script>  
       END-->
-
-<?php include('homeFooter.php'); ?>
+  <!--END Scrips Per Shopify Buy Button-->
+<?php include('../deepPageFooter.php'); ?>

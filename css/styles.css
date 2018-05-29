@@ -1,3 +1,18 @@
+/*Font */
+  a {
+    color:black;
+  }
+  a:hover {
+    color:black;
+  }
+  a:visited {
+    color:black;
+  }
+  h1 {
+    font-family:italiana;
+  }
+
+/*END Font*/
 
 /*Nav Bar*/
 .nav-container {
@@ -31,6 +46,30 @@
     }
 } 
 /*END Nav Bar*/
+
+/*About Us Page Secondary Nav Bar */
+.navigation-menu {
+    border-bottom: 1px black solid;
+  }
+  ul.navigation-menu {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  ul.navigation-menu li {
+    float: left;
+  }
+  ul.navigation-menu li:hover {
+    background-color: #cccccc;
+  }
+  ul.navigation-menu li a:link, .navigation-menu li a:visited {
+    display: block;
+    padding: 10px 20px 5px 20px;
+    text-decoration: none;
+  }
+
+/*END About Us Page Secondary Nav Bar */
 
 /* Shopify Buy Button & Products */
 .shopifyButton-container {
@@ -135,6 +174,21 @@
   
   /*END Mail Chimp Form */
 
+/* Images with Buttons or Text overlayed*/
+.img-container {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.top-left p {
+max-width:50vw;
+}
+/*END images with...*/
+
 /* Alignments and Spacers */
 .align-center{
     display: -ms-flexbox;
@@ -145,6 +199,11 @@
 	-webkit-box-align: center;
 	align-items: center;
 }
+
+.move-center {
+    display: flex;
+    justify-content: center;
+  }
 
 /* Fonts */
 .italiana {
