@@ -1,82 +1,41 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<?php include('homeHeader.php'); ?>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <!--Custom CSS-->
-    <link rel="stylesheet" href="css/styles.css">
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+    <style>
+        .container {
+            position: relative;
+        }
 
-    <title>Nerium SkinCare</title>
-  </head>
-  <body>
-      <style>
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
 
-          .container {
-              position: relative;
-          }
-          
-          .bottom-left {
-              position: absolute;
-              bottom: 8px;
-              left: 16px;
-          }
-          
-          .top-left {
-              position: absolute;
-              top: 8px;
-              left: 16px;
-          }
-          
-          .top-right {
-              position: absolute;
-              top: 8px;
-              right: 16px;
-          }
-          
-          .bottom-right {
-              position: absolute;
-              bottom: 8px;
-              right: 16px;
-          }
-          
-          .centered {
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-          }
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
 
-      </style>
-    <nav class="container nav-container">
-      <div class="row">
-        <div class="col-2 align-center">
-          <img src="img/logo.gif"/>
-        </div>
-        <div class="col-6 align-center">
-          <ul class="ul-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">SkinCare</a></li>
-            <li><a href="#">SkinHealth</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
-        </div>
-        <div class="col-4">
-          <div class="float-right italiana">
-            <button class="shopify-buy__cart-toggle">Shop</button>Search | <a href="#">Contact Us</a>
-            <br/>
-            <a href="https://neriumhcp.com/">Healthcare Professional Site</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
 
-    
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
     <!--Slider/Carousel Start-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -116,11 +75,11 @@
     </div>
     <!--END Slider/Carousel Start-->
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="italiana text-center mt-2"> Our Best Sellers </h1>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="italiana text-center mt-2"> Our Best Sellers </h1>
+            </div>
         </div>
-      </div>
 
         <div class="shopifyButton-container mb-4"> 
 
@@ -152,21 +111,17 @@
             </div>
 
         </div>
-      
+    </div>
 
-
-
-      <!--Call to action images-->
-      <div class="container mb-4">
+    <!--Call to action images-->
+    <div class="container mb-4">
         <img src="img/index-shopnow-placeholder.jpg" alt="Norway" style="width:100%;">
         <div class="bottom-left">Bottom Left <button>Hi there</button></div>
         <div class="top-left">Top Left</div>
         <div class="top-right">Top Right</div>
         <div class="bottom-right">Bottom Right</div>
         <div class="centered">Centered</div>
-      </div>
-    
-    
+    </div>
 
     <div class="container">
         <div class="row">
@@ -210,47 +165,9 @@
       </div>
     </div>
 
-    <!-- This is the code you will get from Mailchimp’s NAKED Signup Form -->
-    <div id="mc_embed_signup">
-      <form action="//neriumskin.us12.list-manage.com/subscribe/post?u=5009d2774fe931532b6e70f55&amp;id=9c339e45a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-          <!-- Text Input Field -->
-          <div class="mc-field-group"><input type="email" placeholder="Newsletter Sign up" name="EMAIL" class="required email" id="mce-EMAIL"></div>
-          <!-- /Text Input Field -->
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>
-          <!--do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_0b5586be71b0fee16a03f5684_e41ec18eab" tabindex="-1" value=""></div>
-          <!-- Submit Button -->
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-          <!-- /Submit Button -->
-           
-          <img src="img/facebook.png" class="mx-1" width="32px"/>
-          <img src="img/twitter.png" class="mx-1" width="32px"/>
-          <img src="img/instagram.png" class="mx-1" width="32px"/>
-          </div>
-      </form>
-    </div>
-    <!--End mc_embed_signup-->
-
-
-  <!--Container div-->
-  </div>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <!--Link Required for Shopify Buttons to work-->
-    <script type="text/javascript" src="https://sdks.shopifycdn.com/js-buy-sdk/v0/latest/shopify-buy.umd.polyfilled.min.js"></script>
-
-    <!--Scrips Per Shopify Buy Button-->
+        <!--Scrips Per Shopify Buy Button-->
       <!--Night cream-->
-        <script type="text/javascript">
+      <script type="text/javascript">
           /*<![CDATA[*/
 
           (function () {
@@ -892,5 +809,5 @@
           /*]]>*/
         </script>  
       END-->
-  </body>
-</html>
+
+<?php include('homeFooter.php'); ?>
