@@ -241,7 +241,7 @@
               "padding-left": "8px",
               "padding-right": "8px",
               "display": "block",
-                  "margin": "0 auto",
+              "margin": "0 auto",
               ":hover": {
               "background-color": "#91bdcf"
               },

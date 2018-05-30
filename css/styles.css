@@ -59,6 +59,7 @@
   }
   ul.navigation-menu li {
     float: left;
+    width: 100%;
   }
   ul.navigation-menu li:hover {
     background-color: #cccccc;
@@ -70,6 +71,23 @@
   }
 
 /*END About Us Page Secondary Nav Bar */
+
+/* Individual Product Page Stylings */
+.hr-indi {
+  border-top: 1px solid #A1D2E6;
+  margin-top: 0; 
+  margin-bottom: 50px;
+}
+
+.indi-display img {
+  margin: 0 auto;
+}
+.navigation-menu-indi {
+  border-bottom: 1px #A2A9AD solid;
+}
+
+/* END Individual Product Page Stylings */
+
 
 /* Shopify Buy Button & Products */
 .shopifyButton-container {
@@ -191,7 +209,7 @@ max-width:50vw;
 
 /* Alignments and Spacers */
 .align-center{
-    display: -ms-flexbox;
+  display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
 	-ms-flex-align: center;
