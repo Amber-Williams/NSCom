@@ -17,19 +17,19 @@
     <nav class="container nav-container">
       <div class="row">
         <div class="col-2 align-center">
-          <img src="../img/logo.gif"/>
+          <a href="../index.php"><img src="../img/logo.gif"/></a>
         </div>
         <div class="col-6 align-center">
           <ul class="ul-nav">
-            <li><a href="../#">Home</a></li>
-            <li><a href="../#">SkinCare</a></li>
-            <li><a href="../#">SkinHealth</a></li>
-            <li><a href="../#">About Us</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../SkinCare/">SkinCare</a></li>
+            <li><a href="../SkinHealth/">SkinHealth</a></li>
+            <li><a href="../about/">About Us</a></li>
           </ul>
         </div>
         <div class="col-4">
           <div class="float-right italiana">
-            <button class="shopify-buy__cart-toggle">Shop</button>Search | <a href="#">Contact Us</a>
+            <button class="shopify-buy__cart-toggle">Shop</button>Search | <a href="../about/#contact">Contact Us</a>
             <br/>
             <a href="https://neriumhcp.com/">Healthcare Professional Site</a>
           </div>
