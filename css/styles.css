@@ -86,6 +86,10 @@
   border-bottom: 1px #A2A9AD solid;
 }
 
+#recommended-text, #howTo-text, #ingredients-text {
+  display:none;
+}
+
 /* END Individual Product Page Stylings */
 
 
