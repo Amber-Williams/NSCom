@@ -1,5 +1,27 @@
 <?php include('../deepPageHeader.php'); ?>
 <style>
+body{
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.h1-indi{
+  font-size: 2rem;
+  font-family: italiana;
+}
+.h2-indi{
+  font-family: italiana;
+  font-size: 1.7rem;
+}
+.h3-indi{
+  font-family: italiana;
+  font-size:1.2rem;
+}
+.h4-indi{
+  font-size: 0.9rem;
+}
+.p-indi{
+  font-size: 0.85rem;
+}
 .bg-c-grey {
   background:#D3D3D3;
 }
@@ -27,12 +49,12 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h1>ADVACNED NIGHTLY FACE CREAM</h1>
-        <p>30ml / 1 fl.oz</p>
-        <h2>$120<h2>
+        <h1 class="h1-indi">ADVANCED NIGHTLY FACE CREAM</h1>
+        <h4 class="h4-indi">30ml / 1 fl.oz</h4>
+        <h2 class="h2-indi">$120<h2>
         
-        <h4>BENEFITS</h4>
-        <ul>
+        <h3 class="h3-indi">BENEFITS</h3>
+        <ul class="h4-indi">
           <li>Skin Protectant</li>
           <li>Fine Lines and Wrinkles</li>
           <li>Sagging Skin</li>
@@ -46,7 +68,7 @@
 
     <div class="row">
       <div class="col-12">
-            <ul class="navigation-menu navigation-menu-indi move-center">
+            <ul class="navigation-menu navigation-menu-indi move-center h3-indi">
               <li id="details" class="text-center"><a href="#story">Details</a></li>
               <li id="recommended" class="text-center"><a href="#products">Recommended for</a></li>
               <li id="howTo" class="text-center"><a href="#farms">How to Use</a></li>
@@ -58,8 +80,8 @@
     <!--DETAILS SECTION-->
     <div id="details-text" class="row mb-5">
       <div class="col-md-7">
-        <h4>Product Details</h4>
-        <p>
+        <h3 class="h3-indi">Product Details</h3>
+        <p class="p-indi">
         Advanced Nightly Face Treatment is a rich, concentrated age-defying skin protection formula designed to fight oxidative stress and improve the appearance of aging and sun damaged skin while promoting healthy skin of face, neck, and décolletage. This treatment is infused with a matrix of skin revitalizing key ingredients which work in synergy to reduce the appearance of fine lines and wrinkles, enhance and restore your skin’s ability to look fresh, natural, and radiant overnight.
         <br/><br/>
         Dermatologist Tested.
@@ -68,8 +90,8 @@
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
-      <h4>ADVANCED COLLECTION</h4>
-        <p>Introduce night cream and body cream here with stylized group shot.</p>
+      <h2 class="h2-indi">ADVANCED COLLECTION</h2>
+        <p class="p-indi">Introduce night cream and body cream here with stylized group shot.</p>
         <button>See Daily Cream</button>  <button>See Body Cream</button>
       </div>
     </div>
@@ -78,8 +100,8 @@
     <div id="recommended-text">
       <div class="row mb-5">
         <div class="col-md-7">
-          <h4>Recommended For</h4>
-          <ul>
+          <h3 class="h3-indi">Recommended For</h3>
+          <ul class="h4-indi">
             <li>Sun Damaged Skin</li>
             <li>Signs of Aging</li>
             <li>Blemishes/Spots/Discoloration</li>
@@ -90,7 +112,7 @@
           </ul>
         </div>
         <div class="col-md-5 bg-c-grey">
-          <p>
+          <p class="p-indi">
           Before/After photos
           </p>
         </div>
@@ -101,13 +123,13 @@
       <div id="howTo-text">
         <div class="row mb-5">
           <div class="col-md-7">
-            <h4>How to Use</h4>
+            <h3 class="h3-indi">How to Use</h3>
             <div class="row">
               <div class="col-2">
                 <img src="../img/indi-stuff/Step1.png"/>
               </div>
               <div class="col-10">
-                <p>Clean skin throughly from excess dirt and debris.</p>
+                <p class="p-indi">Clean skin throughly from excess dirt and debris.</p>
               </div>
             </div>
             <div class="row">
@@ -115,7 +137,7 @@
                 <img src="../img/indi-stuff/Step2.png"/>
               </div>
               <div class="col-10">
-                <p>Apply as needed. Recommended to apply four (+/-) pumps to face, neck and décolletage.</p>
+                <p class="p-indi">Apply as needed. Recommended to apply four (+/-) pumps to face, neck and décolletage.</p>
               </div>
             </div>
             <div class="row">
@@ -123,13 +145,13 @@
                 <img src="../img/indi-stuff/Step3.png"/>
               </div>
               <div class="col-10">
-                <p>Rinse skin in the morning following usage. For optimal results, follow with Nerium ADVANCED Daily Face Cream.</p>
+                <p class="p-indi">Rinse skin in the morning following usage. For optimal results, follow with Nerium ADVANCED Daily Face Cream.</p>
               </div>
             </div>
           </div>
           <div class="col-md-5 bg-c-grey">
-            <h4>ADVANCED COLLECTION</h4>
-            <p>Introduce night cream and body cream here with stylized group shot.</p>
+            <h2 class="h2-indi">ADVANCED COLLECTION</h2>
+            <p class="p-indi">Introduce night cream and body cream here with stylized group shot.</p>
             <button>See Daily Cream</button>  <button>See Body Cream</button>
           </div>
         </div>
@@ -137,33 +159,33 @@
 
       <!--INGREDIENTS TEXT SECTION-->
       <div id="ingredients-text">
-      <h4>Key Ingredients</h4>
-        <div class="row">
+      <h3 class="h3-indi">Key Ingredients</h3>
+        <div class="row text-center">
           <div class="col-sm-3">
             <img src="../img/indi-stuff/ingredients/advanced/DNB-Nerium.png"/>
-            <p>Text here text here</p>
+            <p class="p-indi ">Text here text here</p>
           </div>
           <div class="col-sm-3">
             <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png"/>
-            <p>Text here text here</p>
+            <p class="p-indi">Text here text here</p>
           </div>
           <div class="col-sm-3">
             <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png"/>
-            <p>Text here text here</p>
+            <p class="p-indi">Text here text here</p>
           </div>
           <div class="col-sm-3">
             <img src="../img/indi-stuff/ingredients/advanced/NB-Dimethicone.png"/>
-            <p>Text here text here</p>
+            <p class="p-indi">Text here text here</p>
           </div>
           <div class="col-sm-3">
             <img src="../img/indi-stuff/ingredients/advanced/N-Chia-Seed-Oil.png"/>
-            <p>Text here text here</p>
+            <p class="p-indi">Text here text here</p>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-12">
-            <h4>Full ingredients</h4> 
-            <p>Dimethicone, Water (Aqua), Aloe Barbadensis Leaf Juice, Hydrolyzed Egg Shell Membrane (Peptide Matrix - Collagen and Elastin), Nerium Oleander Leaf Extract, Niacinamide, Glycerin, Propanediol, Butylene Glycol, Glyceryl Stearate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Hydrogenated Polydecene, Cocos Nucifera (Coconut) Oil, Caprylic/Capric Triglyceride, Helianthus Annuus (Sunflower) Seed Oil, Squalane, Cetearyl Olivate, Sorbitan Olivate, C12-15 Alkyl Benzoate, Stearic Acid, Leuconostoc/Radish Root Ferment Filtrate, Butyrospermum Parkii (Shea) Butter, Theobroma Cacao (Cocoa) Seed Butter, Polysorbate 80, Caprylyl Glycol, Salvia Hispanica (Chia) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Sodium Lactate, Tocopheryl Acetate, Xanthan Gum, Cymbopogon Schoenanthus Extract, Disodium EDTA, Acetyl Hexapeptide-30, Alteromonas Ferment Extract, Arginine, Caramel, Potassium Sorbate, Glyceryl Caprylate, Phenylpropanol, Limonene, Citral, Hydroxycitronellal, Linalool</p>
+            <h3 class="h3-indi">Full ingredients</h3> 
+            <p class="p-indi">Dimethicone, Water (Aqua), Aloe Barbadensis Leaf Juice, Hydrolyzed Egg Shell Membrane (Peptide Matrix - Collagen and Elastin), Nerium Oleander Leaf Extract, Niacinamide, Glycerin, Propanediol, Butylene Glycol, Glyceryl Stearate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Hydrogenated Polydecene, Cocos Nucifera (Coconut) Oil, Caprylic/Capric Triglyceride, Helianthus Annuus (Sunflower) Seed Oil, Squalane, Cetearyl Olivate, Sorbitan Olivate, C12-15 Alkyl Benzoate, Stearic Acid, Leuconostoc/Radish Root Ferment Filtrate, Butyrospermum Parkii (Shea) Butter, Theobroma Cacao (Cocoa) Seed Butter, Polysorbate 80, Caprylyl Glycol, Salvia Hispanica (Chia) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Sodium Lactate, Tocopheryl Acetate, Xanthan Gum, Cymbopogon Schoenanthus Extract, Disodium EDTA, Acetyl Hexapeptide-30, Alteromonas Ferment Extract, Arginine, Caramel, Potassium Sorbate, Glyceryl Caprylate, Phenylpropanol, Limonene, Citral, Hydroxycitronellal, Linalool</p>
           </div>
         </div>
       </div>
