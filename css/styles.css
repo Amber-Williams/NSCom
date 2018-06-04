@@ -86,7 +86,7 @@
   border-bottom: 1px #A2A9AD solid;
 }
 
-#recommended-text, #howTo-text, #ingredients-text {
+#recommended-text, #howTo-text, #ingredients-text, #recommended-bullet, #howTo-bullet, #ingredients-bullet{
   display:none;
 }
 

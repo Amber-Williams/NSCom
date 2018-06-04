@@ -25,6 +25,27 @@ body{
 .bg-c-grey {
   background:#D3D3D3;
 }
+
+.ul-hexbullets{
+    list-style: none;
+    padding:0;
+    }
+.ul-hexbullets li:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+    margin-bottom: -3px;
+    display: inline-block;
+    background: url(../img/bluebullet.svg) no-repeat 0 0;
+    background-position: 50%;
+}
+.benefits-line{
+    border-bottom: 1px solid #a2a9ad;
+    max-width: 250px;
+    padding-bottom: 8px;
+}
 </style>
 <hr class="hr-indi" />
 
@@ -51,10 +72,10 @@ body{
       <div class="col-md-6">
         <h1 class="h1-indi">ADVANCED NIGHTLY FACE CREAM</h1>
         <h4 class="h4-indi">30ml / 1 fl.oz</h4>
-        <h2 class="h2-indi">$120<h2>
-        
-        <h3 class="h3-indi">BENEFITS</h3>
-        <ul class="h4-indi">
+        <h2 class="h2-indi mb-4">$120<h2>
+            
+        <h3 class="h3-indi benefits-line">BENEFITS</h3>
+        <ul class="h4-indi ul-hexbullets">
           <li>Skin Protectant</li>
           <li>Fine Lines and Wrinkles</li>
           <li>Sagging Skin</li>
@@ -66,13 +87,25 @@ body{
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-12">
             <ul class="navigation-menu navigation-menu-indi move-center h3-indi">
-              <li id="details" class="text-center"><a href="#story">Details</a></li>
-              <li id="recommended" class="text-center"><a href="#products">Recommended for</a></li>
-              <li id="howTo" class="text-center"><a href="#farms">How to Use</a></li>
-              <li id="ingredients" class="text-center"><a href="#philosophy">Ingredients</a></li>
+              <li id="details" class="text-center">
+                      <img src="../img/bluebullet.png" width="15px" id="details-bullet"/>
+                      Details
+                </li>
+              <li id="recommended" class="text-center">
+                      <img src="../img/bluebullet.png" width="15px" id="recommended-bullet"/>
+                      Recommended for
+                </li>
+              <li id="howTo" class="text-center">
+                      <img src="../img/bluebullet.png" width="15px" id="howTo-bullet"/>
+                      How to Use
+                </li>
+              <li id="ingredients" class="text-center">
+                      <img src="../img/bluebullet.png" width="15px" id="ingredients-bullet"/>
+                      Ingredients
+                </li>
             </ul>
       </div>
     </div>
@@ -101,7 +134,7 @@ body{
       <div class="row mb-5">
         <div class="col-md-7">
           <h3 class="h3-indi">Recommended For</h3>
-          <ul class="h4-indi">
+          <ul class="h4-indi ul-hexbullets">
             <li>Sun Damaged Skin</li>
             <li>Signs of Aging</li>
             <li>Blemishes/Spots/Discoloration</li>
@@ -124,28 +157,28 @@ body{
         <div class="row mb-5">
           <div class="col-md-7">
             <h3 class="h3-indi">How to Use</h3>
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-2">
                 <img src="../img/indi-stuff/Step1.png"/>
               </div>
-              <div class="col-10">
-                <p class="p-indi">Clean skin throughly from excess dirt and debris.</p>
+              <div class="col-10 d-flex align-items-center">
+                <p class="p-indi mb-0">Clean skin throughly from excess dirt and debris.</p>
               </div>
             </div>
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-2">
                 <img src="../img/indi-stuff/Step2.png"/>
               </div>
-              <div class="col-10">
-                <p class="p-indi">Apply as needed. Recommended to apply four (+/-) pumps to face, neck and décolletage.</p>
+              <div class="col-10 d-flex align-items-center">
+                <p class="p-indi mb-0">Apply as needed. Recommended to apply four (+/-) pumps to face, neck and décolletage.</p>
               </div>
             </div>
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-2">
                 <img src="../img/indi-stuff/Step3.png"/>
               </div>
-              <div class="col-10">
-                <p class="p-indi">Rinse skin in the morning following usage. For optimal results, follow with Nerium ADVANCED Daily Face Cream.</p>
+              <div class="col-10 d-flex align-items-center">
+                <p class="p-indi mb-0">Rinse skin in the morning following usage. For optimal results, follow with Nerium ADVANCED Daily Face Cream.</p>
               </div>
             </div>
           </div>
@@ -196,6 +229,7 @@ body{
   </div>
 </div>
 
+      
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
 <script>
   //Script for changing display images
@@ -211,30 +245,48 @@ body{
 
   //Script for changing indi-sub sections
     $(document).ready(function(){
-    $("#details").click(function(){
-    		$("#details-text").show();
-        $("#recommended-text").hide();
-        $("#howTo-text").hide();
-        $("#ingredients-text").hide();
+        $("#details").click(function(){
+            $("#details-text").show();
+            $("#recommended-text").hide();
+            $("#howTo-text").hide();
+            $("#ingredients-text").hide();
+            $("#details-bullet").show();
+            $("#recommended-bullet").hide();
+            $("#howTo-bullet").hide();
+            $("#ingredients-bullet").hide();
+        });
+        $("#recommended").click(function(){
+            $("#details-text").hide();
+            $("#recommended-text").show();
+            $("#howTo-text").hide();
+            $("#ingredients-text").hide();
+            $("#details-bullet").hide();
+            $("#recommended-bullet").show();
+            $("#howTo-bullet").hide();
+            $("#ingredients-bullet").hide();
+            
+        });
+        $("#howTo").click(function(){
+            $("#details-text").hide();
+            $("#recommended-text").hide();
+            $("#howTo-text").show();
+            $("#ingredients-text").hide();
+            $("#details-bullet").hide();
+            $("#recommended-bullet").hide();
+            $("#howTo-bullet").show();
+            $("#ingredients-bullet").hide();
+        });
+        $("#ingredients").click(function(){
+            $("#details-text").hide();
+            $("#recommended-text").hide();
+            $("#howTo-text").hide();
+            $("#ingredients-text").show();
+            $("#details-bullet").hide();
+            $("#recommended-bullet").hide();
+            $("#howTo-bullet").hide();
+            $("#ingredients-bullet").show();
+        });
     });
-    $("#recommended").click(function(){
-    		$("#details-text").hide();
-        $("#recommended-text").show();
-        $("#howTo-text").hide();
-        $("#ingredients-text").hide();
-    });
-    $("#howTo").click(function(){
-    		$("#details-text").hide();
-        $("#recommended-text").hide();
-        $("#howTo-text").show();
-        $("#ingredients-text").hide();
-    });
-    $("#ingredients").click(function(){
-    		$("#details-text").hide();
-        $("#recommended-text").hide();
-        $("#howTo-text").hide();
-        $("#ingredients-text").show();
-    });
-});
+
 </script>
 <?php include('../deepPageFooter.php'); ?>
