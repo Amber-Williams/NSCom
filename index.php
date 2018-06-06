@@ -35,6 +35,10 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+        
+        .test{
+            
+        }
     </style>
     <!--Slider/Carousel Start-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
