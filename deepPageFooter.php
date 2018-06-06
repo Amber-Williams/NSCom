@@ -1,33 +1,44 @@
 
     <!-- This is the code you will get from Mailchimp’s NAKED Signup Form -->
-    <div id="mc_embed_signup">
-      <form action="//neriumskin.us12.list-manage.com/subscribe/post?u=5009d2774fe931532b6e70f55&amp;id=9c339e45a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-          <!-- Text Input Field -->
-          <div class="mc-field-group"><input type="email" placeholder="Newsletter Sign up" name="EMAIL" class="required email" id="mce-EMAIL"></div>
-          <!-- /Text Input Field -->
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>
-          <!--do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_0b5586be71b0fee16a03f5684_e41ec18eab" tabindex="-1" value=""></div>
-          <!-- Submit Button -->
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-          <!-- /Submit Button -->
-           
-          <a target="_blank" href="https://www.facebook.com/NeriumSkinCareInc"><img src="../img/facebook.png" class="mx-1" width="32px"/></a>
-          <a target="_blank" href="https://twitter.com/NeriumSkin_Inc"><img src="../img/twitter.png" class="mx-1" width="32px"/></a>
-          <a target="_blank" href="https://www.instagram.com/neriumskincare_inc/"><img src="../img/instagram.png" class="mx-1" width="32px"/></a>
-          </div>
-      </form>
+    <div class="container">
+      <div id="mc_embed_signup" class="mt-5">
+        <form action="//neriumskin.us12.list-manage.com/subscribe/post?u=5009d2774fe931532b6e70f55&amp;id=9c339e45a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+            <!-- Text Input Field -->
+            <div class="mc-field-group"><input type="email" placeholder="Newsletter Sign up" name="EMAIL" class="required email" id="mce-EMAIL"></div>
+            <!-- /Text Input Field -->
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!--do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_0b5586be71b0fee16a03f5684_e41ec18eab" tabindex="-1" value=""></div>
+            <!-- Submit Button -->
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            <!-- /Submit Button -->
+            
+            <a target="_blank" href="https://www.facebook.com/NeriumSkinCareInc"><img src="../img/facebook.png" class="my-sm-d-3 mx-1" width="32px"/></a>
+            <a target="_blank" href="https://twitter.com/NeriumSkin_Inc"><img src="../img/twitter.png" class="my-sm-d-3 mx-1" width="32px"/></a>
+            <a target="_blank" href="https://www.instagram.com/neriumskincare_inc/"><img src="../img/instagram.png" class="my-sm-d-3 mx-1" width="32px"/></a>
+            </div>
+        </form>
+      </div>
     </div>
     <!--End mc_embed_signup-->
 
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p class="text-center">&copy; 2018 Nerium SkinCare, Inc.  All Rights Reserved  Contact | Sitemap | Terms of Service</p>
+
+          <div class="row">
+            <div class="col-md-6"> 
+              <p class="text-center text-md-right">&copy; 2018 Nerium SkinCare, Inc.  All Rights Reserved </p>
+            </div>
+          
+            <div class="col-md-6">
+              <p class="text-center text-md-left">Contact | Sitemap | Terms of Service</p>
+            </div>
+            
         </div>
       </div>
     </div>

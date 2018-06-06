@@ -29,8 +29,11 @@
         </div>
         <div class="col-4">
           <div class="float-right italiana">
-            <button class="shopify-buy__cart-toggle">Shop</button>Search | <a href="about/#contact">Contact Us</a>
-            <br/>
+            <div class="row">
+             <div class="col-12">
+             Search | Cart | <a href="about/#contact">Contact Us</a>
+             </div>
+            </div>
             <a href="https://neriumhcp.com/">Healthcare Professional Site</a>
           </div>
         </div>
