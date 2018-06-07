@@ -194,23 +194,23 @@ body{
       <div id="ingredients-text">
       <h3 class="h3-indi">Key Ingredients</h3>
         <div class="row text-center">
-          <div class="col-sm-3">
+          <div class="col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/DNB-Nerium.png"/>
-            <p class="p-indi ">Text here text here</p>
+            <p class="p-indi ">Targets not just the signs of aging but also the underlying cause. Delivers powerful antioxidants to target free radical damage. Boosts the skin rejuvenating process to reveal younger-looking skin. Research has shown that NAE-14® possesses potent antioxidant and anti-inflammatory properties, while also inducing specific cytokines in dermal fibroblasts of relevance to wound healing.</p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png"/>
-            <p class="p-indi">Text here text here</p>
+            <p class="p-indi">This advanced technology process retains the natural ratios of key elements found in nature’s potent life source of proteins and peptides from water soluble egg membrane (WSEM) that are beneficial to skin. These peptides include collagen, elastin, desmosine, isodesmosine and glycosaminoglycans (GAGs). </p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png"/>
-            <p class="p-indi">Text here text here</p>
+            <p class="p-indi">Vitamin B3</p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/NB-Dimethicone.png"/>
-            <p class="p-indi">Text here text here</p>
+            <p class="p-indi">One of the most commonly found skin care ingredient is a silicon-based polymer used to condition the skin while protecting the skin, working to prevent water loss by forming a hydrating barrier on the skin. Fills in wrinkles and lines on the face to give it a temporary plumped appearance.</p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/N-Chia-Seed-Oil.png"/>
             <p class="p-indi">Text here text here</p>
           </div>
