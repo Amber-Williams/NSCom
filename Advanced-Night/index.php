@@ -1,5 +1,52 @@
 <?php include('../deepPageHeader.php'); ?>
+<style>
+body{
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.h1-indi{
+  font-size: 2rem;
+  font-family: italiana;
+}
+.h2-indi{
+  font-family: italiana;
+  font-size: 1.7rem;
+}
+.h3-indi{
+  font-family: italiana;
+  font-size:1.2rem;
+}
+.h4-indi{
+  font-size: 0.9rem;
+}
+.p-indi{
+  font-size: 0.85rem;
+}
+.bg-c-grey {
+  background:#D3D3D3;
+}
 
+.ul-hexbullets{
+    list-style: none;
+    padding:0;
+    }
+.ul-hexbullets li:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+    margin-bottom: -3px;
+    display: inline-block;
+    background: url(../img/bluebullet.svg) no-repeat 0 0;
+    background-position: 50%;
+}
+.benefits-line{
+    border-bottom: 1px solid #a2a9ad;
+    max-width: 250px;
+    padding-bottom: 8px;
+}
+</style>
 <hr class="hr-indi" />
 
 <div class="container">
@@ -240,5 +287,6 @@
             $("#ingredients-bullet").show();
         });
     });
+
 </script>
 <?php include('../deepPageFooter.php'); ?>
