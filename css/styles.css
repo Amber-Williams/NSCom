@@ -276,21 +276,7 @@ max-width:50vw;
     display: flex;
     justify-content: center;
   }
-.hide-md{
-    display: inherit;
-}
-.show-md{
-    display: none;
-}
-@media (max-width:768px){
-    .hide-md{
-        display: none;
-    }
-    .show-md{
-        display: inherit;
-    }
-}
-@media (max-width: 576px) {
+  @media (max-width: 576px) {
     .my-sm-d-3{
       margin-top: 1rem !important; 
       margin-bottom: 1rem !important; 
