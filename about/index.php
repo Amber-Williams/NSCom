@@ -1,21 +1,21 @@
 <?php include('../deepPageHeader.php'); ?>
 
   <div class="row">
-    <div class="col-12">
-      <img src="../img/about-hero-placeholder.jpg" width="100%"/>
+    <div class="col-12 px-0 mb-2">
+      <img src="../img/about-us/1152x584-About-Page.jpg" width="100%"/>
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
+  <div class="container ">
+    <div class="row hide-md">
       <div class="col-12">
             <ul class="navigation-menu  move-center">
               <li><a href="#story">Our Story</a></li>
               <li><a href="#products">Products</a></li>
-              <li><a href="#farms">Nerium Farms</a></li>
+              <li><a href="#farms">Farm</a></li>
               <li><a href="#philosophy">Philosophy</a></li>
               <li><a href="#ingredients">Ingredients</a></li>
-              <li><a href="#leadership">Our Leadership</a></li>
+              <li><a href="#leadership">Leadership</a></li>
               <li><a href="#contact">Contact Us</a></li>
             </ul>
       </div>
@@ -40,7 +40,7 @@
 
     <div id="products" class="row">
       <div class="col-sm-8"> 
-        <img src="../img/about-products-placeholder.png" width="100%"/>
+        <img src="../img/about-us/734x807-Our-Products.jpg" width="100%"/>
       </div>
       <div class="col-sm-4 align-self-center">
         <h1> Our Products</h1>
@@ -56,7 +56,7 @@
     </div>
 
     <div id="farms" class="img-container">
-      <img src="../img/about-farms-placeholder.png" alt="Nerium Farms Photo" style="width:100%;">
+      <img src="../img/about-us/1151x807-Nerium-Farms.jpg" alt="Nerium Farms Photo" style="width:100%;">
       <div class="top-left">
         <h1>Nerium Farms</h1>
         <p>The Nerium Farms™ is the largest Nerium oleander operation of its kind in the world. With over 100,000 Nerium oleander plants, we employ natural and organic farming practices and our orchard helps to minimize our carbon footprint by eliminating greenhouse gases throughout the year.</p>
@@ -79,13 +79,13 @@
   
     <div class="row">
       <div class="col-4"> 
-        <img src="../img/index-core-placeholder.jpg" alt="Core Science" style="width:100%;"> 
+        <img src="../img/about-us/374x374-Core-Science.jpg" alt="Core Science" style="width:100%;"> 
       </div>
       <div class="col-4"> 
-        <img src="../img/index-real-placeholder.jpg" alt="Real Results" style="width:100%;"> 
+        <img src="../img/about-us/374x374-Real-Result.jpg" alt="Real Results" style="width:100%;"> 
       </div>
       <div class="col-4"> 
-        <img src="../img/index-ing-placeholder.jpg" alt="Ingredients" style="width:100%;"> 
+        <img src="../img/about-us/374x374-Advancement.jpg" alt="Advancement" style="width:100%;"> 
       </div>
     </div>
 
@@ -140,7 +140,7 @@
         <a href="#"><p>Read more about our ingredients >></p></a>
       </div>
       <div class="col-sm-8"> 
-        <img src="../img/about-products-placeholder.png" width="100%"/>
+        <img src="../img/about-us/734x807-Ingredients.jpg" width="100%"/>
       </div>
     </div>
 
@@ -158,14 +158,16 @@
     </div>
 
     <hr/>
+  <!--END Container Div-->
+  </div>
 
-    <div id="contact" class="row">
+  <div class="container">
+  <div id="contact" class="row">
       <div class="col-12">
         <h1 class="text-center">Contact Us</h1>
         <img src="../img/about-contact-placeholder.jpg" width="100%"/>
       </div>
     </div>
-  <!--END Container Div-->
   </div>
 
 <?php include('../deepPageFooter.php'); ?>

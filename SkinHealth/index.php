@@ -1,25 +1,8 @@
 <?php include('../deepPageHeader.php'); ?>
-<style>
-        .img-middle-left {
-            position: absolute;
-            top: 30%;
-            left: 30px;
-        }
-        .shop-btn {
-          padding:8px 16px;
-          background: none;
-          border: 1px black solid;
 
-        }
-</style>
   <div class="row">
     <div class="col-12 img-container">
       <img src="../img/about-hero-placeholder.jpg" width="100%"/>
-      <div class="img-middle-left text-center">
-        <h1>NERIUMRX</h1>
-        <h3>Healthy Skin For Life</h3>
-        <button class="shop-btn">SHOP NOW</button>
-      </div>
     </div>
   </div>
 

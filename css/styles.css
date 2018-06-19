@@ -1,4 +1,8 @@
 /*Font */
+  body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
   a {
     color:black;
   }
@@ -13,6 +17,9 @@
   }
   .grey{
     color:#777777;
+  }
+  .white{
+    color:white;
   }
 
 /*END Font*/
@@ -72,6 +79,79 @@
     padding: 10px 20px 5px 20px;
     text-decoration: none;
   }
+/* MOBILE About us Secondary Nav Bar*/
+.accordion, .accordion * { 
+  -webkit-box-sizing:border-box;  
+  -moz-box-sizing:border-box;  
+  box-sizing:border-box; 
+}
+.accordion { 
+  overflow:hidden; 
+  background:#f7f7f7; 
+  width:100%; 
+  margin:20px auto 0; 
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:14px; 
+  line-height:1.5; 
+}
+ .accordion-section-title { 
+   width:100%; 
+   padding:10px 30px 10px 15px;
+   display:inline-block;
+   background:#fff;
+   transition:all linear 0.15s;
+   -webkit-transition:all linear 0.15s;
+   -moz-transition:all linear 0.15s;
+   -ms-transition:all linear 0.15s;
+   -o-transition:all linear 0.15s;
+   font-size:1.200em;
+   color:#3f3f3f;
+   text-decoration:none;
+   margin:0 0 1px 0;
+   border:1px solid #dadada;
+   position:relative;
+   border-radius:4px;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   -ms-border-radius:4px;
+   -o-border-radius:4px; 
+}
+.accordion-section-title.active, .accordion-section-title:hover { 
+  background:#A1D2E6; 
+  color:#fff;
+}
+
+.accordion-section-content { 
+  padding:15px;
+  display:none;
+  background:#f0f0f0;
+  margin-bottom:2px;
+  border-bottom:1px solid #dadada; 
+}
+
+.active, .open { 
+  display:block;
+}
+.arrow { 
+  border-top:6px solid #7d7d7d;
+  border-right:6px solid transparent;
+  border-bottom:6px solid transparent;
+  border-left:6px solid transparent;
+  float:right;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  position:absolute;
+  top:50%;
+  right:15px;
+  margin-top:-3px;
+} 
+.accordion-section-title.active .arrow {
+  border-top:6px solid transparent;
+  border-bottom:6px solid #fff;
+  margin-top:-10px; 
+}
 
 /*END About Us Page Secondary Nav Bar */
 
@@ -89,7 +169,7 @@
   border-bottom: 1px #A2A9AD solid;
 }
 
-#recommended-text, #howTo-text, #ingredients-text, #recommended-bullet, #howTo-bullet, #ingredients-bullet{
+#recommended-text, #howTo-text, #ingredients-text, #recommended-bullet, #howTo-bullet, #ingredients-bullet, #products-text, #farms-text, #philosophy-text, #ingredients-text, #leadership-text {
   display:none;
 }
 

@@ -1,46 +1,42 @@
 <?php include('homeHeader.php'); ?>
 
     <style>
-        .container {
-            position: relative;
-        }
-
-        .bottom-left {
+        .img-text-center-left {
             position: absolute;
-            bottom: 8px;
-            left: 16px;
+            top: 50%;
+            left: 5%;
+            transform: translate(0%, -50%);
         }
 
-        .top-left {
-            position: absolute;
-            top: 8px;
-            left: 16px;
+        .img-text-center-right {
+          position: absolute;
+          top: 50%;
+          right: 5%;
+          transform: translate(0%, -50%);
         }
 
-        .top-right {
-            position: absolute;
-            top: 8px;
-            right: 16px;
-        }
-
-        .bottom-right {
-            position: absolute;
-            bottom: 8px;
-            right: 16px;
-        }
-
-        .centered {
+        .img-text-centered {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
-        
-        .test{
-            
+        .shop-btn{
+          background:none;
+          border: 1px solid black;
+          padding: 5px 15px;
+          letter-spacing:2px;
+        }
+        .shop-btn-white{
+          background:none;
+          border: 1px solid white;
+          padding: 5px 15px;
+          letter-spacing:2px;
+          color:white;
         }
     </style>
     <!--Slider/Carousel Start-->
+    <!--DELETE IF SLIDER IS WANTED
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,7 +73,13 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+     DELETE THIS LINE IF SLIDER IS WANTED -->
     <!--END Slider/Carousel Start-->
+    <div class="row">
+      <div class="col-12 px-0">
+        <img src="img/index/1366x500-Main-Cover-V2.jpg" width="100%"/>
+      </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -118,25 +120,34 @@
     </div>
 
     <!--Call to action images-->
-    <div class="container mb-4">
-        <img src="img/index-shopnow-placeholder.jpg" alt="Norway" style="width:100%;">
-        <div class="bottom-left">Bottom Left <button>Hi there</button></div>
-        <div class="top-left">Top Left</div>
-        <div class="top-right">Top Right</div>
-        <div class="bottom-right">Bottom Right</div>
-        <div class="centered">Centered</div>
+    <div class="container position-relative mb-4">
+        <img src="img/index/1152x584-Main-Page-Advanced-V6.jpg" alt="Advanced Line Collection" width="100%">
+        <div class="img-text-center-left text-center">
+          <h1 class="white">ADVANCED</h1>
+          <p class="p-index white">Our exclusive beauty line <br/>formulated better then ever</p>
+          <button class="shop-btn-white">SHOP NOW</button>
+        </div>
     </div>
-    
+    <div class="container position-relative mb-4">
+        <img src="img/index/1152x584-Main-Page-Therapy-Line-V3.jpg" alt="Therapy Line Collection" width="100%">
+        <div class="img-text-center-right text-center">
+          <h1>THERAPY</h1>
+          <p class="p-index">Combined Nerium Oleander Extract <br/>technology to bring you relief</p>
+          <button class="shop-btn">SHOP NOW</button>
+
+        </div>
+    </div>
+
     <div class="container hide-md">
         <div class="row">
           <div class="col-4"> 
-            <img src="img/index-core-placeholder.jpg" alt="Core Science" style="width:100%;"> 
+            <img src="img/index/374x374-Core-Science.jpg" alt="Core Science" width="100%"> 
           </div>
           <div class="col-4"> 
-              <img src="img/index-real-placeholder.jpg" alt="Real Results" style="width:100%;"> 
+              <img src="img/index/374x374-Real-Result.jpg" alt="Real Results" width="100%"> 
             </div>
             <div class="col-4"> 
-                <img src="img/index-ing-placeholder.jpg" alt="Ingredients" style="width:100%;"> 
+                <img src="img/index/374x374-Ingredients.jpg" alt="Ingredients" width="100%"> 
               </div>
         </div>
 
@@ -180,7 +191,7 @@
     <div class="container show-md">
         <div class="row">
             <div class="col-sm-4"> 
-                <img class="mb-3" src="img/index-core-placeholder.jpg" alt="Core Science" style="width:100%;"> 
+                <img class="mb-3" src="img/index/374x374-Core-Science.jpg" alt="Core Science" width="100%"> 
             </div>
             <div class="col-sm-8">
                 <h1 class="italiana">CORE SCIENCE</h1>
@@ -190,7 +201,7 @@
         </div>
         <div class="row">
             <div class="col-sm-4"> 
-              <img class="mb-3" src="img/index-real-placeholder.jpg" alt="Real Results" style="width:100%;"> 
+              <img class="mb-3" src="img/index/374x374-Real-Result.jpg" alt="Real Results" width="100%"> 
             </div>
             <div class="col-sm-8">
                 <h1 class="italiana">REAL RESULTS</h1>
@@ -200,7 +211,7 @@
         </div>
         <div class="row">
             <div class="col-sm-4"> 
-                <img class="mb-3" src="img/index-ing-placeholder.jpg" alt="Ingredients" style="width:100%;"> 
+                <img class="mb-3" src="img/index/374x374-Ingredients.jpg" alt="Ingredients" width="100%"> 
               </div>
             <div class="col-sm-8">
                 <h1 class="italiana">INGREDIENTS</h1>
