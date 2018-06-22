@@ -1,5 +1,5 @@
 <?php include('../deepPageHeader.php'); ?>
-  <style>
+<style>
   .h1-indi{
     font-size: 2rem;
     font-family: italiana;
@@ -45,27 +45,44 @@
 </style>
 <hr class="hr-indi" />
 
-<div class="container">
+
   <div class="container">
 
     <div class="row">
-      <div class="col-sm-5 col-md-2 d-flex flex-column"> 
-        <div class="p-2">
-          <img src="../img/nc-indi-product1.jpg" onclick="pictureChangeFirst()"/>
+
+      <div class="col-2 d-flex flex-column"> 
+        <div class="p-2 hide-md">
+          <img src="../img/nc-indi-product1.jpg" class="float-left" onclick="pictureChangeFirst()"/>
         </div>
-        <div class="p-2">
-          <img src="../img/nc-indi-product2.jpg" onclick="pictureChangeSecond()"/>
+        <div class="p-2 hide-md">
+          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecond()"/>
         </div>
-        <div class="p-2">
-          <img src="../img/nc-indi-product3.jpg" onclick="pictureChangeThird()"/>
+        <div class="p-2 hide-md">
+          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThird()"/>
         </div>
       </div>
-      <div class="col-sm-7 col-md-4">
+
+      <div class="col-md-5">
         <div class="d-flex align-items-center indi-display">
-          <img id="indi-display-img" src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png" width="80%"/>
+          <img id="indi-display-img" src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png" class="float-right"/>
         </div>
       </div>
-      <div class="col-md-6">
+
+      <div class="row show-md mx-auto">
+        <div class="col-12 d-flex">
+            <div class="p-2">
+              <img src="../img/nc-indi-product1.jpg" onclick="pictureChangeFirst()"/>
+            </div>
+            <div class="p-2">
+              <img src="../img/nc-indi-product2.jpg" onclick="pictureChangeSecond()"/>
+            </div>
+            <div class="p-2">
+              <img src="../img/nc-indi-product3.jpg" onclick="pictureChangeThird()"/>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
         <h1 class="h1-indi">ADVANCED NIGHTLY FACE CREAM</h1>
         <h4 class="h4-indi">30ml / 1 fl.oz</h4>
         <h2 class="h2-indi mb-4">$120<h2>
@@ -154,26 +171,26 @@
           <div class="col-md-7">
             <h3 class="h3-indi">How to Use</h3>
             <div class="row mb-3">
-              <div class="col-2">
+              <div class="col-sm-2">
                 <img src="../img/indi-stuff/Step1.png"/>
               </div>
-              <div class="col-10 d-flex align-items-center">
+              <div class="col-sm-10 d-flex align-items-center">
                 <p class="p-indi mb-0">Clean skin throughly from excess dirt and debris.</p>
               </div>
             </div>
             <div class="row mb-3">
-              <div class="col-2">
+              <div class="col-sm-2">
                 <img src="../img/indi-stuff/Step2.png"/>
               </div>
-              <div class="col-10 d-flex align-items-center">
+              <div class="col-sm-10 d-flex align-items-center">
                 <p class="p-indi mb-0">Apply as needed. Recommended to apply four (+/-) pumps to face, neck and décolletage.</p>
               </div>
             </div>
             <div class="row mb-3">
-              <div class="col-2">
+              <div class="col-sm-2">
                 <img src="../img/indi-stuff/Step3.png"/>
               </div>
-              <div class="col-10 d-flex align-items-center">
+              <div class="col-sm-10 d-flex align-items-center">
                 <p class="p-indi mb-0">Rinse skin in the morning following usage. For optimal results, follow with Nerium ADVANCED Daily Face Cream.</p>
               </div>
             </div>
@@ -190,24 +207,24 @@
       <div id="ingredients-text">
       <h3 class="h3-indi">Key Ingredients</h3>
         <div class="row text-center">
-          <div class="col-sm-3">
-            <img src="../img/indi-stuff/ingredients/advanced/DNB-Nerium.png"/>
-            <p class="p-indi ">Text here text here</p>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/advanced/DNB-Nerium.png" alt="Nerium Oleander Extract"/>
+            <p class="p-indi ">Targets not just the signs of aging but also the underlying cause. Delivers powerful antioxidants to target free radical damage. Boosts the skin rejuvenating process to reveal younger-looking skin.</p>
           </div>
-          <div class="col-sm-3">
-            <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png"/>
-            <p class="p-indi">Text here text here</p>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png" alt="BiovaDerm"/>
+            <p class="p-indi">This advanced technology process retains the natural ratios of key elements found in nature’s potent life source of proteins and peptides from water soluble egg membrane (WSEM) that are beneficial to skin.</p>
           </div>
-          <div class="col-sm-3">
-            <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png"/>
-            <p class="p-indi">Text here text here</p>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png" alt="Nerium Oleander Extract"/>
+            <p class="p-indi">Vitamin B3</p>
           </div>
-          <div class="col-sm-3">
-            <img src="../img/indi-stuff/ingredients/advanced/NB-Dimethicone.png"/>
-            <p class="p-indi">Text here text here</p>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/advanced/NB-Dimethicone.png" alt="Nerium Oleander Extract"/>
+            <p class="p-indi">One of the most commonly found skin care ingredient is a silicon-based polymer used to condition the skin while protecting the skin, working to prevent water loss by forming a hydrating barrier on the skin. Fills in wrinkles and lines on the face to give it a temporary plumped appearance.</p>
           </div>
-          <div class="col-sm-3">
-            <img src="../img/indi-stuff/ingredients/advanced/N-Chia-Seed-Oil.png"/>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/advanced/N-Chia-Seed-Oil.png" alt="Nerium Oleander Extract"/>
             <p class="p-indi">Text here text here</p>
           </div>
         </div>
@@ -219,10 +236,6 @@
         </div>
       </div>
 
-
-
-  <!--END Container Div-->
-  </div>
 </div>
 
       

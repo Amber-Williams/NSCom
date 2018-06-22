@@ -448,7 +448,7 @@ mark,
       max-width: 75%; } }
   @media (min-width: 1400px) {
     .container {
-      max-width: 70%; } }
+      max-width: 1200px; } }
 
 .container-fluid {
   width: 100%;

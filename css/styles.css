@@ -164,7 +164,39 @@
 
 .indi-display img {
   margin: 0 auto;
+  max-height:500px;
 }
+@media (max-width: 700px) { 
+  .indi-display img {
+    max-height:450px;
+  }
+}
+@media (max-width: 600px) { 
+  .indi-display img {
+    max-height:400px;
+  }
+}
+@media (max-width: 500px) { 
+  .indi-display img {
+    max-height:350px;
+  }
+}
+@media (max-width: 400px) { 
+  .indi-display img {
+    max-height:300px;
+  }
+}
+@media (max-width: 300px) { 
+  .indi-display img {
+    max-height:250px;
+  }
+}
+@media (max-width: 200px) { 
+  .indi-display img {
+    max-height:150px;
+  }
+}
+
 .navigation-menu-indi {
   border-bottom: 1px #A2A9AD solid;
 }
