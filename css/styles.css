@@ -355,6 +355,21 @@ max-width:50vw;
         display: inherit;
     }
 }
+
+.hide-xs{
+  display: inherit;
+}
+.show-xs {
+  display: none;
+}
+@media (max-width:576px){
+  .hide-xs{
+      display: none;
+  }
+  .show-xs{
+      display: inherit;
+  }
+}
   @media (max-width: 576px) {
     .my-sm-d-3{
       margin-top: 1rem !important; 

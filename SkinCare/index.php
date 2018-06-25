@@ -2,7 +2,7 @@
 
   <div class="row">
     <div class="col-12 img-container">
-      <img src="../img/1150x310Therapy-Main.jpg" width="100%"/>
+      <img src="../img/1150x310-Advance-Banner.jpg" width="100%"/>
     </div>
   </div>
 
