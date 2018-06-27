@@ -43,9 +43,25 @@
       padding-bottom: 8px;
   }
   .indi-m-btn {
-    background:white;
+    background:#F9F8F6;
+    color:#3B3D40;
+    padding: 10px;
+    box-shadow: 1px 5px 8px 1px rgba(1, 1, 1, 0.2);
+    border-radius:5px;
+    transition: 0.3s ease;
+    outline: none;
+    width:100%;
   }
+  .indi-m-btn:hover {
+    box-shadow: 1px 3px 3px 0px rgba(1, 1, 1, 0.1);
+    outline: none;
+  }
+  .indi-m-btn:focus{
+    outline:0 !important;
+  }
+
 </style>
+
 <hr class="hr-indi" />
 
 
@@ -245,8 +261,22 @@
     <!--START Show on Mobile-->
     <div class="show-xs">
       <!--DETAILS MOBILE BUTTON-->
-      <button class="btn btn-primary mt-4" type="button" data-toggle="collapse" data-target="#collapseProductDetails" aria-expanded="false" aria-controls="collapseExample">
-        Product Details
+      <script>
+        let isMinus = false;
+        function btnMinusPlusChange(){
+          if(isMinus == false){
+            document.getElementById('minusPlus').innerHTML = "-";
+            isMinus = true;
+          } else {
+            document.getElementById('minusPlus').innerHTML = "+";
+            isMinus = false;
+          }
+          console.log(this);
+        }
+      </script>
+
+      <button onclick="btnMinusPlusChange()" class="btn indi-m-btn mt-4" type="button" data-toggle="collapse" data-target="#collapseProductDetails" aria-expanded="false" aria-controls="collapseExample">
+        <span class="float-left">Product Details</span> <span id="minusPlus" class="float-right" >+</span>
       </button>
       <br/>
       <div class="collapse" id="collapseProductDetails">
@@ -277,8 +307,9 @@
       
 
       <!--RECOMMENDED MOBILE BUTTON-->
-      <button class="btn btn-primary mt-4" type="button" data-toggle="collapse" data-target="#collapseRecommended" aria-expanded="false" aria-controls="collapseExample">
-        Recommended Text
+      <button onclick="btnMinusPlusChange()" class="btn indi-m-btn mt-4" type="button" data-toggle="collapse" data-target="#collapseRecommended" aria-expanded="false" aria-controls="collapseExample">
+      <span class="float-left">Recommended</span> <span id="minusPlus" class="float-right" >+</span>
+        
       </button>
       <br/>
       <div class="collapse" id="collapseRecommended">
@@ -312,7 +343,7 @@
       
 
       <!--HOW TO MOBILE BUTTON-->
-      <button class="btn btn-primary mt-4" type="button" data-toggle="collapse" data-target="#collapseHowTo" aria-expanded="false" aria-controls="collapseExample">
+      <button class="btn indi-m-btn mt-4" type="button" data-toggle="collapse" data-target="#collapseHowTo" aria-expanded="false" aria-controls="collapseExample">
         How To Use
       </button>
       <br/>
@@ -360,11 +391,10 @@
 
         </div>
       <!--END HOW TO MOBILE BUTTON-->
-      </div>
-      
+
 
       <!--INGREDIENTS MOBILE BUTTON-->
-      <button class="btn btn-primary mt-4" type="button" data-toggle="collapse" data-target="#collapseIng" aria-expanded="false" aria-controls="collapseExample">
+      <button class="btn indi-m-btn mt-4" type="button" data-toggle="collapse" data-target="#collapseIng" aria-expanded="false" aria-controls="collapseExample">
         Ingredients
       </button>
       <br/>
@@ -407,6 +437,8 @@
       </div>
 
 
+
+      </div>
     <!--END Show on Mobile-->
     </div>
 
