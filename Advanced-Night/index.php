@@ -1,66 +1,4 @@
 <?php include('../deepPageHeader.php'); ?>
-<style>
-  .h1-indi{
-    font-size: 2rem;
-    font-family: italiana;
-  }
-  .h2-indi{
-    font-family: italiana;
-    font-size: 1.7rem;
-  }
-  .h3-indi{
-    font-family: italiana;
-    font-size:1.2rem;
-  }
-  .h4-indi{
-    font-size: 0.9rem;
-  }
-  .p-indi{
-    font-size: 0.85rem;
-  }
-  .bg-c-grey {
-    background:#D3D3D3;
-  }
-
-  .ul-hexbullets{
-      list-style: none;
-      padding:0;
-      }
-  .ul-hexbullets li:before{
-      content: '';
-      width: 20px;
-      height: 20px;
-      margin-right: 5px;
-      padding-bottom: 10px;
-      margin-bottom: -3px;
-      display: inline-block;
-      background: url(../img/bluebullet.svg) no-repeat 0 0;
-      background-position: 50%;
-  }
-  .benefits-line{
-      border-bottom: 1px solid #a2a9ad;
-      max-width: 250px;
-      padding-bottom: 8px;
-  }
-  .indi-m-btn {
-    background:#F9F8F6;
-    color:#3B3D40;
-    padding: 10px;
-    box-shadow: 1px 5px 8px 1px rgba(1, 1, 1, 0.2);
-    border-radius:5px;
-    transition: 0.3s ease;
-    outline: none;
-    width:100%;
-  }
-  .indi-m-btn:hover {
-    box-shadow: 1px 3px 3px 0px rgba(1, 1, 1, 0.1);
-    outline: none;
-  }
-  .indi-m-btn:focus{
-    outline:0 !important;
-  }
-
-</style>
 
 <hr class="hr-indi" />
 
@@ -90,13 +28,13 @@
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/nc-indi-product1.jpg" onclick="pictureChangeFirst()"/>
+              <img src="../img/nc-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirst()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product2.jpg" onclick="pictureChangeSecond()"/>
+              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecond()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product3.jpg" onclick="pictureChangeThird()"/>
+              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThird()"/>
             </div>
         </div>
       </div>
@@ -261,22 +199,12 @@
     <!--START Show on Mobile-->
     <div class="show-xs">
       <!--DETAILS MOBILE BUTTON-->
-      <script>
-        let isMinus = false;
-        function btnMinusPlusChange(){
-          if(isMinus == false){
-            document.getElementById('minusPlus').innerHTML = "-";
-            isMinus = true;
-          } else {
-            document.getElementById('minusPlus').innerHTML = "+";
-            isMinus = false;
-          }
-          console.log(this);
-        }
-      </script>
 
-      <button onclick="btnMinusPlusChange()" class="btn indi-m-btn mt-4" type="button" data-toggle="collapse" data-target="#collapseProductDetails" aria-expanded="false" aria-controls="collapseExample">
-        <span class="float-left">Product Details</span> <span id="minusPlus" class="float-right" >+</span>
+
+
+      <button class="myButton btn indi-m-btn mt-4" data-isminus="false" type="button" data-toggle="collapse" data-target="#collapseProductDetails" aria-expanded="false" aria-controls="collapseExample">
+        <span class="float-left">Product Details</span> 
+        <span class="float-right minusPlus">+</span>
       </button>
       <br/>
       <div class="collapse" id="collapseProductDetails">
@@ -307,10 +235,11 @@
       
 
       <!--RECOMMENDED MOBILE BUTTON-->
-      <button onclick="btnMinusPlusChange()" class="btn indi-m-btn mt-4" type="button" data-toggle="collapse" data-target="#collapseRecommended" aria-expanded="false" aria-controls="collapseExample">
-      <span class="float-left">Recommended</span> <span id="minusPlus" class="float-right" >+</span>
-        
+      <button class="myButton btn indi-m-btn mt-4" data-isminus="false" type="button" data-toggle="collapse" data-target="#collapseRecommended" aria-expanded="false" aria-controls="collapseExample">
+        <span class="float-left">Recommended</span> 
+        <span class="float-right minusPlus">+</span>
       </button>
+
       <br/>
       <div class="collapse" id="collapseRecommended">
         <div class="card card-body">
@@ -343,8 +272,9 @@
       
 
       <!--HOW TO MOBILE BUTTON-->
-      <button class="btn indi-m-btn mt-4" type="button" data-toggle="collapse" data-target="#collapseHowTo" aria-expanded="false" aria-controls="collapseExample">
-        How To Use
+      <button class="myButton btn indi-m-btn mt-4" type="button" data-isminus="false" data-toggle="collapse" data-target="#collapseHowTo" aria-expanded="false" aria-controls="collapseExample">
+        <span class="float-left">How To Use</span> 
+        <span class="float-right minusPlus">+</span>
       </button>
       <br/>
       <div class="collapse" id="collapseHowTo">
@@ -394,8 +324,9 @@
 
 
       <!--INGREDIENTS MOBILE BUTTON-->
-      <button class="btn indi-m-btn mt-4" type="button" data-toggle="collapse" data-target="#collapseIng" aria-expanded="false" aria-controls="collapseExample">
-        Ingredients
+      <button class="myButton btn indi-m-btn mt-4" type="button" data-isminus="false" data-toggle="collapse" data-target="#collapseIng" aria-expanded="false" aria-controls="collapseExample">
+        <span class="float-left">Ingredients</span> 
+        <span class="float-right minusPlus">+</span>
       </button>
       <br/>
       <div class="collapse" id="collapseIng">
@@ -436,77 +367,15 @@
       <!--END INGREDIENTS MOBILE BUTTON-->
       </div>
 
-
-
+      <!--END Show on Mobile A-->
       </div>
-    <!--END Show on Mobile-->
+    <!--END Show on Mobile B-->
     </div>
 
 <!--END Container Div-->
 </div>
 
-
-
-
-
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
-<script>
-  //Script for changing display images
-  function pictureChangeFirst() {
-    document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png";
-    }
-  function pictureChangeSecond() {
-    document.getElementById("indi-display-img").src="../img/nc-indi-display2.jpg";
-    }
-  function pictureChangeThird() {
-    document.getElementById("indi-display-img").src="../img/nc-indi-display3.jpg";
-    }
-
-  //Script for changing indi-sub sections
-    $(document).ready(function(){
-        $("#details").click(function(){
-            $("#details-text").show();
-            $("#recommended-text").hide();
-            $("#howTo-text").hide();
-            $("#ingredients-text").hide();
-            $("#details-bullet").show();
-            $("#recommended-bullet").hide();
-            $("#howTo-bullet").hide();
-            $("#ingredients-bullet").hide();
-        });
-        $("#recommended").click(function(){
-            $("#details-text").hide();
-            $("#recommended-text").show();
-            $("#howTo-text").hide();
-            $("#ingredients-text").hide();
-            $("#details-bullet").hide();
-            $("#recommended-bullet").show();
-            $("#howTo-bullet").hide();
-            $("#ingredients-bullet").hide();
-            
-        });
-        $("#howTo").click(function(){
-            $("#details-text").hide();
-            $("#recommended-text").hide();
-            $("#howTo-text").show();
-            $("#ingredients-text").hide();
-            $("#details-bullet").hide();
-            $("#recommended-bullet").hide();
-            $("#howTo-bullet").show();
-            $("#ingredients-bullet").hide();
-        });
-        $("#ingredients").click(function(){
-            $("#details-text").hide();
-            $("#recommended-text").hide();
-            $("#howTo-text").hide();
-            $("#ingredients-text").show();
-            $("#details-bullet").hide();
-            $("#recommended-bullet").hide();
-            $("#howTo-bullet").hide();
-            $("#ingredients-bullet").show();
-        });
-    });
-
-</script>
+<script src="../js/independentPages.js"></script>
 <?php include('../deepPageFooter.php'); ?>
