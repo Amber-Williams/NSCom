@@ -27,7 +27,7 @@
       </div>
       <div class="col-sm-7"> 
         <p>Nerium SkinCare, Inc. is dedicated to offering health and beauty solutions that are based on scientific research and actual customer success. Our natural products are founded on the result of years of continuing research at leading medical institutions, using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and developed a complete line of products that harnesses the unique and effective properties of the Nerium oleander plant.</p>
-        <a href="#"><p>Read more about our history >></p></a>
+        <a href="../more-about/"><p>Read more about our history >></p></a>
       </div>
     </div>
 
@@ -45,7 +45,7 @@
       <div class="col-sm-4 align-self-center">
         <h1> Our Products</h1>
         <p>Utilization of the Patented Nerium Oleander Extract ingredient and additional proprietary ingredients provides the opportunity for Nerium SkinCare to formulate and develop a complete line of unique "first in class" skin care cosmetic and US FDA OTC topical drug products. Additional products are constantly under development.</p>
-        <a href="#"><p>Read more about our brands, quality and safety >></p></a>
+        <a href="../more-about/"><p>Read more about our brands, quality and safety >></p></a>
       </div>
     </div>
 
@@ -60,7 +60,7 @@
       <div class="top-left">
         <h1>Nerium Farms</h1>
         <p>The Nerium Farms™ is the largest Nerium oleander operation of its kind in the world. With over 100,000 Nerium oleander plants, we employ natural and organic farming practices and our orchard helps to minimize our carbon footprint by eliminating greenhouse gases throughout the year.</p>
-        <a href="#"><p>Read more about our Nerium oleander Farm >></p></a>
+        <a href="../more-about/"><p>Read more about our Nerium oleander Farm >></p></a>
       </div>
     </div>
 
@@ -115,13 +115,13 @@
 
     <div class="row">
       <div class="col-4"> 
-        <a href="#"><p>Read More >></p></a>
+        <a href="../more-about/"><p>Read More >></p></a>
       </div>
       <div class="col-4">
-        <a href="#"><p>Read More >></p></a>
+        <a href="../more-about/"><p>Read More >></p></a>
       </div>
       <div class="col-4"> 
-        <a href="#"><p>Read More >></p></a>
+        <a href="../more-about/"><p>Read More >></p></a>
       </div>
     </div>
     </div>
@@ -137,7 +137,7 @@
       <div class="col-sm-4 align-self-center">
         <h1>Ingredients</h1>
         <p>Nerium SkinCare created the patented technology that is used to develop our line of skin care products. This technology utilizes pure liquid Aloe vera as the medium to extract the natural components of the Nerium oleander plant in a way that preserves the unique and beneficial properties of both plants.</p>
-        <a href="#"><p>Read more about our ingredients >></p></a>
+        <a href="../more-about/"><p>Read more about our ingredients >></p></a>
       </div>
       <div class="col-sm-8"> 
         <img src="../img/about-us/734x807-Ingredients.jpg" width="100%"/>
@@ -153,7 +153,9 @@
     <div id="leadership" class="row">
       <div class="col-12">
         <h1 class="text-center">Our Leadership</h1>
-        <p class="text-center">Our Science team is dedicated to continuous ongoing research of the Nerium oleander plant, and our products are founded on the commitment to further develop new ingredient technology. <a href="#">Read more >></a></p>
+        <p class="text-center">Our Science team is dedicated to continuous ongoing research of the Nerium oleander plant, and our products are founded on the commitment to further develop new ingredient technology. 
+          <a href="../more-about/">Read more >></a>
+        </p>
       </div>
     </div>
 
