@@ -17,7 +17,7 @@
         <div class="shopifyButton-container mb-4"> 
 
             <div id='product-component-8683e9dba0a'>
-              <a href="../newProducts-Advanced-Night/index.php">
+              <a href="../Advanced-Night/">
                 <img src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Nightly Face Treatment</p>
                 <p class="p-index">$120</p>
@@ -25,7 +25,7 @@
             </div>
 
             <div id='product-component-c857cfc0b09'>
-              <a href="../newProducts-Advanced-Day/index.php">
+              <a href="../Advanced-Day/">
                 <img src="../img/Updated-Advanced-Packaging/NSC.ADV.DC.BottleAndCarton.HR.CMYK.V1.png" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Daily <br/>Face Cream</p>
                 <p class="p-index">$100</p>
@@ -33,7 +33,7 @@
             </div>
 
             <div id='product-component-f6809364766!!DELETEWHENAVAILABLE'>
-              <a href="../newProducts-Advanced-Firm/index.php">
+              <a href="../Advanced-Body">
                 <img src="../img/Updated-Advanced-Packaging/NSC.NADA.BF.Tube.Front.200ml.LR.RGB.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NeriumFirm Advanced <br/>Firming Body Cream</p>
                 <p class="p-index">$120</p>

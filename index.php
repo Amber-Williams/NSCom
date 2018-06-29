@@ -177,13 +177,13 @@
 
       <div class="row">
         <div class="col-4"> 
-            <a href="#"><p>Read More >></p></a>
+            <a href="more-about/index.php"><p>Read More >></p></a>
         </div>
         <div class="col-4">
-            <a href="#"><p>Read More >></p></a>
+            <a href="more-about/index.php"><p>Read More >></p></a>
         </div>
         <div class="col-4"> 
-            <a href="#"><p>Read More >></p></a>
+            <a href="more-about/index.php"><p>Read More >></p></a>
         </div>
       </div>
     </div>
@@ -196,7 +196,7 @@
             <div class="col-sm-8">
                 <h1 class="italiana">CORE SCIENCE</h1>
                 <p>The foundation of Nerium SkinCare is established in biotechnology research, and on our commitment to core science. We are a company founded by scientists and guided by a board of elite scientific advisory members. It is no wonder that as a company, we are dedicated to offering skin care solutions based on the latest scientific research and breakthrough technology.</p>
-                <a href="#"><p>Read More >></p></a>
+                <a href="more-about/index.php"><p>Read More >></p></a>
             </div>
         </div>
         <div class="row">
@@ -206,7 +206,7 @@
             <div class="col-sm-8">
                 <h1 class="italiana">REAL RESULTS</h1>
                 <p>Nerium SkinCare’s success is the direct result of the company’s dedication to making products that are based on rigorous scientific research and results. By sharing our knowledge and research results with the consumer, our studies, we are fostering honest transparent communications. </p>
-                <a href="#"><p>Read More >></p></a>
+                <a href="more-about/index.php"><p>Read More >></p></a>
             </div>
         </div>
         <div class="row">
@@ -216,7 +216,7 @@
             <div class="col-sm-8">
                 <h1 class="italiana">INGREDIENTS</h1>
                 <p>Nerium SkinCare created the patented technology that is used to develop our line of skin care products. This technology utilizes pure liquid Aloe vera as the medium to extract the natural components of the Nerium oleander plant in a way that preserves the unique and beneficial properties of both plants.</p>
-                <a href="#"><p>Read More >></p></a>
+                <a href="more-about/index.php"><p>Read More >></p></a>
             </div>
         </div>
     </div>
