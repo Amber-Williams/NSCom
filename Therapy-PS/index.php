@@ -104,28 +104,29 @@
       <div class="row mb-5">
         <div class="col-md-7">
           <h3 class="h3-indi">Symptoms and Causes</h3>
-          <div class="row">
-            <div class="col-sm-6 col-md-4">
-              <p>Dryness</p>
+          <div class="row justify-content-center">
+            <div class="col-sm-6 col-md-4 text-center">
               <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.1.Dryness.png" width="50%"/>
+              <p>Dryness</p>
             </div>
-            <div class="col-sm-6 col-md-4">
-              <p>Rashes</p>
+            <div class="col-sm-6 col-md-4 text-center">
               <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.2.Rashes.png" width="50%"/>
+              <p>Rashes</p>
             </div>
-            <div class="col-sm-6 col-md-4">
-              <p>Flaking</p>
+            <div class="col-sm-6 col-md-4 text-center">
               <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.3.flaking.png" width="50%"/>
+              <p>Flaking</p>
             </div>
-            <div class="col-sm-6 col-md-4">
-              <p>Thickness</p>
+            <div class="col-sm-6 col-md-4 text-center">
               <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.4.Thickness.png" width="50%"/>
+              <p>Thickness</p>
             </div>
-            <div class="col-sm-6 col-md-4">
-              <p>Joint Pain</p>
+            <div class="col-sm-6 col-md-4 text-center">
               <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.5.JointPain.png" width="50%"/>
+              <p>Joint Pain</p>
             </div>
           </div>
+
           <h3 class="h3-indi mt-4">Causes</h3>
           <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
         </div>
@@ -145,15 +146,15 @@
             <h3 class="h3-indi">How to Use</h3>
             <div class="row mb-3">
               <div class="col-sm-2">
-                <img src="../img/indi-stuff/Step1.png"/>
+                <img src="../img/indi-stuff/RXStep1.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">Apply product to targeted areas such as legs, arms or abdomen. Recommended to be part of your daily exercise routine, prior to daily work-out, to help soothe sore muscles, firm, lift, and tone your body.</p>
+                <p class="p-indi mb-0">Apply to affected areas 1 to 4 times daily until condition subsides.</p>
               </div>
             </div>
             <div class="row mb-3">
               <div class="col-sm-2">
-                <img src="../img/indi-stuff/Step2.png"/>
+                <img src="../img/indi-stuff/RXStep2.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
                 <p class="p-indi mb-0">Rub product in a circular motion for 20 seconds or until fully absorbed.</p>
@@ -161,10 +162,10 @@
             </div>
             <div class="row mb-3">
               <div class="col-sm-2">
-                <img src="../img/indi-stuff/Step3.png"/>
+                <img src="../img/indi-stuff/RXStep3.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">For optimal results, use twice daily.</p>
+                <p class="p-indi mb-0">For optimal results, use apply before bed.</p>
               </div>
             </div>
           </div>
@@ -181,47 +182,51 @@
       <h3 class="h3-indi">Key Ingredients</h3>
         <div class="row text-center">
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/DNB-Nerium.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi ">Targets not just the signs of aging but also the underlying cause. Delivers powerful antioxidants to target free radical damage. Boosts the skin rejuvenating process to reveal younger-looking skin.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
+            <p class="p-indi ">Powerful antioxidant to reduce the impact of inflammation.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/B-Menthol.png" alt="Menthol"/>
-            <p class="p-indi">Topical Analgesic</p>
+            <img src="../img/indi-stuff/ingredients/therapy/SalicylicAcid.png" alt="Salicylic Acid"/>
+            <p class="p-indi">Exfoliates the skin by softening and dissolving keratin (protein that causes the skin cells to stick together)</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png" alt="Peptide Matrix"/>
-            <p class="p-indi">This advanced technology process retains the natural ratios of key elements found in nature’s potent life source of proteins and peptides from water soluble egg membrane (WSEM) that are beneficial to skin.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
+            <p class="p-indi">Relief of pain and works to normalize collagen and elastin skin structures.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/B-Caffeine.png" alt="Caffeine"/>
-            <p class="p-indi">Antioxidant</p>
+            <img src="../img/indi-stuff/ingredients/therapy/PB8.png" alt="Parsely Basil Extract"/>
+            <p class="p-indi">As a source of vitamin A, this key ingredient encourages healthy skin cell production.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/NB-Dimethicone.png" alt="Dimethicone"/>
-            <p class="p-indi">One of the most commonly found skin care ingredient is a silicon-based polymer used to condition the skin while protecting the skin, working to prevent water loss by forming a hydrating barrier on the skin. Fills in wrinkles and lines on the face to give it a temporary plumped appearance.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/CollidalOatmeal.png" alt="Collidal Oatmeal"/>
+            <p class="p-indi">helps smooth and comfort skin that is itchy and dry.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/B-Forskohlii.png" alt="Forskohlii Root Extract"/>
-            <p class="p-indi">Anti-inflammatory</p>
+            <img src="../img/indi-stuff/ingredients/therapy/CasterSeedOil.png" alt="Caster Seed Oil"/>
+            <p class="p-indi">Works to condition the skin giving it moisture and softness.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/B-Green-Tea.png" alt="Green Tea Leaf Extract"/>
-            <p class="p-indi">Green tea has been shown to be the most effective agent against skin inflammation</p>
+            <img src="../img/indi-stuff/ingredients/therapy/SheaButter.png" alt="Shea Butter"/>
+            <p class="p-indi">Replenishes and nourishes the skin with natural vitamin and essential fatty acids.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/B-Willow.png" alt="Willow Bark Extract"/>
-            <p class="p-indi">Benefits HERE</p>
+            <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Extract"/>
+            <p class="p-indi">Derived from the meat of the coconut, this extract is highly absorbent while it moisturizes, nourishing moisture into the skin effectively.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/B-Olive-Leaf.png" alt="Olive Leaf Extract"/>
-            <p class="p-indi">Antioxidant and Anti-inflamatory Properties</p>
+            <img src="../img/indi-stuff/ingredients/therapy/ApricotExtract.png" alt="Apricot Extract"/>
+            <p class="p-indi">Soften and smooth the skin when activated by the skin’s oils</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/OregonGrapeRootExtract.png" alt="Oregon Grape Root Extract"/>
+            <p class="p-indi">This grape root extract grown in Oregon helps combat skin irritants associated with psoriasis and other atopic dermatitis illnesses.</p>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-12">
             <h3 class="h3-indi">Full ingredients</h3> 
-            <p class="p-indi">Dimethicone, Menthol, <br/>
-            Water (Aqua), Aloe Barbadensis Leaf Juice, Ethylhexyl, Palmitate, Hydrogenated Polyisobutene, Glycerin, Cetyl, Alcohol, Pentylene Glycol, Cetearyl Alcohol, Hydrolyzed Egg Shell Membrane (Peptide Matrix - Collagen & Elastin), Caffeine, Nerium Oleander Extract, Salix Nigra (Willow), Bark Extract, Caprylyl Glycol, Sorbitan Stearate, Camellia, Oleifera (Green Tea) Leaf Extract, Menthol, Isohexadecane, Ceteareth-20, Polysorbate 80, Olea Europaea (Olive) Leaf Extract, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate, Theobroma Cacao (Cocoa) Seed Butter, Glyceryl Caprylate, Xanthan Gum, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Coleus Forskohlii Root Extract, Sodium Hyaluronate, Tocopherol, Disodium EDTA, Retinyl Palmitate, Tocopheryl Acetate, Leuconostoc/Radish Root Ferment Filtrate, Fragrance, Potassium Sorbate</p>
+            <p class="p-indi">SALICYLIC ACID (2%), <br/>
+            ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, PROPANEDIOL, HYDROLYZED EGG SHELL MEMBRANE, WATER (AQUA), CETYL ALCOHOL, GLYCERIN, GLYCERYL STEARATE, POTASSIUM CETYL PHOSPHATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, GLYCERYL CAPRYLATE, CETEARYL OLIVATE, DIMETHICONE, OCIMUM BASILICUM (BASIL) EXTRACT, RICINUS COMMUNIS (CASTOR) SEED OIL, SORBITAN OLIVATE, LYSOLECITHIN, SCLEROTIUM GUM, ALLANTOIN, ARGININE, BUTYROSPERMUM PARKII (SHEA) BUTTER, CARUM PETROSELINUM (PARSLEY) EXTRACT, COLLOIDAL OATMEAL, OLEA EUROPAEA (OLIVE) FRUIT OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, PRUNUS ARMENIACA (APRICOT) FRUIT EXTRACT, TOCOPHEROL, XANTHAN GUM, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, PULLULAN, AQUA, LINUM USITATISSIMUM (LINSEED) SEED OIL, SODIUM BENZOATE, BENZYL ALCOHOL, POTASSIUM SORBATE, CITRIC ACID, DIPOTASSIUM GLYCYRRHIZATE, GLYCERYL UNDECYLENATE, LECITHIN, MAHONIA AQUIFOLIUM ROOT EXTRACT, SEA SALT, BUTTER EXTRACT, COCOS NUCIFERA (COCONUT) FRUIT EXTRACT, CUCUMIS MELO CANTALUPENSIS FRUIT EXTRACT, MUSA SAPIENTUM (BANANA) FRUIT EXTRACT, PIMPINELLA ANISUM (ANISE) FRUIT EXTRACT, PLANKTON EXTRACT, PYRUS MALUS (APPLE) FRUIT EXTRACT, SANTALUM ALBUM (SANDALOWOOD) EXTRACT, VACCINIUM MACROCARPON (CRANBERRY) FRUIT EXTRACT, VANILLA PLANIFOLIA FRUIT EXTRACT</p>
           </div>
         </div>
       </div>
@@ -279,18 +284,35 @@
           <!--RECOMMENDED TEXT SECTION-->
 
             <div class="row">
-              <div class="col-12">
-                <h3 class="h3-indi">Recommended For</h3>
-                <ul class="h4-indi ul-hexbullets">
-                  <li>Sun Damaged Skin</li>
-                  <li>Signs of Aging</li>
-                  <li>Blemishes/Spots/Discoloration</li>
-                  <li>Skin Elasticity</li>
-                  <li>Cellulite</li>
-                  <li>Urban/Environmental stressor factors</li>
-                  <li>Underlying factors that damage skin</li>
-                </ul>
+              <div class="col-md-7">
+                <h3 class="h3-indi">Symptoms and Causes</h3>
+                <div class="row justify-content-center">
+                  <div class="col-12 text-center">
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.1.Dryness.png" width="35%"/>
+                    <p>Dryness</p>
+                  </div>
+                  <div class="col-12 text-center">
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.2.Rashes.png" width="35%"/>
+                    <p>Rashes</p>
+                  </div>
+                  <div class="col-12 text-center">
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.3.flaking.png" width="35%"/>
+                    <p>Flaking</p>
+                  </div>
+                  <div class="col-12 text-center">
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.4.Thickness.png" width="35%"/>
+                    <p>Thickness</p>
+                  </div>
+                  <div class="col-12 text-center">
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.5.JointPain.png" width="35%"/>
+                    <p>Joint Pain</p>
+                  </div>
+                </div>
+                
+                <h3 class="h3-indi mt-4">Causes</h3>
+                <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
               </div>
+
               <div class="col-12 bg-c-grey">
                 <p class="p-indi">
                 Before/After photos
@@ -320,15 +342,15 @@
 
                 <div class="row mb-3">
                   <div class="col-12">
-                    <img src="../img/indi-stuff/Step1.png"/>
+                    <img src="../img/indi-stuff/RXStep1.png"/>
                   </div>
                   <div class="col-12 d-flex align-items-center">
-                    <p class="p-indi mb-0">Apply product to targeted areas such as legs, arms or abdomen. Recommended to be part of your daily exercise routine, prior to daily work-out, to help soothe sore muscles, firm, lift, and tone your body.</p>
+                    <p class="p-indi mb-0">Apply to affected areas 1 to 4 times daily until condition subsides.</p>
                   </div>
                 </div>
                 <div class="row mb-3">
                   <div class="col-12">
-                    <img src="../img/indi-stuff/Step2.png"/>
+                    <img src="../img/indi-stuff/RXStep2.png"/>
                   </div>
                   <div class="col-sm-10 d-flex align-items-center">
                     <p class="p-indi mb-0">Rub product in a circular motion for 20 seconds or until fully absorbed.</p>
@@ -336,10 +358,10 @@
                 </div>
                 <div class="row mb-3">
                   <div class="col-12">
-                    <img src="../img/indi-stuff/Step3.png"/>
+                    <img src="../img/indi-stuff/RXStep3.png"/>
                   </div>
                   <div class="col-12 d-flex align-items-center">
-                    <p class="p-indi mb-0">For optimal results, use twice daily.</p>
+                    <p class="p-indi mb-0">For optimal results, use apply before bed.</p>
                   </div>
                 </div>
               </div>
@@ -368,47 +390,51 @@
           <h3 class="h3-indi">Key Ingredients</h3>
             <div class="row text-center">
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/DNB-Nerium.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi ">Targets not just the signs of aging but also the underlying cause. Delivers powerful antioxidants to target free radical damage. Boosts the skin rejuvenating process to reveal younger-looking skin.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
+                <p class="p-indi ">Powerful antioxidant to reduce the impact of inflammation.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/B-Menthol.png" alt="Menthol"/>
-                <p class="p-indi">Topical Analgesic</p>
+                <img src="../img/indi-stuff/ingredients/therapy/SalicylicAcid.png" alt="Salicylic Acid"/>
+                <p class="p-indi">Exfoliates the skin by softening and dissolving keratin (protein that causes the skin cells to stick together)</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png" alt="Peptide Matrix"/>
-                <p class="p-indi">This advanced technology process retains the natural ratios of key elements found in nature’s potent life source of proteins and peptides from water soluble egg membrane (WSEM) that are beneficial to skin.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
+                <p class="p-indi">Relief of pain and works to normalize collagen and elastin skin structures.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/B-Caffeine.png" alt="Caffeine"/>
-                <p class="p-indi">Antioxidant</p>
+                <img src="../img/indi-stuff/ingredients/therapy/PB8.png" alt="Parsely Basil Extract"/>
+                <p class="p-indi">As a source of vitamin A, this key ingredient encourages healthy skin cell production.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/NB-Dimethicone.png" alt="Dimethicone"/>
-                <p class="p-indi">One of the most commonly found skin care ingredient is a silicon-based polymer used to condition the skin while protecting the skin, working to prevent water loss by forming a hydrating barrier on the skin. Fills in wrinkles and lines on the face to give it a temporary plumped appearance.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/CollidalOatmeal.png" alt="Collidal Oatmeal"/>
+                <p class="p-indi">helps smooth and comfort skin that is itchy and dry.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/B-Forskohlii.png" alt="Forskohlii Root Extract"/>
-                <p class="p-indi">Anti-inflammatory</p>
+                <img src="../img/indi-stuff/ingredients/therapy/CasterSeedOil.png" alt="Caster Seed Oil"/>
+                <p class="p-indi">Works to condition the skin giving it moisture and softness.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/B-Green-Tea.png" alt="Green Tea Leaf Extract"/>
-                <p class="p-indi">Green tea has been shown to be the most effective agent against skin inflammation</p>
+                <img src="../img/indi-stuff/ingredients/therapy/SheaButter.png" alt="Shea Butter"/>
+                <p class="p-indi">Replenishes and nourishes the skin with natural vitamin and essential fatty acids.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/B-Willow.png" alt="Willow Bark Extract"/>
-                <p class="p-indi">Benefits HERE</p>
+                <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Extract"/>
+                <p class="p-indi">Derived from the meat of the coconut, this extract is highly absorbent while it moisturizes, nourishing moisture into the skin effectively.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/B-Olive-Leaf.png" alt="Olive Leaf Extract"/>
-                <p class="p-indi">Antioxidant and Anti-inflamatory Properties</p>
+                <img src="../img/indi-stuff/ingredients/therapy/ApricotExtract.png" alt="Apricot Extract"/>
+                <p class="p-indi">Soften and smooth the skin when activated by the skin’s oils</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/OregonGrapeRootExtract.png" alt="Oregon Grape Root Extract"/>
+                <p class="p-indi">This grape root extract grown in Oregon helps combat skin irritants associated with psoriasis and other atopic dermatitis illnesses.</p>
               </div>
             </div>
             <div class="row mb-5">
               <div class="col-12">
                 <h3 class="h3-indi">Full ingredients</h3> 
-                <p class="p-indi">Dimethicone, Menthol, <br/>
-                Water (Aqua), Aloe Barbadensis Leaf Juice, Ethylhexyl, Palmitate, Hydrogenated Polyisobutene, Glycerin, Cetyl, Alcohol, Pentylene Glycol, Cetearyl Alcohol, Hydrolyzed Egg Shell Membrane (Peptide Matrix - Collagen & Elastin), Caffeine, Nerium Oleander Extract, Salix Nigra (Willow), Bark Extract, Caprylyl Glycol, Sorbitan Stearate, Camellia, Oleifera (Green Tea) Leaf Extract, Menthol, Isohexadecane, Ceteareth-20, Polysorbate 80, Olea Europaea (Olive) Leaf Extract, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate, Theobroma Cacao (Cocoa) Seed Butter, Glyceryl Caprylate, Xanthan Gum, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Coleus Forskohlii Root Extract, Sodium Hyaluronate, Tocopherol, Disodium EDTA, Retinyl Palmitate, Tocopheryl Acetate, Leuconostoc/Radish Root Ferment Filtrate, Fragrance, Potassium Sorbate</p>
+                <p class="p-indi">SALICYLIC ACID (2%), <br/>
+                ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, PROPANEDIOL, HYDROLYZED EGG SHELL MEMBRANE, WATER (AQUA), CETYL ALCOHOL, GLYCERIN, GLYCERYL STEARATE, POTASSIUM CETYL PHOSPHATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, GLYCERYL CAPRYLATE, CETEARYL OLIVATE, DIMETHICONE, OCIMUM BASILICUM (BASIL) EXTRACT, RICINUS COMMUNIS (CASTOR) SEED OIL, SORBITAN OLIVATE, LYSOLECITHIN, SCLEROTIUM GUM, ALLANTOIN, ARGININE, BUTYROSPERMUM PARKII (SHEA) BUTTER, CARUM PETROSELINUM (PARSLEY) EXTRACT, COLLOIDAL OATMEAL, OLEA EUROPAEA (OLIVE) FRUIT OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, PRUNUS ARMENIACA (APRICOT) FRUIT EXTRACT, TOCOPHEROL, XANTHAN GUM, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, PULLULAN, AQUA, LINUM USITATISSIMUM (LINSEED) SEED OIL, SODIUM BENZOATE, BENZYL ALCOHOL, POTASSIUM SORBATE, CITRIC ACID, DIPOTASSIUM GLYCYRRHIZATE, GLYCERYL UNDECYLENATE, LECITHIN, MAHONIA AQUIFOLIUM ROOT EXTRACT, SEA SALT, BUTTER EXTRACT, COCOS NUCIFERA (COCONUT) FRUIT EXTRACT, CUCUMIS MELO CANTALUPENSIS FRUIT EXTRACT, MUSA SAPIENTUM (BANANA) FRUIT EXTRACT, PIMPINELLA ANISUM (ANISE) FRUIT EXTRACT, PLANKTON EXTRACT, PYRUS MALUS (APPLE) FRUIT EXTRACT, SANTALUM ALBUM (SANDALOWOOD) EXTRACT, VACCINIUM MACROCARPON (CRANBERRY) FRUIT EXTRACT, VANILLA PLANIFOLIA FRUIT EXTRACT</p>
               </div>
             </div>
 
