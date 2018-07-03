@@ -226,6 +226,12 @@
   margin-bottom: 50px;
 }
 
+@media (max-width: 930px) and (min-width: 769px) { 
+.indi-display-img-cs {
+    max-height: 400px !important;
+    }
+}
+
 .indi-display img {
   margin: 0 auto;
   max-height:500px;

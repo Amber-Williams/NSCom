@@ -89,7 +89,7 @@
 </style>
   <div class="row">
     <div class="col-12 px-0 mb-2">
-      <img src="../img/about-us/1152x584-About-Page.jpg" width="100%"/>
+      <img src="../img/about-us/1366x500-About-Us-Philosophy-Banner-B.jpg" width="100%"/>
     </div>
   </div>
 
