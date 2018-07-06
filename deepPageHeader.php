@@ -41,7 +41,7 @@
     </div>
       
     <!--DESKTOP NAV-->
-    <nav class="container nav-container d-nav">
+    <nav class="nav-container d-nav">
       <div class="row">
         <div class="col-2 align-center">
           <a href="../index.php"><img src="../img/logo.gif"/></a>

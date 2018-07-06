@@ -17,7 +17,7 @@
         <div class="shopifyButton-container mb-4"> 
 
           <div id='product-component-8c85790a978'>
-              <a href="../newProducts-Advanced-Night/index.php">
+              <a href="../Therapy-PS/index.php">
                 <img src="../img/TL-packaging-web/Therapy.Psoriasis.Group-WithBox-SMALL.jpg" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX Psoriasis Relief Therapy</p>
                 <p class="p-index">$120</p>
@@ -25,7 +25,7 @@
             </div>
 
             <div id='product-component-03b36f64059'>
-              <a href="../newProducts-Advanced-Day/index.php">
+              <a href="../Therapy-CSduo/index.php">
                 <img src="../img/TL-packaging-web/Therapy.CS.LM.Dual.Group-SMALL.jpg" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX Cold Sore Dual Treatment</p>
                 <p class="p-index">$100</p>
@@ -33,7 +33,7 @@
             </div>
 
             <div id='product-component-75d179ac3ad'>
-              <a href="../newProducts-Advanced-Firm/index.php">
+              <a href="../Therapy-Dermal/index.php">
                 <img src="../img/TL-packaging-web/Therapy.Dermal.Group-SMALL.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX Dermal Pain Relief Therapy</p>
                 <p class="p-index">$120</p>

@@ -27,16 +27,16 @@
     <!--End mc_embed_signup-->
 
     <div class="container">
-      <div class="row">
+      <div class="row mt-3">
         <div class="col-12">
 
           <div class="row">
             <div class="col-md-6"> 
-              <p class="text-center text-md-right">&copy; 2018 Nerium SkinCare, Inc.  All Rights Reserved </p>
+              <p class="text-center text-md-right grey">&copy; 2018 Nerium SkinCare, Inc.  All Rights Reserved </p>
             </div>
           
             <div class="col-md-6">
-              <p class="text-center text-md-left">Contact | Sitemap | Terms of Service</p>
+              <p class="text-center text-md-left grey">Contact | Sitemap | Terms of Service</p>
             </div>
             
         </div>
