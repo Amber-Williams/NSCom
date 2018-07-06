@@ -2,7 +2,9 @@
 
   <div class="row">
     <div class="col-12 img-container">
-      <img src="../img/1150x310-Therapy-Banner.jpg" width="100%"/>
+      <img src="../img/1150x310-Therapy-Banner.jpg" class="hide-xs" width="100%"/>
+      <img src="../img/515x278-Therapy-Mobile-Banner-V1.jpg" class="show-xs d-sm-none" width="100%"/>
+      
     </div>
   </div>
 

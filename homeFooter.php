@@ -36,7 +36,10 @@
             </div>
           
             <div class="col-md-6">
-              <p class="text-center text-md-left grey">Contact | Sitemap | Terms of Service</p>
+              <p class="text-center text-md-left grey">
+                  <a href="about/#contact" class="grey">Contact</a> | 
+                  <a href="sitemap/index.php" class="grey">Sitemap</a> | 
+                  Terms of Service</p>
             </div>
 
           </div>
