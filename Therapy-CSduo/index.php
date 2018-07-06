@@ -8,7 +8,7 @@
 
       <div class="col-2 d-flex flex-column"> 
         <div class="p-2 hide-md">
-          <img src="../img/cs-indi-product1.jpg" class="float-left" onclick="pictureChangeFirst()"/>
+          <img src="../img/cs-indi-product1.jpg" class="float-left" onclick="pictureChangeFirstCS()"/>
         </div>
         <div class="p-2 hide-md">
           <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecond()"/>
@@ -27,7 +27,7 @@
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/ps-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirst()"/>
+              <img src="../img/ps-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstCS()"/>
             </div>
             <div class="p-2">
               <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecond()"/>

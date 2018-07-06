@@ -141,7 +141,7 @@
     <div class="container hide-md">
         <div class="row">
           <div class="col-4"> 
-            <img src="img/index/374x374-Core-Science.jpg" alt="Core Science" width="100%"> 
+            <img src="img/index/374x374-Core-Science-V1.jpg" alt="Core Science" width="100%"> 
           </div>
           <div class="col-4"> 
               <img src="img/index/374x374-Real-Result.jpg" alt="Real Results" width="100%"> 
@@ -191,7 +191,7 @@
     <div class="container show-md">
         <div class="row">
             <div class="col-sm-4"> 
-                <img class="mb-3" src="img/index/374x374-Core-Science.jpg" alt="Core Science" width="100%"> 
+                <img class="mb-3" src="img/index/374x374-Core-Science-V1.jpg" alt="Core Science" width="100%"> 
             </div>
             <div class="col-sm-8">
                 <h1 class="italiana">CORE SCIENCE</h1>

@@ -3,6 +3,21 @@
   function pictureChangeFirst() {
     document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png";
     }
+  function pictureChangeFirstDC() {
+    document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/NSC.ADV.DC.BottleAndCarton.HR.CMYK.V1.png";
+    }
+  function pictureChangeFirstBody() {
+    document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/1800x2160-NSC.ADV.BF.Tube.Carton.Front.200ml.png";
+    }
+  function pictureChangeFirstPS() {
+    document.getElementById("indi-display-img").src="../img/TL-packaging-web/Therapy.Psoriasis.Group-WithBox-SMALL.jpg";
+    }
+  function pictureChangeFirstDermal() {
+    document.getElementById("indi-display-img").src="../img/TL-packaging-web/Therapy.Dermal.Group-SMALL.jpg";
+    }
+  function pictureChangeFirstCS() {
+    document.getElementById("indi-display-img").src="../img/TL-packaging-web/Therapy.CS.LM.Dual.Group-SMALL.jpg";
+    }
   function pictureChangeSecond() {
     document.getElementById("indi-display-img").src="../img/nc-indi-display2.jpg";
     }
