@@ -53,8 +53,47 @@
 @media screen and (min-width: 1400px) {
     .nav-container{
         margin:0 auto;
+        max-width: 1200px;
     }
 } 
+.m-nav{
+    display: none;
+}
+@media screen and (max-width:920px){
+    .d-nav{
+        display: none;
+    }
+    .m-nav{
+        display: inherit;
+        border-bottom: 1px solid #a1d2e6;
+        
+    }
+}
+
+.ul-m-nav {
+    list-style-type: none;
+    padding:0;
+    width:100%;
+}
+
+.ul-m-nav li:not(:last-child){
+    border-bottom: 1px dashed #a1d2e6;
+    
+}
+.ul-m-nav li a {
+    display: block;
+    font-family: 'Italiana', serif;
+    font-size: 21px;
+    color:#4D4D4D;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.ul-m-nav li a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+
 /*END Nav Bar*/
 
 /*About Us Page Secondary Nav Bar */

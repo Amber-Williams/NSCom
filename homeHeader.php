@@ -14,7 +14,34 @@
   </head>
   
   <body>
-    <nav class="container nav-container">
+    <!--MOBILE NAV-->
+    <div class="m-nav mb-5">
+    </div>
+    <div class="pos-f-t m-nav fixed-top">
+        <nav class="navbar navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="index.php"><img src="img/logo.gif" width="100px"/></a>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-light p-4">
+                <div class="row">
+                      <ul class="ul-m-nav">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="SkinCare/">SkinCare</a></li>
+                        <li><a href="SkinHealth/">SkinHealth</a></li>
+                        <li><a href="about/">About Us</a></li>
+                        <li><a href="about/#contact">Contact Us</a></li>
+                        <li><a href="https://neriumhcp.com/">Healthcare Professional Site</a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <!--DESKTOP NAV-->
+    <nav class="nav-container d-nav">
       <div class="row">
         <div class="col-2 align-center">
           <a href="index.php"><img src="img/logo.gif"/></a>
