@@ -137,10 +137,8 @@
           <p>Cold sores are caused by the herpes simplex virus-1. However, most people who have the virus never develop signs and symptoms of cold sores. Once you have had an outbreak, the virus lies dormant deep in nerve cells under the skin. Recurrence of another cold sore may emerge due to viral infection, hormonal changes, stress, exposure to sunlight or wind and changes in the immune system.</p>
         </div>
 
-        <div class="col-md-5 bg-c-grey">
-          <p class="p-indi">
-          Before/After photos
-          </p>
+        <div class="col-md-5">
+          <img src="../img/indi-stuff/Dermal-Before-After-Image.jpg" width="100%"/>
         </div>
       </div>
     </div>
@@ -335,10 +333,8 @@
                 <p>Cold sores are caused by the herpes simplex virus-1. However, most people who have the virus never develop signs and symptoms of cold sores. Once you have had an outbreak, the virus lies dormant deep in nerve cells under the skin. Recurrence of another cold sore may emerge due to viral infection, hormonal changes, stress, exposure to sunlight or wind and changes in the immune system.</p>
               </div>
 
-              <div class="col-12 bg-c-grey">
-                <p class="p-indi">
-                Before/After photos
-                </p>
+              <div class="col-12">
+                <img src="../img/indi-stuff/Cold-Sore-Before-After-Image.jpg" width="100%"/> 
               </div>
             </div>
 

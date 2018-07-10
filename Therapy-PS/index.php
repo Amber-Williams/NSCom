@@ -131,10 +131,8 @@
           <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
         </div>
 
-        <div class="col-md-5 bg-c-grey">
-          <p class="p-indi">
-          Before/After photos
-          </p>
+        <div class="col-md-5">
+          <img src="../img/indi-stuff/Psoriasis-Before-After-Image.jpg" width="100%"/>
         </div>
       </div>
     </div>
@@ -313,10 +311,8 @@
                 <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
               </div>
 
-              <div class="col-12 bg-c-grey">
-                <p class="p-indi">
-                Before/After photos
-                </p>
+              <div class="col-12">
+                <img src="../img/indi-stuff/Psoriasis-Before-After-Image.jpg" width="100%"/>
               </div>
             </div>
 

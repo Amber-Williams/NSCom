@@ -115,10 +115,8 @@
             <li>Underlying factors that damage skin</li>
           </ul>
         </div>
-        <div class="col-md-5 bg-c-grey">
-          <p class="p-indi">
-          Before/After photos
-          </p>
+        <div class="col-md-5">
+          <img src="../img/indi-stuff/Day-Cream-Before-After-Image.jpg" width="100%"/>
         </div>
       </div>
     </div>
@@ -276,10 +274,8 @@
                   <li>Underlying factors that damage skin</li>
                 </ul>
               </div>
-              <div class="col-12 bg-c-grey">
-                <p class="p-indi">
-                Before/After photos
-                </p>
+              <div class="col-12">
+                <img src="../img/indi-stuff/Day-Cream-Before-After-Image.jpg" width="100%"/>
               </div>
             </div>
 
