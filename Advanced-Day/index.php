@@ -11,10 +11,10 @@
           <img src="../img/dc-indi-product1.jpg" class="float-left" onclick="pictureChangeFirstDC()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecond()"/>
+          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecondDC()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThird()"/>
+          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThirdDC()"/>
         </div>
       </div>
 
@@ -30,10 +30,10 @@
               <img src="../img/dc-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstDC()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecond()"/>
+              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondDC()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThird()"/>
+              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDC()"/>
             </div>
         </div>
       </div>

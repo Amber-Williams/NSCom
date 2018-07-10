@@ -8,13 +8,13 @@
 
       <div class="col-2 d-flex flex-column"> 
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product1.jpg" class="float-left" onclick="pictureChangeFirst()"/>
+          <img src="../img/nc-indi-product1.jpg" class="float-left" onclick="pictureChangeFirstNC()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecond()"/>
+          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecondNC()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThird()"/>
+          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThirdNC()"/>
         </div>
       </div>
 
@@ -27,13 +27,13 @@
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/nc-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirst()"/>
+              <img src="../img/nc-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstNC()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecond()"/>
+              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondNC()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThird()"/>
+              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdNC()"/>
             </div>
         </div>
       </div>

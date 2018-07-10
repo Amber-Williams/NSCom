@@ -11,10 +11,10 @@
           <img src="../img/cs-indi-product1.jpg" class="float-left" onclick="pictureChangeFirstCS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecond()"/>
+          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecondCS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThird()"/>
+          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThirdCS()"/>
         </div>
       </div>
 
@@ -30,10 +30,10 @@
               <img src="../img/ps-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstCS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecond()"/>
+              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondCS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThird()"/>
+              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdCS()"/>
             </div>
         </div>
       </div>
