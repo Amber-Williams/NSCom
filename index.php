@@ -77,7 +77,12 @@
     <!--END Slider/Carousel Start-->
     <div class="row">
       <div class="col-12 px-0">
-        <img src="img/index/1366x500-Main-Cover-V2.jpg" width="100%"/>
+      <!--Mobile Banner-->
+        <img src="img/index/515x452-Main-Banner.png" class="move-center d-block d-sm-block d-md-none" width="100%"/>
+      <!--Desktop banner-->
+        <img src="img/index/1366x500-Main-Banner.png" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/>
+      <!--Larger Screen Banner-->
+        <img src="img/index/1516x333-Main-Banner.png" class="banner-container move-center d-none d-xl-block" width="100%"/>
       </div>
     </div>
     <div class="container">

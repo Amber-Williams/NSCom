@@ -419,7 +419,11 @@
   
   /*END Mail Chimp Form */
 
-/* Images with Buttons or Text overlayed*/
+/* Banners or Images with Buttons or Text overlayed*/
+.banner-container{
+    max-width: 1900px;
+    margin: 0 auto;
+}
 .img-container {
     position: relative;
 }
