@@ -2,7 +2,13 @@
 
   <div class="row">
     <div class="col-12 px-0 mb-2">
-      <img src="../img/about-us/1152x584-About-Page.jpg" width="100%"/>
+      <!--Mobile Banner-->
+        <img src="../img/515x278-About-Page-Banner.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/>
+      <!--Desktop banner-->
+        <img src="../img/1150x310-About-Page-Banner.jpg" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/>
+      <!--Larger Screen Banner-->
+        <img src="../img/1150x310-About-Page-Banner.jpg" class="banner-container move-center d-none d-xl-block" width="100%"/>
+
     </div>
   </div>
 

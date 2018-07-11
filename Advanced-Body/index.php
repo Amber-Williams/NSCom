@@ -116,7 +116,7 @@
           </ul>
         </div>
         <div class="col-md-5">
-          <img src="../img/indi-stuff/Day-Cream-Before-After-Image.jpg" width="100%"/>
+          <img src="../img/indi-stuff/Body-Firm-Before-After-Image.jpg" width="100%"/>
         </div>
       </div>
     </div>
@@ -275,7 +275,7 @@
                 </ul>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/Day-Cream-Before-After-Image.jpg" width="100%"/>
+                <img src="../img/indi-stuff/Body-Firm-Before-After-Image.jpg" width="100%"/>
               </div>
             </div>
 
