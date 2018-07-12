@@ -173,7 +173,7 @@
   <div id="contact" class="row">
       <div class="col-12">
         <h1 class="text-center">Contact Us</h1>
-        <img src="../img/about-contact-placeholder.jpg" width="100%"/>
+        <?php include('contact.php'); ?>
       </div>
     </div>
   </div>

@@ -53,7 +53,9 @@
           <li>Stretch Marks</li>
           <li>Tightens</li>
         </ul>
-        <button>SHOPIFY BUTTON HERE</button>
+        <div class="move-center">
+          <button class="coming-soon-btn">COMING SOON</button>
+        </div>
       </div>
     </div>
     <!--Hide this section on mobile-->
