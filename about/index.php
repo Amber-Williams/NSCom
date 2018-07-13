@@ -83,56 +83,91 @@
       </div>
     </div>
   
-    <div class="row">
-      <div class="col-4"> 
-        <img src="../img/index/374x374-Core-Science-V1.jpg" alt="Core Science" style="width:100%;"> 
+    <!-- Desktop 3 items version-->
+    <div class="hide-md">
+        <div class="row">
+          <div class="col-4"> 
+            <img src="../img/index/374x374-Core-Science-V1.jpg" alt="Core Science" width="100%"> 
+          </div>
+          <div class="col-4"> 
+            <img src="../img/about-us/374x374-Real-Result.jpg" alt="Real Results" width="100%"> 
+          </div>
+          <div class="col-4"> 
+            <img src="../img/about-us/374x374-Advancement.jpg" alt="Advancement" width="100%"> 
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4 mt-2"> 
+            <h1 class="italiana float-left">CORE SCIENCE</h1>
+           </div>
+          <div class="col-4 mt-2">
+            <h1 class="italiana float-left">REAL RESULTS</h1>
+          </div>
+          <div class="col-4 mt-2"> 
+            <h1 class="italiana float-left">ADVANCEMENT</h1>
+           </div>
+        </div>
+
+      <div class="row">
+        <div class="col-4 text-justify"> 
+          <p>The foundation of Nerium SkinCare is established in biotechnology research, and on our commitment to core science. We are a company founded by scientists and guided by a board of elite scientific advisory members. It is no wonder that as a company, we are dedicated to offering skin care solutions based on the latest scientific research and breakthrough technology.</p>
+        </div>
+        <div class="col-4 text-justify">
+          <p>Nerium SkinCare’s success is the direct result of the company’s dedication to making products that are based on rigorous scientific research and results. By sharing our knowledge and research results with the consumer, our studies, we are fostering honest transparent communications. </p>
+        </div>
+        <div class="col-4 text-justify"> 
+          <p>Nerium SkinCare, Inc. is committed to advancing skin care science through clinical research. We will never stop innovating or waiver in our promise to deliver “best-in-class” products to the consumer.</p>
+        </div>
       </div>
-      <div class="col-4"> 
-        <img src="../img/about-us/374x374-Real-Result.jpg" alt="Real Results" style="width:100%;"> 
-      </div>
-      <div class="col-4"> 
-        <img src="../img/about-us/374x374-Advancement.jpg" alt="Advancement" style="width:100%;"> 
+
+      <div class="row">
+        <div class="col-4"> 
+            <a href="../more-about/index.php"><p>Read More >></p></a>
+        </div>
+        <div class="col-4">
+            <a href="../more-about/index.php"><p>Read More >></p></a>
+        </div>
+        <div class="col-4"> 
+            <a href="../more-about/index.php"><p>Read More >></p></a>
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-4 mt-2"> 
-        <h1 class="italiana float-left">CORE SCIENCE</h1>
-      </div>
-      <div class="col-4 mt-2">
-        <h1 class="italiana float-left">REAL RESULTS</h1>
-      </div>
-      <div class="col-4 mt-2"> 
-        <h1 class="italiana float-left">ADVANCEMENT</h1>
-      </div>
-    <div>
-
-    <div class="row">
-      <div class="col-4 text-justify"> 
-        <p>The foundation of Nerium SkinCare is established in biotechnology research, and on our commitment to core science. We are a company founded by scientists and guided by a board of elite scientific advisory members. It is no wonder that as a company, we are dedicated to offering skin care solutions based on the latest scientific research and breakthrough technology.</p>
-      </div>
-      <div class="col-4 text-justify">
-        <p>Nerium SkinCare’s success is the direct result of the company’s dedication to making products that are based on rigorous scientific research and results. By sharing our knowledge and research results with the consumer, our studies, we are fostering honest transparent communications. </p>
-      </div>
-      <div class="col-4 text-justify"> 
-        <p>Nerium SkinCare, Inc. is committed to advancing skin care science through clinical research. We will never stop innovating or waiver in our promise to deliver “best-in-class” products to the consumer.</p>
-      </div>
+    <!-- Mobile 3 items version-->
+    <div class="show-md">
+        <div class="row">
+            <div class="col-sm-4"> 
+                <img class="mb-3" src="../img/index/374x374-Core-Science-V1.jpg" alt="Core Science" width="100%"> 
+            </div>
+            <div class="col-sm-8">
+                <h1 class="italiana">CORE SCIENCE</h1>
+                <p>The foundation of Nerium SkinCare is established in biotechnology research, and on our commitment to core science. We are a company founded by scientists and guided by a board of elite scientific advisory members. It is no wonder that as a company, we are dedicated to offering skin care solutions based on the latest scientific research and breakthrough technology.</p>
+                <a href="../more-about/index.php"><p>Read More >></p></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"> 
+              <img class="mb-3" src="../img/index/374x374-Real-Result.jpg" alt="Real Results" width="100%"> 
+            </div>
+            <div class="col-sm-8">
+                <h1 class="italiana">REAL RESULTS</h1>
+                <p>Nerium SkinCare’s success is the direct result of the company’s dedication to making products that are based on rigorous scientific research and results. By sharing our knowledge and research results with the consumer, our studies, we are fostering honest transparent communications. </p>
+                <a href="../more-about/index.php"><p>Read More >></p></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"> 
+                <img class="mb-3" src="../img/about-us/374x374-Advancement.jpg" alt="Advancement" width="100%"> 
+              </div>
+            <div class="col-sm-8">
+                <h1 class="italiana">ADVANCEMENT</h1>
+                <p>Nerium SkinCare, Inc. is committed to advancing skin care science through clinical research. We will never stop innovating or waiver in our promise to deliver “best-in-class” products to the consumer.</p>
+                <a href="../more-about/index.php"><p>Read More >></p></a>
+            </div>
+        </div>
     </div>
-
-    <div class="row">
-      <div class="col-4"> 
-        <a href="../more-about/"><p>Read More >></p></a>
-      </div>
-      <div class="col-4">
-        <a href="../more-about/"><p>Read More >></p></a>
-      </div>
-      <div class="col-4"> 
-        <a href="../more-about/"><p>Read More >></p></a>
-      </div>
-    </div>
-    </div>
-    </div>
-
+    
     <div class="row">
       <div class="col-12 move-center my-3">
         <a href="#ingredients"><img src="../img/down.png"/></a>
@@ -160,13 +195,16 @@
       <div class="col-12">
         <h1 class="text-center">Our Leadership</h1>
         <p class="text-center">Our Science team is dedicated to continuous ongoing research of the Nerium oleander plant, and our products are founded on the commitment to further develop new ingredient technology. 
-          <a href="../more-about/">Read more >></a>
+        <br/>
+        <a href="../more-about/">Read more >></a>
         </p>
       </div>
     </div>
 
     <hr/>
   <!--END Container Div-->
+  </div>
+  </div>
   </div>
 
   <div class="container">

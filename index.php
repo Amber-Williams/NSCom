@@ -130,7 +130,9 @@
         <div class="img-text-center-left text-center">
           <h1 class="white">ADVANCED</h1>
           <p class="p-index white">Our exclusive beauty line <br/>formulated better then ever</p>
-          <button class="shop-btn-white">SHOP NOW</button>
+          <a href="SkinCare/index.php">
+            <button class="shop-btn-white">SHOP NOW</button>
+          </a>
         </div>
     </div>
     <div class="container position-relative mb-4">
@@ -138,11 +140,14 @@
         <div class="img-text-center-right text-center">
           <h1>THERAPY</h1>
           <p class="p-index">Combined Nerium Oleander Extract <br/>technology to bring you relief</p>
-          <button class="shop-btn">SHOP NOW</button>
+          <a href="SkinHealth/index.php">
+            <button class="shop-btn">SHOP NOW</button>
+          </a>
 
         </div>
     </div>
-
+    
+    <!-- Desktop 3 items version-->
     <div class="container hide-md">
         <div class="row">
           <div class="col-4"> 
@@ -193,6 +198,7 @@
       </div>
     </div>
 
+    <!-- Mobile 3 items version-->
     <div class="container show-md">
         <div class="row">
             <div class="col-sm-4"> 
