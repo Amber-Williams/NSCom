@@ -8,13 +8,13 @@
 
       <div class="col-2 d-flex flex-column"> 
         <div class="p-2 hide-md">
-          <img src="../img/ps-indi-product1.jpg" class="float-left" onclick="pictureChangeFirstPS()"/>
+          <img src="../img/indi-stuff/116x116-Psoriasis-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstPS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecondPS()"/>
+          <img src="../img/indi-stuff/116x116-Psoriasis-Smear.jpg" class="float-left" onclick="pictureChangeSecondPS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThirdPS()"/>
+          <img src="../img/indi-stuff/116x116-Psoriasis-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdPS()"/>
         </div>
       </div>
 
@@ -27,13 +27,13 @@
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/ps-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstPS()"/>
+              <img src="../img/indi-stuff/116x116-Psoriasis-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstPS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondPS()"/>
+              <img src="../img/indi-stuff/116x116-Psoriasis-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondPS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdPS()"/>
+              <img src="../img/indi-stuff/116x116-Psoriasis-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdPS()"/>
             </div>
         </div>
       </div>

@@ -8,13 +8,13 @@
 
       <div class="col-2 d-flex flex-column"> 
         <div class="p-2 hide-md">
-          <img src="../img/cs-indi-product1.jpg" class="float-left" onclick="pictureChangeFirstCS()"/>
+          <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstCS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecondCS()"/>
+          <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Smear.jpg" class="float-left" onclick="pictureChangeSecondCS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThirdCS()"/>
+          <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdCS()"/>
         </div>
       </div>
 
@@ -27,13 +27,13 @@
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/ps-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstCS()"/>
+              <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstCS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondCS()"/>
+              <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondCS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdCS()"/>
+              <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdCS()"/>
             </div>
         </div>
       </div>

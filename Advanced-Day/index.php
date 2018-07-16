@@ -8,13 +8,13 @@
 
       <div class="col-2 d-flex flex-column"> 
         <div class="p-2 hide-md">
-          <img src="../img/dc-indi-product1.jpg" class="float-left" onclick="pictureChangeFirstDC()"/>
+          <img src="../img/indi-stuff/116x116-Day-Cream-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstDC()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product2.jpg" class="float-left" onclick="pictureChangeSecondDC()"/>
+          <img src="../img/indi-stuff/116x116-Day-Cream-Smear.jpg" class="float-left" onclick="pictureChangeSecondDC()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/nc-indi-product3.jpg" class="float-left" onclick="pictureChangeThirdDC()"/>
+          <img src="../img/indi-stuff/116x116-Day-Cream-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdDC()"/>
         </div>
       </div>
 
@@ -27,13 +27,13 @@
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/dc-indi-product1.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstDC()"/>
+              <img src="../img/indi-stuff/116x116-Day-Cream-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstDC()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product2.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondDC()"/>
+              <img src="../img/indi-stuff/116x116-Day-Cream-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondDC()"/>
             </div>
             <div class="p-2">
-              <img src="../img/nc-indi-product3.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDC()"/>
+              <img src="../img/indi-stuff/116x116-Day-Cream-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDC()"/>
             </div>
         </div>
       </div>

@@ -26,7 +26,7 @@
     document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/1800x2160-NSC.ADV.BF.Tube.Carton.Front.200ml.png";
     }
   function pictureChangeSecondBody() {
-    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Day-Cream-Smear.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Body-Firm-Smear.jpg";
     }
   function pictureChangeThirdBody() {
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Body-Firm-Drug-Facts.jpg";
@@ -40,7 +40,7 @@
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Psoriasis-Smear.jpg";
     }
   function pictureChangeThirdPS() {
-    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Body-Firm-Drug-Facts.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Psoriasis-Drug-Facts.jpg";
     }
 
 
@@ -51,7 +51,7 @@
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Dermal-Smear.jpg";
     }
   function pictureChangeThirdDermal() {
-    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Body-Firm-Drug-Facts.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Dermal-Drug-Facts.jpg";
     }
 
 
@@ -59,10 +59,10 @@
     document.getElementById("indi-display-img").src="../img/TL-packaging-web/Therapy.CS.LM.Dual.Group-SMALL.jpg";
     }
   function pictureChangeSecondCS() {
-    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Cold-Sore-Smear.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Cold-Sore-Lip-Smear.jpg";
     }
   function pictureChangeThirdCS() {
-    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Body-Firm-Drug-Facts.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Cold-Sore-Lip-Drug-Facts.jpg";
     }
 
 
