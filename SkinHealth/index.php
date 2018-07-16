@@ -25,7 +25,7 @@
               <a href="../Therapy-PS/index.php">
                 <img src="../img/TL-packaging-web/Therapy.Psoriasis.Group-WithBox-SMALL.jpg" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX Psoriasis Relief Therapy</p>
-                <p class="p-index">$120</p>
+                <p class="p-index">$39.95</p>
               </a>
             </div>
 
@@ -33,7 +33,7 @@
               <a href="../Therapy-CSduo/index.php">
                 <img src="../img/TL-packaging-web/Therapy.CS.LM.Dual.Group-SMALL.jpg" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX Cold Sore Dual Treatment</p>
-                <p class="p-index">$100</p>
+                <p class="p-index">$29.95</p>
               </a>
             </div>
 
@@ -41,7 +41,7 @@
               <a href="../Therapy-Dermal/index.php">
                 <img src="../img/TL-packaging-web/Therapy.Dermal.Group-SMALL.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX Dermal Pain Relief Therapy</p>
-                <p class="p-index">$120</p>
+                <p class="p-index">$42.95</p>
               </a>
             </div>
 

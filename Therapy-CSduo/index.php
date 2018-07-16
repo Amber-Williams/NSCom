@@ -41,7 +41,7 @@
       <div class="col-md-5">
         <h1 class="h1-indi text-uppercase"> NeriumCS Cold Sore Therapy and Daily Lip Maintance </h1>
         <h4 class="h4-indi">3.5ml / 0.12 fl.oz | 8ml / 0.27 fl.oz</h4>
-        <h2 class="h2-indi mb-4">$120<h2>
+        <h2 class="h2-indi mb-4">$29.95<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <h3 class="h3-indi">Cold Sore Therapy</h3>
@@ -141,7 +141,7 @@
         </div>
 
         <div class="col-md-5">
-          <img src="../img/indi-stuff/Dermal-Before-After-Image.jpg" width="100%"/>
+          <img src="../img/indi-stuff/Cold-Sore-Before-After-Image.jpg" width="100%"/>
         </div>
       </div>
     </div>

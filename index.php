@@ -98,7 +98,7 @@
               <a href="Advanced-Night/index.php">
                 <img src="img/Updated-Advanced-Packaging/NSC.ADV.NC.Bottle.HR.CMYK.V2.png" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Nightly Face Treatment</p>
-                <p class="p-index">$120</p>
+                <p class="p-index">$59.95</p>
               </a>
             </div>
 
@@ -106,7 +106,7 @@
               <a href="Advanced-Day/index.php">
                 <img src="img/Updated-Advanced-Packaging/NSC.ADV.DC.Bottle.HR.CMYK.V2.png" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Daily <br/>Face Cream</p>
-                <p class="p-index">$100</p>
+                <p class="p-index">$49.95</p>
               </a>
             </div>
 
@@ -114,7 +114,7 @@
               <a href="Advanced-Body/index.php">
                 <img src="img/Updated-Advanced-Packaging/NSC.NADA.BF.Tube.Front.200ml.LR.RGB.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NeriumFirm Advanced <br/>Firming Body Cream</p>
-                <p class="p-index">$120</p>
+                <p class="p-index">$??</p>
               </a>
               <div class="coming-soon-btn-container">
                 <button class="coming-soon-btn">COMING SOON</button>
