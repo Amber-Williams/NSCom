@@ -23,6 +23,10 @@
 /*END Font*/
 
 /*Nav Bar*/
+.blue-line {
+	border-top: none;
+	border-bottom:1px solid #a1d2e6;
+}
 .nav-container {
     padding:15px 15px;
 }

@@ -39,7 +39,8 @@
               <p class="text-center text-md-left grey">
                   <a href="../about/#contact" class="grey">Contact</a> | 
                   <a href="../sitemap/index.php" class="grey">Sitemap</a> | 
-                  Terms of Service</p>
+                  <a href="../TOS/index.php" class="grey">Terms of Service</a> 
+              </p>
             </div>
             
         </div>
