@@ -14,7 +14,7 @@
           <img src="../img/indi-stuff/116x116-Body-Firm-Smear.jpg" class="float-left" onclick="pictureChangeSecondBody()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/indi-stuff/116x116-Body-Firm-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdBody()"/>
+          <img src="../img/indi-stuff/116x116-ADV-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdBody()"/>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
               <img src="../img/indi-stuff/116x116-Body-Firm-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondBody()"/>
             </div>
             <div class="p-2">
-              <img src="../img/indi-stuff/116x116-Body-Firm-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdBody()"/>
+              <img src="../img/indi-stuff/116x116-ADV-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdBody()"/>
             </div>
         </div>
       </div>

@@ -14,7 +14,7 @@
           <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Smear.jpg" class="float-left" onclick="pictureChangeSecondCS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdCS()"/>
+          <img src="../img/indi-stuff/116x116-RX-Drug-Facts.jpg.jpg" class="float-left" onclick="pictureChangeThirdCS()"/>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
               <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondCS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdCS()"/>
+              <img src="../img/indi-stuff/116x116-RX-Drug-Facts.jpg.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdCS()"/>
             </div>
         </div>
       </div>

@@ -14,7 +14,7 @@
           <img src="../img/indi-stuff/116x116-Day-Cream-Smear.jpg" class="float-left" onclick="pictureChangeSecondDC()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/indi-stuff/116x116-Day-Cream-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdDC()"/>
+          <img src="../img/indi-stuff/116x116-ADV-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdDC()"/>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
               <img src="../img/indi-stuff/116x116-Day-Cream-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondDC()"/>
             </div>
             <div class="p-2">
-              <img src="../img/indi-stuff/116x116-Day-Cream-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDC()"/>
+              <img src="../img/indi-stuff/116x116-ADV-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDC()"/>
             </div>
         </div>
       </div>

@@ -14,7 +14,7 @@
           <img src="../img/indi-stuff/116x116-Dermal-Smear.jpg" class="float-left" onclick="pictureChangeSecondDermal()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/indi-stuff/116x116-Dermal-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdDermal()"/>
+          <img src="../img/indi-stuff/116x116-RX-Drug-Facts.jpg.jpg" class="float-left" onclick="pictureChangeThirdDermal()"/>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
               <img src="../img/indi-stuff/116x116-Dermal-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondDermal()"/>
             </div>
             <div class="p-2">
-              <img src="../img/indi-stuff/116x116-Dermal-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDermal()"/>
+              <img src="../img/indi-stuff/116x116-RX-Drug-Facts.jpg.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDermal()"/>
             </div>
         </div>
       </div>

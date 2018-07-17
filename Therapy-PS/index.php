@@ -14,7 +14,7 @@
           <img src="../img/indi-stuff/116x116-Psoriasis-Smear.jpg" class="float-left" onclick="pictureChangeSecondPS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/indi-stuff/116x116-Psoriasis-Drug-Facts.jpg" class="float-left" onclick="pictureChangeThirdPS()"/>
+          <img src="../img/indi-stuff/116x116-RX-Drug-Facts.jpg.jpg" class="float-left" onclick="pictureChangeThirdPS()"/>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
               <img src="../img/indi-stuff/116x116-Psoriasis-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondPS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/indi-stuff/116x116-Psoriasis-Drug-Facts.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdPS()"/>
+              <img src="../img/indi-stuff/116x116-RX-Drug-Facts.jpg.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdPS()"/>
             </div>
         </div>
       </div>
