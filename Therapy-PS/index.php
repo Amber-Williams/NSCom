@@ -96,9 +96,18 @@
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
-      <h2 class="h2-indi">THERAPY COLLECTION</h2>
-        <p class="p-indi">Introduce Cold Sore duo and Dermal Pain cream here with stylized group shot.</p>
-        <button>See Cold Sore Duo</button>  <button>See Dermal Pain</button>
+
+        <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
+        <img src="../img/indi-stuff/385x420-Therapy-Line-Products.png" width="100%"/>
+        <div class="move-center">
+          <a href="../Therapy-CSduo/index.php">
+            <button class="shop-btn m-2">Cold Sore Duo</button>  
+          </a>
+          <a href="../Therapy-Dermal/index.php">
+            <button class="shop-btn m-2">Dermal Pain Cream</button>
+          </a>
+        </div>
+
       </div>
     </div>
 
@@ -171,9 +180,18 @@
             </div>
           </div>
           <div class="col-md-5 bg-c-grey">
-            <h2 class="h2-indi">ADVANCED COLLECTION</h2>
-            <p class="p-indi">Introduce night cream and day cream here with stylized group shot.</p>
-            <button>See Night Cream</button>  <button>See Day Cream</button>
+
+            <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
+            <img src="../img/indi-stuff/385x420-Therapy-Line-Products.png" width="100%"/>
+            <div class="move-center">
+              <a href="../Therapy-CSduo/index.php">
+                <button class="shop-btn m-2">Cold Sore Duo</button>  
+              </a>
+              <a href="../Therapy-Dermal/index.php">
+                <button class="shop-btn m-2">Dermal Pain Cream</button>
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
@@ -261,9 +279,18 @@
               </p>
             </div>
             <div class="col-12 bg-c-grey">
-            <h2 class="h2-indi">ADVANCED COLLECTION</h2>
-              <p class="p-indi">Introduce night cream and body cream here with stylized group shot.</p>
-              <button>See Daily Cream</button>  <button>See Body Cream</button>
+
+              <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
+              <img src="../img/indi-stuff/385x420-Therapy-Line-Products.png" width="100%"/>
+              <div class="move-center">
+                <a href="../Therapy-CSduo/index.php">
+                  <button class="shop-btn m-2">Cold Sore Duo</button>  
+                </a>
+                <a href="../Therapy-Dermal/index.php">
+                  <button class="shop-btn m-2">Dermal Pain Cream</button>
+                </a>
+              </div>
+
             </div>
           </div>
       
@@ -365,9 +392,18 @@
                 </div>
               </div>
               <div class="col-12 bg-c-grey">
-                <h2 class="h2-indi">ADVANCED COLLECTION</h2>
-                <p class="p-indi">Introduce night cream and day cream here with stylized group shot.</p>
-                <button>See Daily Cream</button>  <button>See Night Cream</button>
+
+                <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
+                <img src="../img/indi-stuff/385x420-Therapy-Line-Products.png" width="100%"/>
+                <div class="move-center">
+                  <a href="../Therapy-CSduo/index.php">
+                    <button class="shop-btn m-2">Cold Sore Duo</button>  
+                  </a>
+                  <a href="../Therapy-Dermal/index.php">
+                    <button class="shop-btn m-2">Dermal Pain Cream</button>
+                  </a>
+                </div>
+
               </div>
             </div>
           </div>

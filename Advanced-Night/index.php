@@ -96,10 +96,16 @@
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
-      <h2 class="h2-indi">ADVANCED COLLECTION</h2>
-        <p class="p-indi">Introduce night cream and body cream here with stylized group shot.</p>
-        <button>See Daily Cream</button>  <button>See Body Cream</button>
-      </div>
+        <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+        <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
+        <div class="move-center">
+          <a href="../Advanced-Day/index.php">
+            <button class="shop-btn m-2">Daily Cream</button>  
+          </a>
+          <a href="../Advanced-Body/index.php">
+            <button class="shop-btn m-2">Body Cream</button>
+          </a>
+        </div>
     </div>
 
     <!--RECOMMENDED TEXT SECTION-->
@@ -154,9 +160,16 @@
             </div>
           </div>
           <div class="col-md-5 bg-c-grey">
-            <h2 class="h2-indi">ADVANCED COLLECTION</h2>
-            <p class="p-indi">Introduce night cream and body cream here with stylized group shot.</p>
-            <button>See Daily Cream</button>  <button>See Body Cream</button>
+            <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+            <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
+            <div class="move-center">
+              <a href="../Advanced-Day/index.php">
+                <button class="shop-btn m-2">Daily Cream</button>  
+              </a>
+              <a href="../Advanced-Body/index.php">
+                <button class="shop-btn m-2">Body Cream</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -223,9 +236,16 @@
               </p>
             </div>
             <div class="col-12 bg-c-grey">
-            <h2 class="h2-indi">ADVANCED COLLECTION</h2>
-              <p class="p-indi">Introduce night cream and body cream here with stylized group shot.</p>
-              <button>See Daily Cream</button>  <button>See Body Cream</button>
+              <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+              <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
+              <div class="move-center">
+                <a href="../Advanced-Day/index.php">
+                  <button class="shop-btn m-2">Daily Cream</button>  
+                </a>
+                <a href="../Advanced-Body/index.php">
+                  <button class="shop-btn m-2">Body Cream</button>
+                </a>
+              </div>
             </div>
           </div>
       
@@ -310,9 +330,16 @@
                 </div>
               </div>
               <div class="col-12 bg-c-grey">
-                <h2 class="h2-indi">ADVANCED COLLECTION</h2>
-                <p class="p-indi">Introduce night cream and body cream here with stylized group shot.</p>
-                <button>See Daily Cream</button>  <button>See Body Cream</button>
+                <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+                <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
+                <div class="move-center">
+                  <a href="../Advanced-Day/index.php">
+                    <button class="shop-btn m-2">Daily Cream</button>  
+                  </a>
+                  <a href="../Advanced-Body/index.php">
+                    <button class="shop-btn m-2">Body Cream</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

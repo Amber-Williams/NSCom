@@ -21,19 +21,6 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
-        .shop-btn{
-          background:none;
-          border: 1px solid black;
-          padding: 5px 15px;
-          letter-spacing:2px;
-        }
-        .shop-btn-white{
-          background:none;
-          border: 1px solid white;
-          padding: 5px 15px;
-          letter-spacing:2px;
-          color:white;
-        }
     </style>
     <!--Slider/Carousel Start-->
     <!--DELETE IF SLIDER IS WANTED

@@ -320,7 +320,7 @@
 /* END Individual Product Page Stylings */
 
 
-/* Shopify Buy Button & Products */
+/* Shopify Buy Button & Other Buttons & Products */
 .shopifyButton-container {
     display: flex;
     justify-content: space-around;
@@ -357,6 +357,20 @@
       height: 62px;
       display: flex;
   }
+
+.shop-btn{
+    background:none;
+    border: 1px solid black;
+    padding: 5px 15px;
+    letter-spacing:2px;
+}
+.shop-btn-white{
+    background:none;
+    border: 1px solid white;
+    padding: 5px 15px;
+    letter-spacing:2px;
+    color:white;
+}
 /* END Shopify Buy Button */
 
 /* Mail Chimp Footer Email Sign Up Form */
@@ -458,6 +472,7 @@
 max-width:50vw;
 }
 /*END images with...*/
+
 
 /* Alignments and Spacers */
 .align-center{
