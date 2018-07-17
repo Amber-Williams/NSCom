@@ -96,15 +96,16 @@
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
-        <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
-        <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
-        <div class="move-center">
-          <a href="../Advanced-Day/index.php">
-            <button class="shop-btn m-2">Daily Cream</button>  
-          </a>
-          <a href="../Advanced-Body/index.php">
-            <button class="shop-btn m-2">Body Cream</button>
-          </a>
+          <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+          <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
+          <div class="move-center">
+            <a href="../Advanced-Day/index.php">
+              <button class="shop-btn m-2">Daily Cream</button>  
+            </a>
+            <a href="../Advanced-Body/index.php">
+              <button class="shop-btn m-2">Body Cream</button>
+            </a>
+          </div>
         </div>
     </div>
 
