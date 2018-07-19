@@ -99,14 +99,14 @@
 
           The Nerium FarmsTM is the largest Nerium oleander operation of its kind in the world. Using environmentally responsible and sustainable techniques, these naturally grown Nerium oleander plants, provide the raw material that make Nerium SkinCare’s products revolutionary. Abiding by strict protocols, the Nerium oleander farm provides a dedicated and renewable biomass resource that is reserved exclusively for Nerium SkinCare.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mb-4">
           <img src="../img/about-us/533x652-Quality-Image-B.jpg" width="100%"/>
         </div>
       </div>
       
 
       <div class="col-12 row">
-        <div class="col-md-6">
+        <div class="col-md-6 mb-4">
           <img src="../img/about-us/573x649-Quality-Image-A1.jpg" width="100%"/>
         </div>
         <div class="col-md-6">
