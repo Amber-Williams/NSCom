@@ -1,94 +1,13 @@
 <?php include('../deepPageHeader.php'); ?>
 
 <style>
-    .grid-wrapper {
-        display: grid;
-    }
-    @media only screen and (min-width:734px) {
-          .grid-wrapper {
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 50%;
-            grid-column-gap: 3%;
-            /* Dev note: grid row below only works across browsers if defined in px's instead of % */
-            grid-row-gap:20px;
-          }
-
-    }
-    @media only screen and (min-width: 470px) and (max-width: 735px) {
-        .grid-wrapper {
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 50%;
-            grid-column-gap: 3%;
-            /* Dev note: grid row below only works across browsers if defined in px's instead of % */
-            grid-row-gap:20px;
-        }
-    }
-    @media only screen and (max-width: 470px) {
-        .grid-wrapper {
-            grid-template-columns: 1fr;
-            grid-template-rows: 20%;
-            /* Dev note: grid row below only works across browsers if defined in px's instead of % */
-            grid-row-gap:20px;
-        }
-    }
-
-    .box-front,
-    .box-back {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 200px;
-        max-height: 200px;
-        min-width: 100%;
-        max-width: 250px;
-    }
-    .box-front {
-        border: 1px solid #e2e2e2;
-        background: white;
-        flex-flow: column;
-    }
-    .box-front img {
-        margin:5px;
-    }
-    .box-back {
-        border: 1px solid #e2e2e2;
-        background: white;
-        font-size: .8em;
-        padding:10px;
-        text-align: justify;
-    }
-
-    .ingredients-grid-text {
-        color: #47322e;
-        text-transform: uppercase;
-        font-size: 1.2em;
-        font-weight: normal;
-        line-height: 27px;
-        text-align: center;
-    }
-    .box-front span{
-        border-bottom: 1px solid #47322e;
-    }
-    .hoverable {
-        cursor:default;
-        color:#000;
-        text-decoration:none;
-        }
-    .hoverable .hover {
-        display:none;
-        }
-    .hoverable:hover .normal {
-        display:none;
-        }
-    .hoverable:hover .hover {
-        display:grid;
-        }
+    /* need a:hover below for ingredients widget*/
     a:hover {
         text-decoration:  none;
     }
 </style>
   <div class="row">
-    <div class="col-12 px-0 mb-2">
+    <div class="col-12 px-0 mb-2" id="bannerChangeHere">
       <!--Mobile Banner-->
         <img src="../img/515x278-About-Us-Philosophy-Banner.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/>
       <!--Desktop banner-->
@@ -97,17 +16,38 @@
         <img src="../img/1150x310-About-Us-Philosophy-Banner.jpg" class="banner-container move-center d-none d-xl-block" width="100%"/>
     </div>
   </div>
+    <script>
+        function bannerChange(num){
+            if(num == 1){
+
+                document.getElementById("bannerChangeHere").innerHTML = '<img src="../img/515x278-About-Us-Philosophy-Banner.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/><img src="../img/1366x500-About-Us-Philosophy-Banner.jpg" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/><img src="../img/1150x310-About-Us-Philosophy-Banner.jpg" class="banner-container move-center d-none d-xl-block" width="100%"/>';
+            
+            } else if (num == 2){
+               
+                document.getElementById("bannerChangeHere").innerHTML = '<img src="../img/515x278-About-Us-Products-Banner.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/><img src="../img/1366x500-About-Us-Products-Banner.jpg" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/><img src="../img/1150x310-About-Us-Products-Banner.jpg" class="banner-container move-center d-none d-xl-block" width="100%"/>';
+
+            }else if (num == 3){
+                alert("farm")
+            }else if (num == 4){
+                alert("philo")
+            }else if (num == 5){
+                alert("ingredients")
+            }else{
+                alert("leadership")
+            }
+        }
+    </script>
 
   <div class="container">
     <div class="row mt-3">
       <div class="col-12">
             <ul class="navigation-menu  move-center">
-              <li id="story-nav">Our Story</li>
-              <li id="products-nav">Products</li>
-              <li id="farms-nav">Farm</li>
-              <li id="philosophy-nav">Philosophy</li>
-              <li id="ingredients-nav">Ingredients</li>
-              <li id="leadership-nav">Leadership</li>
+              <li class="move-center" id="story-nav" onclick="bannerChange(1)">Our Story</li>
+              <li class="move-center" id="products-nav" onclick="bannerChange(2)">Products</li>
+              <li class="move-center" id="farms-nav" onclick="bannerChange(3)">Farm</li>
+              <li class="move-center" id="philosophy-nav" onclick="bannerChange(4)">Philosophy</li>
+              <li class="move-center" id="ingredients-nav" onclick="bannerChange(5)">Ingredients</li>
+              <li class="move-center" id="leadership-nav" onclick="bannerChange(6)">Leadership</li>
             </ul>
       </div>
     </div>
@@ -117,16 +57,19 @@
       <div class="col-12"> 
         <h1> Our Story</h1>
         <p>Nerium SkinCare, Inc. is dedicated to offering health and beauty solutions that are based on scientific research and actual customer success. Our natural products are founded on the result of years of continuing research at leading medical institutions, using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and developed a complete line of products that harnesses the unique and effective properties of the Nerium oleander plant.<br/>
-
-        Our vision is to consistently bring “first-in-class” products to market based on our firm belief in three tenets:<br/>
+        <br/>
+        Our vision is to consistently bring “first-in-class” products to market based on our firm belief in three tenets:
+        <br/>
         Core Science<br/>
         Real Results<br/>
         Continuous Advancement<br/><br/>
 
         Our mission is to develop health and beauty solutions that provide unparalleled well-being to the consumer.
         Nerium SkinCare utilizes the Nerium Biotechnology research and technology in the development, formulation, clinical testing, manufacturing, regulatory compliance, and product commercialization of its "best-in-class" natural skin care products. It’s this technology, core science, and continuing research on which Nerium SkinCare bases its products and defines their benefits.</p>
+      <hr/>
       </div>
-      <div class="row">
+
+      <div class="col-12 row">
         <div class="col-md-6">
           <h1>History</h1>
           <p>We observed skin healing properties when researching the Nerium oleander plant in our labs. The history of Nerium SkinCare begins with groundbreaking research conducted by Dr. Robert Newman during his time with our parent company, Nerium Biotechnology. Dr. Newman’s research with natural botanical compounds led to the rediscovery, identification, isolation, and further development of core ingredients from the Nerium oleander plant. Continuing research and utilization of proprietary technologies has provided us the opportunity to develop a series of products that you know today as the NeriumAD® line of skin care.<br/>
@@ -147,8 +90,9 @@
 
         Utilization of the Patented Nerium Oleander Extract ingredient and additional proprietary ingredients provides the opportunity for Nerium SkinCare to formulate and develop a complete line of unique "first in class" skin care cosmetic and US FDA OTC topical drug products. Additional products are constantly under development.</p>
       </div>
-
-      <div class="row">
+      
+      <hr/>
+      <div class="col-12 row">
         <div class="col-md-6">
           <h1>Quality</h1>
           <p>As a commitment to quality, Nerium SkinCare does not compromise on what goes into our products. The quality of Nerium Skincare's products is a direct result of the investment into the people, scientific research, new technology development, natural farming methods, biomass processing, cGMP production facilities, and product safety testing.<br/>
@@ -159,8 +103,9 @@
           <img src="../img/about-us/533x652-Quality-Image-B.jpg" width="100%"/>
         </div>
       </div>
+      
 
-      <div class="row">
+      <div class="col-12 row">
         <div class="col-md-6">
           <img src="../img/about-us/573x649-Quality-Image-A1.jpg" width="100%"/>
         </div>
@@ -170,7 +115,10 @@
           After a decade of experience in Nerium oleander commercial farming, Nerium SkinCare continues to focus on new technology and research that will allow us to enhance our farming operations. We are very proud of our all natural approach and adherence to strict biomedical field protocols. We continually seek ways to increase land utilization and field plant capacity through the development of improved planting and irrigations</p>
         </div>
       </div>
-      <div class="row">
+
+      <hr/>
+
+      <div class="col-12 row">
         <div class="col-12">
           <h1>Safety</h1>
           <p>Nerium SkinCare formulators, developers and researchers are dedicated to offering new unique skincare solutions that are based on review of ingredient use experience, specific in vitro product testing, clinical research, pre/post consumer testing, scientific and the actual customer use reports and success. We strongly believe in sustainable, honest, health focused practices, and maximum disclosure of safety information. <br/>
@@ -182,13 +130,15 @@
     
     <!--FARMS SECTION-->
     <div id="farms-text" class="row">
-    <h1>Nerium Oleander Farm</h1>
-      <p>The Nerium Farms™ is the largest Nerium oleander operation of its kind in the world. With over 100,000 Nerium oleander plants, we employ natural and organic farming practices and our orchard helps to minimize our carbon footprint by eliminating greenhouse gases throughout the year.
-        <br/>
-        Our science begins at the farm where we use the latest horticulture techniques for watering, farming, and harvesting. For example, by also incorporating the use of the latest analytical instruments, we are better able to determine the optimal time for harvesting. Similar analytic processes are employed in other aspects of farming. From beginning to end, from farm to manufacturer to consumers, Nerium SkinCare is dedicated to providing real science and real results.
-        <br/>
-        “We’re primarily after the leaves. And that's the reason why we do not want any irrigation water; we do not want any type of chemicals; nothing on the leaves. So it is a very specialized approach, it's extremely laborious, and it's very very expensive. No one has attempted to put in an orchard like this and they still haven’t. It's not that easy to get involved in this industry. It's very complex; there’s a lot of science that goes into it. Science not only starting at the field itself but all the way through the processing as well as to the end use. So it's an extremely complex dynamic approach. There’s no question in my mind that this field is much more than a field of dreams, it's truly is a field of life”– Joel Curtis, Chief Agricultural Officer of Nerium Farms™
-        </p>
+        <div class="col-12">
+            <h1>Nerium Oleander Farm</h1>
+            <p>The Nerium Farms™ is the largest Nerium oleander operation of its kind in the world. With over 100,000 Nerium oleander plants, we employ natural and organic farming practices and our orchard helps to minimize our carbon footprint by eliminating greenhouse gases throughout the year.
+            <br/><br/>
+            Our science begins at the farm where we use the latest horticulture techniques for watering, farming, and harvesting. For example, by also incorporating the use of the latest analytical instruments, we are better able to determine the optimal time for harvesting. Similar analytic processes are employed in other aspects of farming. From beginning to end, from farm to manufacturer to consumers, Nerium SkinCare is dedicated to providing real science and real results.
+            <br/><br/>
+            “We’re primarily after the leaves. And that's the reason why we do not want any irrigation water; we do not want any type of chemicals; nothing on the leaves. So it is a very specialized approach, it's extremely laborious, and it's very very expensive. No one has attempted to put in an orchard like this and they still haven’t. It's not that easy to get involved in this industry. It's very complex; there’s a lot of science that goes into it. Science not only starting at the field itself but all the way through the processing as well as to the end use. So it's an extremely complex dynamic approach. There’s no question in my mind that this field is much more than a field of dreams, it's truly is a field of life”– Joel Curtis, Chief Agricultural Officer of Nerium Farms™
+            </p>
+        </div>
     </div>
 
     <!--PHILOSOPHY SECTION-->
@@ -196,9 +146,14 @@
       <div class="col-12">
         <h1>Philosophy</h1>
         <p>Our vision is to consistently bring “first-in-class” products to market based on our firm belief in three tenets: Core Science, Real Results, and Continuous Advancement.</p>
+        <div class="move-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/9MbR-pBu0SI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
       </div>
-
-      <div class="row">
+      
+      <hr/>
+    
+      <div class="col-12 row">
         <div class="col-md-6">
           <img src="../img/about-us/529x677-Core-Science.jpg" width="100%"/>
         </div>
@@ -210,23 +165,9 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-12">
-          <h1>Real Result</h1>
-          <p>Nerium SkinCare, Inc. stands behind the results of our flagship products, NeriumAD® Age-Defying Night Cream and NeriumAD® Age-Defying Day Cream, and our exclusive, patented NAE-8® extract. No other skin care line can produce similar real results. <br/>
-          NeriumAD® Age-Defying products dramatically reduce the appearance of:</p>
-          <ul>
-            <li>Fine lines and wrinkles </li>
-            <li>Discoloration</li>
-            <li>Uneven skin texture</li>
-            <li>Enlarged pores</li>
-            <li>Aged and sagging skin</li>
-          </ul>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/9MbR-pBu0SI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
+      <hr/>
 
-      <div class="row">
+      <div class="col-12 row">
         <div class="col-md-6">
           <h1>Real Result</h1>
           <p>Nerium SkinCare, Inc. stands behind the results of our flagship products, NeriumAD® Age-Defying Night Cream and NeriumAD® Age-Defying Day Cream, and our exclusive, patented NAE-8® extract. No other skin care line can produce similar real results. <br/>
@@ -244,19 +185,18 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="col-12 row">
         <div class="col-md-6">
           <img src="../img/about-us/573x576-Real-Promises.jpg" width="100%"/>
         </div>
         <div class="col-md-6">
-          <p>REAL RESULTS</p>
           <p>Independently conducted clinical trials show:</p>
           <ul>
             <li>93% of participants had a significant increase in skin moisture.</li>
             <li>86% of participants had an improvement in uneven skin texture.</li>
             <li>86% of participants noted a reduction in pore size.</li>
           </ul>
-          <p>REAL BREAKTHROUGH INGREDIENTS</p>
+
           <p>Our patented extract, derived from a proprietary formulation consistency of Nerium oleander and Aloe vera is proprietary and only found in Nerium SkinCare products. This powerful ingredient works in three key ways:</p>
           <ul>
             <li>By targeting not just the signs of aging but also the underlying cause.</li>
@@ -265,11 +205,13 @@
           </ul>
         </div>
       </div>
+      
+      <hr/>
 
-      <div class="row">
+      <div class="col-12 row">
         <div class="col-12">
-          <h1>Continuous Advancedment</h1>
-          <img src="../img/about-us/1152x560-Continuous-Advancement.jpg" width="100%"/>
+          <h1>Continuous Advancement</h1>
+          <img class="mb-3" src="../img/about-us/1152x560-Continuous-Advancement.jpg" width="100%"/>
           <p>ADVANCEMENT</p>
           <p>Nerium SkinCare, Inc. is committed to advancing skin care science through clinical research. We will never stop innovating or waiver in our promise to deliver “best-in-class” products to the consumer.</p>
 
@@ -284,6 +226,7 @@
     </div>
 
     <div id="ingredients-text" class="row">
+        <div class="col-12">
             <h1>Ingredients</h1>
             <div class="col-sm-12">
                 <div class="grid-wrapper">
@@ -580,15 +523,17 @@
 
                 </div>
             </div>
+        </div>
     </div>
 
     <div id="leadership-text" class="row">
+        <div class="col-12">
             <h1>Leadership</h1>
             <div class="row">
-                <div class="col-2 mb-2">
-                    <img src="../img/headshots/knockeD.jpg" alt="Dennis R. Knocke" />
+                <div class="col-lg-2 mb-2">
+                    <img src="../img/headshots/knockeD.jpg" alt="Dennis R. Knocke"/>
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10">
                     <h4>Dennis R. Knocke, Chief Executive Officer and Chairman of the Board of Directors</h4>  
                     <p>Mr. Knocke attended Sam Houston State University in Huntsville, Texas. He has successfully founded and operated several start-up 
                     healthcare companies that were acquired by national and international business entities listed on the New York and London stock exchanges. Mr. Knocke was
@@ -597,10 +542,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-2 mb-2">
+                <div class="col-lg-2 mb-2">
                     <img src="../img/headshots/nesterJ.jpg" alt="Joseph B. Nester" />
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10">
                     <h4>Joseph B. Nester, Executive Vice President and Sec.Treasurer</h4>
                     <p>Mr. Nester graduated from the University of Texas at Austin with a BBA in General Business. He has over 23 years experience in the financial
                     service industry as well as four years experience with a start-up pharmaceutical company, where he was initially the Secretary Treasurer and after four months
@@ -609,10 +554,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-2 mb-2">
+                <div class="col-lg-2 mb-2">
                     <img src="../img/headshots/lorijones.jpg" alt="Lori Jones" />      
                 </div>      
-                <div class="col-10">
+                <div class="col-lg-10">
                     <h4>Lori Jones, Chief Financial Officer</h4>
                     <p>Ms. Jones has more than 25 years’ experience in finance and accounting with both private and publicly held entities.  She has served as 
                     Chief Financial Officer and other executive level positions in various industries including biotech, manufacturing, and technology.   Those position included,
@@ -621,7 +566,7 @@
                 </div>
             </div>
 
-                <h4>Peter A. Leininger, M.D, Director</h4>
+                <h4 class="mt-3">Peter A. Leininger, M.D, Director</h4>
                 <p>Dr. Leininger received his medical degree from Indiana University. Upon graduation, he joined the U.S. Army as an intern and graduated as a Urologist from the Walter 
                 Reed Army Medical Center. He served as Staff Urologist at Ft. Carson, Colorado, after which he entered private practice. In 1978, he joined his brother James R. 
                 Leininger, M. D. at Kinetic Concepts, Inc. (KCI), a new medical products company in San Antonio, Texas. KCI became internationally recognized for innovation in 
@@ -712,6 +657,7 @@
                 was the founder, President, and CEO of Land Rover North America, BMW Group located in Lanham, Maryland. As Chief Executive Officer, he presided over a $1 billion, 
                 24,000-unit sales enterprise that successfully introduced the first Range Rover then Land Rover to the North American market. NBI believes that Mr. Hughes’ experience
                  with successfully building, branding, marketing, and expanding start-ups will be invaluable to NBI.</p>
+         </div>
     </div>
     <hr/>
   <!--END Container Div-->
