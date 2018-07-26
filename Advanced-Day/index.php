@@ -39,13 +39,15 @@
       </div>
 
       <div class="col-md-5">
-        <h1 class="h1-indi text-uppercase">Advanced Daily Face Cream</h1>
+        <h1 class="h1-indi text-uppercase">Nerium Advanced Daily Face Cream</h1>
         <h4 class="h4-indi">30ml / 1 fl.oz</h4>
         <h2 class="h2-indi mb-4">$49.95<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">
           <li>Sun Protection</li>
+          <li>Enhanced Collagen Production</li>
+          <li>Reduces Collagen Breakdown</li>
           <li>Moisturizing and Normalizing</li>
           <li>Light-Weight</li>
           <li>Restores Youthful Appearance</li>
@@ -96,7 +98,7 @@
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
-        <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+        <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
         <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
         <div class="move-center">
           <a href="../Advanced-Night/index.php">
@@ -119,7 +121,6 @@
             <li>Signs of Aging</li>
             <li>Blemishes/Spots/Discoloration</li>
             <li>Skin Elasticity</li>
-            <li>Cellulite</li>
             <li>Urban/Environmental stressor factors</li>
             <li>Underlying factors that damage skin</li>
           </ul>
@@ -148,7 +149,7 @@
                 <img src="../img/indi-stuff/Step2.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">Apply generously before sun exposure and as needed.</p>
+                <p class="p-indi mb-0">Apply generously before moisturizing and sun exposure and as needed to face and other areas of the body.</p>
               </div>
             </div>
             <div class="row mb-3">
@@ -161,7 +162,7 @@
             </div>
           </div>
           <div class="col-md-5 bg-c-grey">
-            <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+            <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
             <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
             <div class="move-center">
               <a href="../Advanced-Night/index.php">
@@ -188,9 +189,15 @@
             <p class="p-indi">This popular ingredient is used primary to shield and protect the skin from UVB, UVA II and UVA I rays, as it is considered as one of the safest to use sun-protecting ingredient on the market. Zinc oxide is also used to be a soothing agent and an antioxidant.</p>
           </div>
           <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png" alt="Peptide Matrix"/>
+            <p class="p-indi">This advanced technology process retains the natural ratios of key elements found in nature’s potent life source of proteins and peptides from water soluble egg membrane (WSEM) that are beneficial to skin.</p>
+          </div>
+          <!--DK wanted AW to remove this July 26 2018               
+          <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png" alt="Niacinamide"/>
             <p class="p-indi">Vitamin B3</p>
           </div>
+          -->
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/D-Hyaluronic-Acid.png" alt="Hyaluronic Acid"/>
             <p class="p-indi">Powerful skin moisturizer</p>
@@ -238,7 +245,7 @@
               </p>
             </div>
             <div class="col-12 bg-c-grey">
-              <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+              <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
               <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
               <div class="move-center">
                 <a href="../Advanced-Night/index.php">
@@ -276,7 +283,6 @@
                   <li>Signs of Aging</li>
                   <li>Blemishes/Spots/Discoloration</li>
                   <li>Skin Elasticity</li>
-                  <li>Cellulite</li>
                   <li>Urban/Environmental stressor factors</li>
                   <li>Underlying factors that damage skin</li>
                 </ul>
@@ -319,7 +325,7 @@
                     <img src="../img/indi-stuff/Step2.png"/>
                   </div>
                   <div class="col-sm-10 d-flex align-items-center">
-                    <p class="p-indi mb-0">Apply generously before sun exposure and as needed.</p>
+                    <p class="p-indi mb-0">Apply generously before moisturizing and sun exposure and as needed to face and other areas of the body.</p>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -332,7 +338,7 @@
                 </div>
               </div>
               <div class="col-12 bg-c-grey">
-                <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+                <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
                 <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
                 <div class="move-center">
                   <a href="../Advanced-Night/index.php">
@@ -371,9 +377,15 @@
                 <p class="p-indi">This popular ingredient is used primary to shield and protect the skin from UVB, UVA II and UVA I rays, as it is considered as one of the safest to use sun-protecting ingredient on the market. Zinc oxide is also used to be a soothing agent and an antioxidant.</p>
               </div>
               <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png" alt="Peptide Matrix"/>
+                <p class="p-indi">This advanced technology process retains the natural ratios of key elements found in nature’s potent life source of proteins and peptides from water soluble egg membrane (WSEM) that are beneficial to skin.</p>
+              </div>
+              <!--DK wanted AW to remove this July 26 2018 
+              <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png" alt="Niacinamide"/>
                 <p class="p-indi">Vitamin B3</p>
               </div>
+              -->
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/advanced/D-Hyaluronic-Acid.png" alt="Hyaluronic Acid"/>
                 <p class="p-indi">Powerful skin moisturizer</p>
