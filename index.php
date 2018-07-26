@@ -109,13 +109,22 @@
             </div>
 
         </div>
+        <div class="row">
+          <div class="col-12 my-4">
+            <img src="img/index/slogan.jpg" alt="The Nerium Promise of Healthy Skin For Life" width="100%"/>
+          </div>
+        </div>
     </div>
 
     <!--Call to action images-->
     <div class="container position-relative mb-4">
-        <img src="img/index/1152x584-Main-Page-Advanced-V6.jpg" alt="Advanced Line Collection" width="100%">
+        <!--Desktop size advanced line image-->
+        <img src="img/index/1152x584-Main-Page-Advanced-V6.jpg" class="move-center d-none d-md-block d-lg-block" alt="Advanced Line Collection" width="100%"/>
+        <!--Mobile size advanced line image-->
+        <img src="img/index/545x552-Main-Page-Advanced-V6.jpg" class="move-center d-block d-sm-block d-md-none" alt="Advanced Line Collection" width="100%"/>
+        
         <div class="img-text-center-left text-center">
-          <h1 class="white">ADVANCED</h1>
+          <h1 class="white">NERIUM ADVANCED</h1>
           <p class="p-index white">Our exclusive beauty line <br/>formulated better then ever</p>
           <a href="SkinCare/index.php">
             <button class="shop-btn-white">SHOP NOW</button>
@@ -123,9 +132,12 @@
         </div>
     </div>
     <div class="container position-relative mb-4">
-        <img src="img/index/1152x584-Main-Page-Therapy-Line-V3.jpg" alt="Therapy Line Collection" width="100%">
+        <img src="img/index/1152x584-Main-Page-Therapy-Line-V3.jpg" class="move-center d-none d-md-block d-lg-block" alt="NeriumRX Therapy Line Collection" width="100%">
+        <!--Mobile size advanced line image-->
+        <img src="img/index/545x552-Main-Page-Therapy-Line-V3.png" class="move-center d-block d-sm-block d-md-none" alt="NeriumRX Therapy Line Collection" width="100%"/>
+        
         <div class="img-text-center-right text-center">
-          <h1>THERAPY</h1>
+          <h1>NERIUMRX THERAPY</h1>
           <p class="p-index">Combined Nerium Oleander Extract <br/>technology to bring you relief</p>
           <a href="SkinHealth/index.php">
             <button class="shop-btn">SHOP NOW</button>
