@@ -88,7 +88,7 @@
       <div class="col-md-7">
         <h3 class="h3-indi">Product Details</h3>
         <p class="p-indi">
-        NeriumFirm Advanced Firming Body Cream with its latest slim-figuring technology helps decrease the appearance of fat tissue, smooth cellulite, and enhance skin elasticity while moisturizing, hydrating, protecting the skin against environmental stressors and minimizing existing damage. Recommended to be included in your daily exercise routine prior to daily work-out to sooth sore muscles, firm, lift, and tone your body. It contains a robust combination of multi-functional ingredients working in synergy to leave you feeling toned and luminous.
+        NeriumFirm Advanced Firming Body Cream with its latest slim-figuring technology helps decrease the appearance of fat tissue, cellulite, and enhance skin elasticity while moisturizing, hydrating, protecting the skin against environmental stressors and minimizing existing damage. Recommended to be included in your daily exercise routine prior to daily work-out to sooth sore muscles, firm, lift, and tone your body. It contains a robust combination of multi-functional ingredients working in synergy to leave you feeling toned and luminous.
         <br/><br/>
         Dermatologist Tested.
         <br/><br/>
@@ -96,7 +96,7 @@
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
-        <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+        <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
         <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
         <div class="move-center">
           <a href="../Advanced-Night/index.php">
@@ -161,7 +161,7 @@
             </div>
           </div>
           <div class="col-md-5 bg-c-grey">
-            <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+            <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
             <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
             <div class="move-center">
               <a href="../Advanced-Night/index.php">
@@ -246,7 +246,7 @@
             <div class="col-12">
               <h3 class="h3-indi">Product Details</h3>
               <p class="p-indi">
-              NeriumFirm Advanced Firming Body Cream with its latest slim-figuring technology helps decrease the appearance of fat tissue, smooth cellulite, and enhance skin elasticity while moisturizing, hydrating, protecting the skin against environmental stressors and minimizing existing damage. Recommended to be included in your daily exercise routine prior to daily work-out to sooth sore muscles, firm, lift, and tone your body. It contains a robust combination of multi-functional ingredients working in synergy to leave you feeling toned and luminous. 
+              NeriumFirm Advanced Firming Body Cream with its latest slim-figuring technology helps decrease the appearance of fat tissue, cellulite, and enhance skin elasticity while moisturizing, hydrating, protecting the skin against environmental stressors and minimizing existing damage. Recommended to be included in your daily exercise routine prior to daily work-out to sooth sore muscles, firm, lift, and tone your body. It contains a robust combination of multi-functional ingredients working in synergy to leave you feeling toned and luminous. 
               <br/><br/>
               Dermatologist Tested.
               <br/><br/>
@@ -254,7 +254,7 @@
               </p>
             </div>
             <div class="col-12 bg-c-grey">
-              <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+              <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
               <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
               <div class="move-center">
                 <a href="../Advanced-Night/index.php">
@@ -348,7 +348,7 @@
                 </div>
               </div>
               <div class="col-12 bg-c-grey">
-                <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+                <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
                 <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
                 <div class="move-center">
                   <a href="../Advanced-Night/index.php">
