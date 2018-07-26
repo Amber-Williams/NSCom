@@ -39,15 +39,17 @@
       </div>
 
       <div class="col-md-5">
-        <h1 class="h1-indi">ADVANCED NIGHTLY FACE CREAM</h1>
+        <h1 class="h1-indi">NERIUM ADVANCED NIGHTLY FACE TREATMENT</h1>
         <h4 class="h4-indi">30ml / 1 fl.oz</h4>
         <h2 class="h2-indi mb-4">$59.95<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">
+          <li>Enhanced Collagen Production</li>
           <li>Skin Protectant</li>
           <li>Fine Lines and Wrinkles</li>
           <li>Sagging Skin</li>
+          <li>Reduce Collagen Breakdown</li>
           <li>Restores Radiance Over-night</li>
           <li>Fights Signs of Aging</li>
           <li>Blemised and Sun Damaged Skin</li>
@@ -92,11 +94,11 @@
         <br/><br/>
         Dermatologist Tested.
         <br/><br/>
-        FDA-registered, over-the counter (OTC), formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
+        FDA-registered, over-the counter (OTC) formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
-          <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+          <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
           <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
           <div class="move-center">
             <a href="../Advanced-Day/index.php">
@@ -119,7 +121,6 @@
             <li>Signs of Aging</li>
             <li>Blemishes/Spots/Discoloration</li>
             <li>Skin Elasticity</li>
-            <li>Cellulite</li>
             <li>Urban/Environmental stressor factors</li>
             <li>Underlying factors that damage skin</li>
           </ul>
@@ -161,7 +162,7 @@
             </div>
           </div>
           <div class="col-md-5 bg-c-grey">
-            <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+            <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
             <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
             <div class="move-center">
               <a href="../Advanced-Day/index.php">
@@ -233,11 +234,11 @@
               <br/><br/>
               Dermatologist Tested.
               <br/><br/>
-              FDA-registered, over-the counter (OTC), formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
+              FDA-registered, over-the counter (OTC) formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
               </p>
             </div>
             <div class="col-12 bg-c-grey">
-              <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+              <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
               <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
               <div class="move-center">
                 <a href="../Advanced-Day/index.php">
@@ -275,7 +276,6 @@
                   <li>Signs of Aging</li>
                   <li>Blemishes/Spots/Discoloration</li>
                   <li>Skin Elasticity</li>
-                  <li>Cellulite</li>
                   <li>Urban/Environmental stressor factors</li>
                   <li>Underlying factors that damage skin</li>
                 </ul>
@@ -331,7 +331,7 @@
                 </div>
               </div>
               <div class="col-12 bg-c-grey">
-                <h2 class="h2-indi move-center">ADVANCED COLLECTION</h2>
+                <h2 class="h2-indi move-center">NERIUM ADVANCED COLLECTION</h2>
                 <img src="../img/indi-stuff/385x420-Advanced-Products.png" width="100%"/>
                 <div class="move-center">
                   <a href="../Advanced-Day/index.php">

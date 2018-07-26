@@ -29,8 +29,8 @@
                 <div class="row">
                       <ul class="ul-m-nav">
                         <li><a href="../index.php">Home</a></li>
-                        <li><a href="../SkinCare/">SkinCare</a></li>
-                        <li><a href="../SkinHealth/">SkinHealth</a></li>
+                        <li><a href="../SkinCare/">Beauty</a></li>
+                        <li><a href="../SkinHealth/">Health</a></li>
                         <li><a href="../about/">About Us</a></li>
                         <li><a href="../about/#contact">Contact Us</a></li>
                         <li><a href="https://neriumhcp.com/">Healthcare Professional Site</a></li>
@@ -49,8 +49,8 @@
         <div class="col-6 align-center">
           <ul class="ul-nav">
             <li><a href="../index.php">Home</a></li>
-            <li><a href="../SkinCare/">SkinCare</a></li>
-            <li><a href="../SkinHealth/">SkinHealth</a></li>
+            <li><a href="../SkinCare/">Beauty</a></li>
+            <li><a href="../SkinHealth/">Health</a></li>
             <li><a href="../about/">About Us</a></li>
           </ul>
         </div>
@@ -58,7 +58,7 @@
           <div class="float-right italiana">
             <div class="row">
              <div class="col-12">
-             Search | Cart | <a href="../about/#contact">Contact Us</a>
+             <a href="../about/#contact">Contact Us</a>
              </div>
             </div>
             <a href="https://neriumhcp.com/">Healthcare Professional Site</a>
