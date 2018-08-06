@@ -17,6 +17,13 @@
     </div>
   </div>
     <script>
+        var _img = document.getElementById('bannerChangeHere');
+        var newImg = new Image;
+        newImg.onload = function() {
+            _img.src = this.src;
+        }
+        newImg.src = '../img2/loading.gif';
+        
         var eOutIn = document.querySelector('#elementOutIn');
 
         function fadeOutIn(){

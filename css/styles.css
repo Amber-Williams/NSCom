@@ -558,6 +558,16 @@ max-width:50vw;
 }
 /*END images with...*/
 
+/*Various MISC Features */
+.loading {
+  width: 600px;
+  height: 450px;
+  background: url(loading.gif) 50% no-repeat;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/*END Various MISC Features*/
 
 /* Alignments and Spacers */
 .align-center{
