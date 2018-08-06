@@ -57,7 +57,7 @@
         <div class="col-4">
           <div class="float-right italiana">
             <div class="row">
-             <div class="col-12">
+             <div class="col-12 text-right">
              <a href="../about/#contact">Contact Us</a>
              </div>
             </div>
