@@ -1,5 +1,5 @@
 
-  //Script for changing display images
+  //Script for changing Individual display images
   function pictureChangeFirstNC() {
     document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png";
     }
@@ -136,4 +136,3 @@
   Array.from(buttons).forEach(button => {
       button.addEventListener('click', btnMinusPlusChange);
   });
-

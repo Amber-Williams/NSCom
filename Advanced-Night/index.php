@@ -60,7 +60,7 @@
         </div>
       </div>
     </div>
-    <!--Hide this section on mobile-->
+  <!--Hide this section on mobile-->
   <div class="hide-xs">
     <div class="row mt-5">
       <div class="col-12">
@@ -214,9 +214,6 @@
     <!--START Show on Mobile-->
     <div class="show-xs">
       <!--DETAILS MOBILE BUTTON-->
-
-
-
       <button class="myButton btn indi-m-btn mt-4" data-isminus="false" type="button" data-toggle="collapse" data-target="#collapseProductDetails" aria-expanded="false" aria-controls="collapseExample">
         <span class="float-left">Product Details</span> 
         <span class="float-right minusPlus">+</span>
@@ -403,7 +400,6 @@
 
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
-<script src="../js/independentPages.js"></script>
 <script type="text/javascript">
   /*<![CDATA[*/
 
