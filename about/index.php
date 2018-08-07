@@ -27,9 +27,9 @@
       </div>
     </div>
 
-    <div id="story" class="row">
+    <div id="story" class="row ">
       <div class="col-sm-5 align-self-center">
-        <h1 class="text-center"> Our Story</h1>
+        <h1 class="text-md-center my-4"> Our Story</h1>
       </div>
       <div class="col-sm-7"> 
         <p>Nerium SkinCare, Inc. is dedicated to offering health and beauty solutions that are based on scientific research and actual customer success. Our natural products are founded on the result of years of continuing research at leading medical institutions, using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and developed a complete line of products that harnesses the unique and effective properties of the Nerium oleander plant.</p>
@@ -61,12 +61,12 @@
       </div>
     </div>
 
-    <div id="farms" class="img-container">
-      <img src="../img/about-us/1151x807-Nerium-Farms.jpg" alt="Nerium Farms Photo" style="width:100%;">
-      <div class="top-left">
+    <div id="farms" class="img-container my-5">
+      <img src="../img/about-us/1151x807-Nerium-Farms.jpg" alt="Nerium Farms Photo" style="width:100%; filter: opacity(40%);">
+      <div class="bottom-left">
         <h1>Nerium Farms</h1>
         <p>The Nerium Farms™ is the largest Nerium oleander operation of its kind in the world. With over 100,000 Nerium oleander plants, we employ natural and organic farming practices and our orchard helps to minimize our carbon footprint by eliminating greenhouse gases throughout the year.</p>
-        <a href="../more-about/"><p>Read more about our Nerium oleander Farm >></p></a>
+        <a class="" href="../more-about/"><p>Read more about our Nerium oleander Farm >></p></a>
       </div>
     </div>
 

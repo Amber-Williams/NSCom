@@ -81,31 +81,33 @@
 
         <div class="shopifyButton-container mb-4"> 
 
-            <div id='product-component-8683e9dba0a'>
-              <a href="Advanced-Night/index.php">
-                <img src="img/Updated-Advanced-Packaging/NSC.ADV.NC.Bottle.HR.CMYK.V2.png" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
-                <p class="p-index">Nerium Advanced Nightly Face Treatment</p>
-                <p class="p-index">$59.95</p>
+            <div id='product-component-96b5e16e7e8'>
+              <a href="Therapy-Dermal/index.php">
+                <img src="img/TL-packaging-web/Therapy.Dermal.Bottle-SMALL2.jpg" alt="Dermal Pain Relief Therapy" height="300px" class="productImg-responsive"/>
+                <p class="p-index">NERIUMRX <br/>Dermal Pain Relief <br/> &amp; Shingles Support</p>
+                <p class="p-index">$42.95</p>
               </a>
             </div>
 
-            <div id='product-component-c857cfc0b09'>
-              <a href="Advanced-Day/index.php">
-                <img src="img/Updated-Advanced-Packaging/NSC.ADV.DC.Bottle.HR.CMYK.V2.png" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
-                <p class="p-index">Nerium Advanced Daily <br/>Face Cream</p>
-                <p class="p-index">$49.95</p>
+                <div id='product-component-c9bdb7359c8'>
+              <a href="Therapy-CSduo/index.php">
+                <img src="img/TL-packaging-web/Therapy.CS.LM.Dual.Group-BOTTLES-SMALL.jpg" alt="Cold Sore Dual Treatment" height="300px"class="productImg-responsive"/>
+                <p class="p-index">NERIUMRX <br/>Cold Sore Dual <br/>Treatment</p>
+                <p class="p-index">$29.95</p>
               </a>
             </div>
 
-            <div id='product-component-f6809364766!!DELETEWHENAVAILABLE'>
-              <a href="Advanced-Body/index.php">
-                <img src="img/Updated-Advanced-Packaging/NSC.NADA.BF.Tube.Front.200ml.LR.RGB.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
-                <p class="p-index">NeriumFirm Advanced <br/>Firming Body Cream</p>
-                <p class="p-index">$??</p>
+              <div id='product-component-c41dd6e7d80'>
+              <a href="Therapy-PS/index.php">
+                <img src="img/TL-packaging-web/Therapy.Psoriasis.bottle-SMALL2.jpg" alt="Psoriasis Relief Therapy" height="300px"class="productImg-responsive"/>
+                <p class="p-index">NERIUMRX <br/>Psoriasis Relief <br/>Therapy</p>
+                <p class="p-index">$39.95</p>
               </a>
+              <!-- IF PRODUCT COMING SOON USE THIS 
               <div class="coming-soon-btn-container">
                 <button class="coming-soon-btn">COMING SOON</button>
               </div>
+              -->
             </div>
 
         </div>
@@ -118,22 +120,9 @@
 
     <!--Call to action images-->
     <div class="container position-relative mb-4">
-        <!--Desktop size advanced line image-->
-        <img src="img/index/1152x584-Main-Page-Advanced-V6.jpg" class="move-center d-none d-md-block d-lg-block" alt="Advanced Line Collection" width="100%"/>
-        <!--Mobile size advanced line image-->
-        <img src="img/index/545x552-Main-Page-Advanced-V6.jpg" class="move-center d-block d-sm-block d-md-none" alt="Advanced Line Collection" width="100%"/>
-        
-        <div class="img-text-center-left text-center">
-          <h1 class="white">NERIUM ADVANCED</h1>
-          <p class="p-index white">Our exclusive beauty line <br/>formulated better then ever</p>
-          <a href="SkinCare/index.php">
-            <button class="shop-btn-white">SHOP NOW</button>
-          </a>
-        </div>
-    </div>
-    <div class="container position-relative mb-4">
+        <!--Dsktop size therapy line image-->
         <img src="img/index/1152x584-Main-Page-Therapy-Line-V3.jpg" class="move-center d-none d-md-block d-lg-block" alt="NeriumRX Therapy Line Collection" width="100%">
-        <!--Mobile size advanced line image-->
+        <!--Mobile size therapy line image-->
         <img src="img/index/545x552-Main-Page-Therapy-Line-V3.png" class="move-center d-block d-sm-block d-md-none" alt="NeriumRX Therapy Line Collection" width="100%"/>
         
         <div class="img-text-center-right text-center">
@@ -145,6 +134,22 @@
 
         </div>
     </div>
+    <div class="container position-relative mb-4">
+        <!--Desktop size advanced line image-->
+        <img src="img/index/1152x584-Main-Page-Advanced-V6.jpg" class="move-center d-none d-md-block d-lg-block" alt="Advanced Line Collection" width="100%"/>
+        <!--Mobile size advanced line image-->
+        <img src="img/index/545x552-Main-Page-Advanced-V6.jpg" class="move-center d-block d-sm-block d-md-none" alt="Advanced Line Collection" width="100%"/>
+        
+        <div class="img-text-center-left text-center">
+          <h1 class="white">NERIUM ADVANCED</h1>
+          <p class="p-index white">Our exclusive beauty line <br/>formulated better then ever</p>
+          <a href="SkinCare/index.php">
+            <button class="shop-btn-white">SHOP NOW</button>
+          </a>
+          <p class="p-index white my-5">Launching in USA in 2019 <br/>Available in Mexico now!</p>
+        </div>
+    </div>
+
     
     <!-- Desktop 3 items version-->
     <div class="container hide-md">
@@ -231,18 +236,18 @@
         </div>
     </div>
 
-        <!--Scrips Per Shopify Buy Button-->
-      <!--Night cream-->
+    <!--Scrips Per Shopify Buy Button-->
+    <!--Dermal Pain-->
       <script type="text/javascript">
-          /*<![CDATA[*/
+        /*<![CDATA[*/
 
-          (function () {
+        (function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
           if (window.ShopifyBuy) {
             if (window.ShopifyBuy.UI) {
-            ShopifyBuyInit();
+              ShopifyBuyInit();
             } else {
-            loadScript();
+              loadScript();
             }
           } else {
             loadScript();
@@ -258,205 +263,205 @@
 
           function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
-            domain: 'neriumskincare-products.myshopify.com',
-            apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
-            appId: '6',
+              domain: 'neriumskincare-products.myshopify.com',
+              apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
+              appId: '6',
             });
 
             ShopifyBuy.UI.onReady(client).then(function (ui) {
-            ui.createComponent('product', {
-              id: [11499393290],
-              node: document.getElementById('product-component-8683e9dba0a'),
-              moneyFormat: '%24%7B%7Bamount%7D%7D',
-              options: {
+              ui.createComponent('product', {
+                id: [1375190909011],
+                node: document.getElementById('product-component-96b5e16e7e8'),
+                moneyFormat: '%24%7B%7Bamount%7D%7D',
+                options: {
           "product": {
             "variantId": "all",
             "width": "240px",
             "contents": {
-            "img": false,
-            "imgWithCarousel": false,
-            "title": false,
-            "variantTitle": false,
-            "price": false,
-            "description": false,
-            "buttonWithQuantity": false,
-            "quantity": false
+              "img": false,
+              "imgWithCarousel": false,
+              "title": false,
+              "variantTitle": false,
+              "price": false,
+              "description": false,
+              "buttonWithQuantity": false,
+              "quantity": false
             },
             "styles": {
-            "product": {
-              "text-align": "left",
-              "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0",
-              "margin-bottom": "50px"
+              "product": {
+                "text-align": "right",
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0",
+                  "margin-bottom": "50px"
+                }
+              },
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                "padding-left": "8px",
+                "padding-right": "8px",
+                "display": "block",
+                "margin": "0 auto",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "variantTitle": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "title": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal",
+                "color": "#808080"
+              },
+              "description": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "price": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "compareAt": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal",
+                "color": "#4c4c4c",
+                "font-size": "12px"
               }
-            },
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              "display": "block",
-              "margin": "0 auto",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "variantTitle": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "title": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal",
-              "color": "#808080"
-            },
-            "description": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "price": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "compareAt": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal",
-              "color": "#4c4c4c",
-              "font-size": "12px"
-            }
             }
           },
           "cart": {
             "contents": {
-            "button": true
+              "button": true
             },
             "styles": {
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              ":hover": {
-              "background-color": "#91bdcf"
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
               },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "footer": {
-              "background-color": "#ffffff"
-            }
+              "footer": {
+                "background-color": "#ffffff"
+              }
             }
           },
           "modalProduct": {
             "contents": {
-            "img": false,
-            "imgWithCarousel": true,
-            "variantTitle": false,
-            "buttonWithQuantity": true,
-            "button": false,
-            "quantity": false
+              "img": false,
+              "imgWithCarousel": true,
+              "variantTitle": false,
+              "buttonWithQuantity": true,
+              "button": false,
+              "quantity": false
             },
             "styles": {
-            "product": {
-              "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0px",
-              "margin-bottom": "0px"
+              "product": {
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0px",
+                  "margin-bottom": "0px"
+                }
+              },
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                "padding-left": "8px",
+                "padding-right": "8px",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "variantTitle": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "title": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "description": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "price": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "compareAt": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
               }
-            },
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "variantTitle": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "title": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "description": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "price": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "compareAt": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            }
             }
           },
           "toggle": {
             "styles": {
-            "toggle": {
-              "font-family": "Arial, sans-serif",
-              "background-color": "#a1d2e6",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            }
+              "toggle": {
+                "font-family": "Arial, sans-serif",
+                "background-color": "#a1d2e6",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              }
             }
           },
           "option": {
             "styles": {
-            "label": {
-              "font-family": "Arial, sans-serif"
-            },
-            "select": {
-              "font-family": "Arial, sans-serif"
-            }
+              "label": {
+                "font-family": "Arial, sans-serif"
+              },
+              "select": {
+                "font-family": "Arial, sans-serif"
+              }
             }
           },
           "productSet": {
             "styles": {
-            "products": {
-              "@media (min-width: 601px)": {
-              "margin-left": "-20px"
+              "products": {
+                "@media (min-width: 601px)": {
+                  "margin-left": "-20px"
+                }
               }
             }
-            }
           }
-          }
+        }
+              });
             });
-            });
           }
-          })();
-          /*]]>*/
-        </script>
-      <!--END NC-->
-      <!--Day cream-->
-        <script type="text/javascript">
-          /*<![CDATA[*/
+        })();
+        /*]]>*/
+      </script>
+    <!--END DERMAL PAIN-->  
+    <!--CS duo -->
+      <script type="text/javascript">
+        /*<![CDATA[*/
 
-          (function () {
+        (function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
           if (window.ShopifyBuy) {
             if (window.ShopifyBuy.UI) {
-            ShopifyBuyInit();
+              ShopifyBuyInit();
             } else {
-            loadScript();
+              loadScript();
             }
           } else {
             loadScript();
@@ -472,206 +477,205 @@
 
           function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
-            domain: 'neriumskincare-products.myshopify.com',
-            apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
-            appId: '6',
+              domain: 'neriumskincare-products.myshopify.com',
+              apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
+              appId: '6',
             });
 
             ShopifyBuy.UI.onReady(client).then(function (ui) {
-            ui.createComponent('product', {
-              id: [11499382474],
-              node: document.getElementById('product-component-c857cfc0b09'),
-              moneyFormat: '%24%7B%7Bamount%7D%7D',
-              options: {
+              ui.createComponent('product', {
+                id: [1375190614099],
+                node: document.getElementById('product-component-c9bdb7359c8'),
+                moneyFormat: '%24%7B%7Bamount%7D%7D',
+                options: {
           "product": {
             "variantId": "all",
             "width": "240px",
             "contents": {
-            "img": false,
-            "imgWithCarousel": false,
-            "title": false,
-            "variantTitle": false,
-            "price": false,
-            "description": false,
-            "buttonWithQuantity": false,
-            "quantity": false
+              "img": false,
+              "imgWithCarousel": false,
+              "title": false,
+              "variantTitle": false,
+              "price": false,
+              "description": false,
+              "buttonWithQuantity": false,
+              "quantity": false
             },
             "styles": {
-            "product": {
-              "text-align": "left",
-              "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0",
-              "margin-bottom": "50px"
+              "product": {
+                "text-align": "right",
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0",
+                  "margin-bottom": "50px"
+                }
+              },
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                "padding-left": "8px",
+                "padding-right": "8px",
+                "display": "block",
+                "margin": "0 auto",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "variantTitle": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "title": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal",
+                "color": "#808080"
+              },
+              "description": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "price": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "compareAt": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal",
+                "color": "#4c4c4c",
+                "font-size": "12px"
               }
-            },
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              "display": "block",
-              "margin": "0 auto",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "variantTitle": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "title": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal",
-              "color": "#808080"
-            },
-            "description": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "price": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "compareAt": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal",
-              "color": "#4c4c4c",
-              "font-size": "12px"
-            }
             }
           },
           "cart": {
             "contents": {
-            "button": true
+              "button": true
             },
             "styles": {
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              ":hover": {
-              "background-color": "#91bdcf"
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
               },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "footer": {
-              "background-color": "#ffffff"
-            }
+              "footer": {
+                "background-color": "#ffffff"
+              }
             }
           },
           "modalProduct": {
             "contents": {
-            "img": false,
-            "imgWithCarousel": true,
-            "variantTitle": false,
-            "buttonWithQuantity": true,
-            "button": false,
-            "quantity": false
+              "img": false,
+              "imgWithCarousel": true,
+              "variantTitle": false,
+              "buttonWithQuantity": true,
+              "button": false,
+              "quantity": false
             },
             "styles": {
-            "product": {
-              "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0px",
-              "margin-bottom": "0px"
+              "product": {
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0px",
+                  "margin-bottom": "0px"
+                }
+              },
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                "padding-left": "8px",
+                "padding-right": "8px",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "variantTitle": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "title": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "description": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "price": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "compareAt": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
               }
-            },
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "variantTitle": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "title": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "description": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "price": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "compareAt": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            }
             }
           },
           "toggle": {
             "styles": {
-            "toggle": {
-              "font-family": "Arial, sans-serif",
-              "background-color": "#a1d2e6",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            }
+              "toggle": {
+                "font-family": "Arial, sans-serif",
+                "background-color": "#a1d2e6",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              }
             }
           },
           "option": {
             "styles": {
-            "label": {
-              "font-family": "Arial, sans-serif"
-            },
-            "select": {
-              "font-family": "Arial, sans-serif"
-            }
+              "label": {
+                "font-family": "Arial, sans-serif"
+              },
+              "select": {
+                "font-family": "Arial, sans-serif"
+              }
             }
           },
           "productSet": {
             "styles": {
-            "products": {
-              "@media (min-width: 601px)": {
-              "margin-left": "-20px"
+              "products": {
+                "@media (min-width: 601px)": {
+                  "margin-left": "-20px"
+                }
               }
             }
-            }
           }
-          }
+        }
+              });
             });
-            });
           }
-          })();
-          /*]]>*/
-        </script>
-      <!--END DC-->
+        })();
+        /*]]>*/
+      </script>
+    <!--END CS DUO-->  
+    <!--Psoriasis Relief-->
+      <script type="text/javascript">
+        /*<![CDATA[*/
 
-      <!--Bodycream-->
-      <!--DELETE when body available
-        <script type="text/javascript">
-          /*<![CDATA[*/
-          (function () {
+        (function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
           if (window.ShopifyBuy) {
             if (window.ShopifyBuy.UI) {
-            ShopifyBuyInit();
+              ShopifyBuyInit();
             } else {
-            loadScript();
+              loadScript();
             }
           } else {
             loadScript();
@@ -687,193 +691,192 @@
 
           function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
-            domain: 'neriumskincare-products.myshopify.com',
-            apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
-            appId: '6',
+              domain: 'neriumskincare-products.myshopify.com',
+              apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
+              appId: '6',
             });
 
             ShopifyBuy.UI.onReady(client).then(function (ui) {
-            ui.createComponent('product', {
-              id: [11518862154],
-              node: document.getElementById('product-component-f6809364766'),
-              moneyFormat: '%24%7B%7Bamount%7D%7D',
-              options: {
+              ui.createComponent('product', {
+                id: [1375191367763],
+                node: document.getElementById('product-component-c41dd6e7d80'),
+                moneyFormat: '%24%7B%7Bamount%7D%7D',
+                options: {
           "product": {
             "variantId": "all",
             "width": "240px",
             "contents": {
-            "img": false,
-            "imgWithCarousel": false,
-            "title": false,
-            "variantTitle": false,
-            "price": false,
-            "description": false,
-            "buttonWithQuantity": false,
-            "quantity": false
+              "img": false,
+              "imgWithCarousel": false,
+              "title": false,
+              "variantTitle": false,
+              "price": false,
+              "description": false,
+              "buttonWithQuantity": false,
+              "quantity": false
             },
             "styles": {
-            "product": {
-              "text-align": "left",
-              "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0",
-              "margin-bottom": "50px"
+              "product": {
+                "text-align": "right",
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0",
+                  "margin-bottom": "50px"
+                }
+              },
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                "padding-left": "8px",
+                "padding-right": "8px",
+                "display": "block",
+                "margin": "0 auto",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "variantTitle": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "title": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal",
+                "color": "#808080"
+              },
+              "description": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "price": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "compareAt": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal",
+                "color": "#4c4c4c",
+                "font-size": "12px"
               }
-            },
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              "display": "block",
-              "margin": "0 auto",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "variantTitle": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "title": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal",
-              "color": "#808080"
-            },
-            "description": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "price": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "compareAt": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal",
-              "color": "#4c4c4c",
-              "font-size": "12px"
-            }
             }
           },
           "cart": {
             "contents": {
-            "button": true
+              "button": true
             },
             "styles": {
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              ":hover": {
-              "background-color": "#91bdcf"
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
               },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "footer": {
-              "background-color": "#ffffff"
-            }
+              "footer": {
+                "background-color": "#ffffff"
+              }
             }
           },
           "modalProduct": {
             "contents": {
-            "img": false,
-            "imgWithCarousel": true,
-            "variantTitle": false,
-            "buttonWithQuantity": true,
-            "button": false,
-            "quantity": false
+              "img": false,
+              "imgWithCarousel": true,
+              "variantTitle": false,
+              "buttonWithQuantity": true,
+              "button": false,
+              "quantity": false
             },
             "styles": {
-            "product": {
-              "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0px",
-              "margin-bottom": "0px"
+              "product": {
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0px",
+                  "margin-bottom": "0px"
+                }
+              },
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                "padding-left": "8px",
+                "padding-right": "8px",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "variantTitle": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "title": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "description": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "price": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "compareAt": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
               }
-            },
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "variantTitle": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "title": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "description": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "price": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "compareAt": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            }
             }
           },
           "toggle": {
             "styles": {
-            "toggle": {
-              "font-family": "Arial, sans-serif",
-              "background-color": "#a1d2e6",
-              ":hover": {
-              "background-color": "#91bdcf"
-              },
-              ":focus": {
-              "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            }
+              "toggle": {
+                "font-family": "Arial, sans-serif",
+                "background-color": "#a1d2e6",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              }
             }
           },
           "option": {
             "styles": {
-            "label": {
-              "font-family": "Arial, sans-serif"
-            },
-            "select": {
-              "font-family": "Arial, sans-serif"
-            }
+              "label": {
+                "font-family": "Arial, sans-serif"
+              },
+              "select": {
+                "font-family": "Arial, sans-serif"
+              }
             }
           },
           "productSet": {
             "styles": {
-            "products": {
-              "@media (min-width: 601px)": {
-              "margin-left": "-20px"
+              "products": {
+                "@media (min-width: 601px)": {
+                  "margin-left": "-20px"
+                }
               }
             }
-            }
           }
-          }
+        }
+              });
             });
-            });
           }
-          })();
-          /*]]>*/
-        </script>  
-      END-->
-
+        })();
+        /*]]>*/
+      </script>
+    <!--END PS RELIEF-->
 <?php include('homeFooter.php'); ?>

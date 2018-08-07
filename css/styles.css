@@ -556,6 +556,11 @@
 .top-left p {
 max-width:50vw;
 }
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
 /*END images with...*/
 
 /*Various MISC Features */

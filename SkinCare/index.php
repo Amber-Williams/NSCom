@@ -21,30 +21,36 @@
 
         <div class="shopifyButton-container mb-4"> 
 
-            <div id='product-component-8683e9dba0a'>
+            <div>
               <a href="../Advanced-Night/">
-                <img src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
-                <p class="p-index">Nerium Advanced Nightly Face Treatment</p>
+                <img src="../img/Updated-Advanced-Packaging/adv-nc-cs.jpg" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
+                <p class="p-index">Nerium Advanced Nightly<br/>Face Treatment</p>
                 <p class="p-index">$59.95</p>
               </a>
+              <div class="coming-soon-btn-container">
+                <button class="coming-soon-btn">COMING SOON USA 2019</button>
+              </div>
             </div>
 
-            <div id='product-component-c857cfc0b09'>
+            <div>
               <a href="../Advanced-Day/">
-                <img src="../img/Updated-Advanced-Packaging/NSC.ADV.DC.BottleAndCarton.HR.CMYK.V1.png" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
+                <img src="../img/Updated-Advanced-Packaging/adv-dc-cs.jpg" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Daily <br/>Face Cream</p>
                 <p class="p-index">$49.95</p>
               </a>
+              <div class="coming-soon-btn-container">
+                <button class="coming-soon-btn">COMING SOON USA 2019</button>
+              </div>
             </div>
 
-            <div id='product-component-f6809364766!!DELETEWHENAVAILABLE'>
+            <div>
               <a href="../Advanced-Body">
-                <img src="../img/Updated-Advanced-Packaging/NSC.NADA.BF.Tube.Front.200ml.LR.RGB.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
+                <img src="../img/Updated-Advanced-Packaging/adv-body-cs.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NeriumFirm Advanced <br/>Firming Body Cream</p>
                 <p class="p-index">$??</p>
               </a>
               <div class="coming-soon-btn-container">
-                <button class="coming-soon-btn">COMING SOON</button>
+                <button class="coming-soon-btn">COMING SOON USA 2019</button>
               </div>
             </div>
 
@@ -54,7 +60,7 @@
   </div>
 
   <!--Scrips Per Shopify Buy Button-->
-      <!--Night cream-->
+      <!--Night cream
       <script type="text/javascript">
           /*<![CDATA[*/
 
@@ -267,8 +273,8 @@
           })();
           /*]]>*/
         </script>
-      <!--END NC-->
-      <!--Day cream-->
+      END NC-->
+      <!--Day cream
         <script type="text/javascript">
           /*<![CDATA[*/
 
@@ -481,7 +487,7 @@
           })();
           /*]]>*/
         </script>
-      <!--END DC-->
+      END DC-->
 
       <!--Bodycream-->
       <!--DELETE when body available
