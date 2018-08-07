@@ -508,6 +508,11 @@
     <!--LEADERSHIP SECTION-->
     <div id="leadership-text" class="row">
         <div class="col-12">
+            <h1>Scientific Advisory Board</h1>
+            <img src="../img2/board.jpg" alt="18 Various Doctors who lead our Scientific Advisory Board" width="100%"/>
+        </div>
+        <hr/>
+        <div class="col-12">
             <h1>Leadership</h1>
             <div class="row">
                 <div class="col-lg-2 mb-2">
@@ -659,7 +664,7 @@
                 <div class="row">
                     <div class="col-12"> 
                         <h3 class="h3-indi"> Our Story</h3>
-                        <p>Nerium SkinCare, Inc. is dedicated to offering health and beauty solutions that are based on scientific research and actual customer success. Our natural products are founded on the result of years of continuing research at leading medical institutions, using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and developed a complete line of products that harnesses the unique and effective properties of the Nerium oleander plant.<br/>
+                        <p class="p-indi">Nerium SkinCare, Inc. is dedicated to offering health and beauty solutions that are based on scientific research and actual customer success. Our natural products are founded on the result of years of continuing research at leading medical institutions, using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and developed a complete line of products that harnesses the unique and effective properties of the Nerium oleander plant.<br/>
                         <br/>
                         Our vision is to consistently bring “first-in-class” products to market based on our firm belief in three tenets:
                         <br/>
@@ -674,7 +679,7 @@
 
                     <div class="col-12">
                         <h3 class="h3-indi">History</h3>
-                        <p>We observed skin healing properties when researching the Nerium oleander plant in our labs. The history of Nerium SkinCare begins with groundbreaking research conducted by Dr. Robert Newman during his time with our parent company, Nerium Biotechnology. Dr. Newman’s research with natural botanical compounds led to the rediscovery, identification, isolation, and further development of core ingredients from the Nerium oleander plant. Continuing research and utilization of proprietary technologies has provided us the opportunity to develop a series of products that you know today as the NeriumAD® line of skin care.<br/>
+                        <p class="p-indi">We observed skin healing properties when researching the Nerium oleander plant in our labs. The history of Nerium SkinCare begins with groundbreaking research conducted by Dr. Robert Newman during his time with our parent company, Nerium Biotechnology. Dr. Newman’s research with natural botanical compounds led to the rediscovery, identification, isolation, and further development of core ingredients from the Nerium oleander plant. Continuing research and utilization of proprietary technologies has provided us the opportunity to develop a series of products that you know today as the NeriumAD® line of skin care.<br/>
                         Historical use of the Nerium oleander plant has been reported in ancient texts and folklore for more than 1,500 years. In fact, the Nerium oleander plant has been used traditionally as folk remedies for a wide variety of conditions. Over the last decade, there has been a considerable increase in the number of peer-reviewed studies in science journals that substantiate the properties of the Nerium oleander plant and its benefits.</p>
                         <img src="../img/about-us/AboutUsHistory-B.jpg" width="100%"/>
                     </div>
@@ -696,29 +701,29 @@
                 <!--PRODUCTS TEXT SECTION-->
                 <div class="row">
                     <div class="col-12"> 
-                        <h1> Products</h1>
-                        <p>Nerium SkinCare, Inc. is dedicated to offering solutions that are based on scientific research and actual customer success. Our natural products offered to the consumer are founded on the continuing research at leading medical institutions using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and is developing a complete line of products that harnesses Nerium oleander's unique and effective properties.
+                        <h3 class="h3-indi">Products</h3>
+                        <p class="p-indi">Nerium SkinCare, Inc. is dedicated to offering solutions that are based on scientific research and actual customer success. Our natural products offered to the consumer are founded on the continuing research at leading medical institutions using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and is developing a complete line of products that harnesses Nerium oleander's unique and effective properties.
                         <br/>
                         Utilization of the Patented Nerium Oleander Extract ingredient and additional proprietary ingredients provides the opportunity for Nerium SkinCare to formulate and develop a complete line of unique "first in class" skin care cosmetic and US FDA OTC topical drug products. Additional products are constantly under development.</p>
                     </div>
                     <hr/>
                     <div class="col-12">
-                        <h1>Quality</h1>
-                        <p>As a commitment to quality, Nerium SkinCare does not compromise on what goes into our products. The quality of Nerium Skincare's products is a direct result of the investment into the people, scientific research, new technology development, natural farming methods, biomass processing, cGMP production facilities, and product safety testing.
+                        <h3 class="h3-indi">Quality</h3>
+                        <p class="p-indi">As a commitment to quality, Nerium SkinCare does not compromise on what goes into our products. The quality of Nerium Skincare's products is a direct result of the investment into the people, scientific research, new technology development, natural farming methods, biomass processing, cGMP production facilities, and product safety testing.
                         <br/>
                         The Nerium FarmsTM is the largest Nerium oleander operation of its kind in the world. Using environmentally responsible and sustainable techniques, these naturally grown Nerium oleander plants, provide the raw material that make Nerium SkinCare’s products revolutionary. Abiding by strict protocols, the Nerium oleander farm provides a dedicated and renewable biomass resource that is reserved exclusively for Nerium SkinCare.</p>
                         <img src="../img/about-us/533x652-Quality-Image-B.jpg" width="100%"/>
                     </div>
                     <div class="col-12">
-                        <p>Considering that there were no historical accounts of Nerium oleander farming, it was imperative for Nerium SkinCare to develop our own farming operations in order to broaden and commercialize access to the plant. Initially, transitioning of the plant from the nursery environment into a commercial environment involved the establishment of a research entity that allowed scientists to understand the growth patterns properly. Over time, as the physiology of Nerium oleander became more evident, planting and irrigation techniques, along with harvesting and planting equipment, had to be newly developed. Nerium SkinCare is proud to say that we built our current farming operations from the ground up. 
+                        <p class="p-indi">Considering that there were no historical accounts of Nerium oleander farming, it was imperative for Nerium SkinCare to develop our own farming operations in order to broaden and commercialize access to the plant. Initially, transitioning of the plant from the nursery environment into a commercial environment involved the establishment of a research entity that allowed scientists to understand the growth patterns properly. Over time, as the physiology of Nerium oleander became more evident, planting and irrigation techniques, along with harvesting and planting equipment, had to be newly developed. Nerium SkinCare is proud to say that we built our current farming operations from the ground up. 
                         <br/>
                         After a decade of experience in Nerium oleander commercial farming, Nerium SkinCare continues to focus on new technology and research that will allow us to enhance our farming operations. We are very proud of our all natural approach and adherence to strict biomedical field protocols. We continually seek ways to increase land utilization and field plant capacity through the development of improved planting and irrigations</p>
                         <img src="../img/about-us/573x649-Quality-Image-A1.jpg" width="100%"/>
                     </div>
                     <hr/>
                     <div class="col-12">
-                        <h1>Safety</h1>
-                        <p>Nerium SkinCare formulators, developers and researchers are dedicated to offering new unique skincare solutions that are based on review of ingredient use experience, specific in vitro product testing, clinical research, pre/post consumer testing, scientific and the actual customer use reports and success. We strongly believe in sustainable, honest, health focused practices, and maximum disclosure of safety information. 
+                        <h3 class="h3-indi">Safety</h3>
+                        <p class="p-indi">Nerium SkinCare formulators, developers and researchers are dedicated to offering new unique skincare solutions that are based on review of ingredient use experience, specific in vitro product testing, clinical research, pre/post consumer testing, scientific and the actual customer use reports and success. We strongly believe in sustainable, honest, health focused practices, and maximum disclosure of safety information. 
                         <br/>
                         Nerium SkinCare is constantly seeking new ways to educate our customers about our ingredients and products, how they were designed to work, and how to use them properly.
                         Nerium SkinCare makes every effort to ensure our products are safe and effective. If you have any specific health related questions, please consult your healthcare provider, and/or contact: 
@@ -742,8 +747,8 @@
                 <!-- FARM TEXT SECTION-->
                 <div class="row">
                     <div class="col-12">
-                        <h1>Nerium Oleander Farm</h1>
-                        <p>The Nerium Farms™ is the largest Nerium oleander operation of its kind in the world. With over 100,000 Nerium oleander plants, we employ natural and organic farming practices and our orchard helps to minimize our carbon footprint by eliminating greenhouse gases throughout the year.
+                        <h3 class="h3-indi">Nerium Oleander Farm</h3>
+                        <p class="p-indi">The Nerium Farms™ is the largest Nerium oleander operation of its kind in the world. With over 100,000 Nerium oleander plants, we employ natural and organic farming practices and our orchard helps to minimize our carbon footprint by eliminating greenhouse gases throughout the year.
                         <br/><br/>
                         Our science begins at the farm where we use the latest horticulture techniques for watering, farming, and harvesting. For example, by also incorporating the use of the latest analytical instruments, we are better able to determine the optimal time for harvesting. Similar analytic processes are employed in other aspects of farming. From beginning to end, from farm to manufacturer to consumers, Nerium SkinCare is dedicated to providing real science and real results.
                         <br/><br/>
@@ -768,24 +773,24 @@
                 <!--PHILOSOPHY TEXT SECTION-->
                 <div class="row">
                     <div class="col-12">
-                        <h1>Philosophy</h1>
-                        <p>Our vision is to consistently bring “first-in-class” products to market based on our firm belief in three tenets: Core Science, Real Results, and Continuous Advancement.</p>
+                        <h3 class="h3-indi">Philosophy</h3>
+                        <p class="p-indi">Our vision is to consistently bring “first-in-class” products to market based on our firm belief in three tenets: Core Science, Real Results, and Continuous Advancement.</p>
                         <div class="move-center">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/9MbR-pBu0SI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
                     <hr/>
                     <div class="col-12">
-                        <h1>Core Science</h1>
-                        <p>Nerium SkinCare, Inc. is dedicated to offering skin care solutions based on scientific research and validation. We are proud that our products were developed based on the research conducted at leading medical institutions. Utilizing patented technology, Nerium SkinCare now is effective,result oriented skincare able to develop the novel Nerium Aloe extract which has been the core ingredient in our coveted product line.
+                        <h3 class="h3-indi">Core Science</h3>
+                        <p class="p-indi">Nerium SkinCare, Inc. is dedicated to offering skin care solutions based on scientific research and validation. We are proud that our products were developed based on the research conducted at leading medical institutions. Utilizing patented technology, Nerium SkinCare now is effective,result oriented skincare able to develop the novel Nerium Aloe extract which has been the core ingredient in our coveted product line.
                         <br/>
                         Our Science team is dedicated to continuous ongoing research of the Nerium oleander plant, and our products are founded on the commitment to further develop new ingredient technology. This has provided Nerium SkinCare with the unique opportunity to formulate and develop for the consumer an innovative and high-quality line (from farm to consumers) natural skin care products.</p>
                         <img src="../img/about-us/529x677-Core-Science.jpg" width="100%"/>
                     </div>
                     <hr/>
                     <div class="col-12">
-                        <h1>Real Result</h1>
-                        <p>Nerium SkinCare, Inc. stands behind the results of our flagship products, NeriumAD® Age-Defying Night Cream and NeriumAD® Age-Defying Day Cream, and our exclusive, patented NAE-8® extract. No other skin care line can produce similar real results. <br/>
+                        <h3 class="h3-indi">Real Result</h3>
+                        <p class="p-indi">Nerium SkinCare, Inc. stands behind the results of our flagship products, NeriumAD® Age-Defying Night Cream and NeriumAD® Age-Defying Day Cream, and our exclusive, patented NAE-8® extract. No other skin care line can produce similar real results. <br/>
                         NeriumAD® Age-Defying products dramatically reduce the appearance of:</p>
                         <ul>
                             <li>Fine lines and wrinkles </li>
@@ -797,14 +802,14 @@
                         <img src="../img/about-us/529x677-Real-Results.jpg" width="100%"/>
                     </div>
                     <div class="col-12">
-                        <p>Independently conducted clinical trials show:</p>
+                        <p class="p-indi">Independently conducted clinical trials show:</p>
                         <ul>
                             <li>93% of participants had a significant increase in skin moisture.</li>
                             <li>86% of participants had an improvement in uneven skin texture.</li>
                             <li>86% of participants noted a reduction in pore size.</li>
                         </ul>
                         <img src="../img/about-us/573x576-Real-Promises.jpg" width="100%"/>
-                        <p>Our patented extract, derived from a proprietary formulation consistency of Nerium oleander and Aloe vera is proprietary and only found in Nerium SkinCare products. This powerful ingredient works in three key ways:</p>
+                        <p class="p-indi">Our patented extract, derived from a proprietary formulation consistency of Nerium oleander and Aloe vera is proprietary and only found in Nerium SkinCare products. This powerful ingredient works in three key ways:</p>
                         <ul>
                             <li>By targeting not just the signs of aging but also the underlying cause.</li>
                             <li>By delivering powerful antioxidants to target free radical damage.</li>
@@ -813,14 +818,14 @@
                     </div>
                     <hr/>
                     <div class="col-12">
-                        <h1>Continuous Advancement</h1>
+                        <h3 class="h3-indi">Continuous Advancement</h3>
                         <img class="mb-3" src="../img/about-us/1152x560-Continuous-Advancement.jpg" width="100%"/>
-                        <p>ADVANCEMENT</p>
-                        <p>Nerium SkinCare, Inc. is committed to advancing skin care science through clinical research. We will never stop innovating or waiver in our promise to deliver “best-in-class” products to the consumer.</p>
-                        <p>OUR TECHNOLOGY</p>
-                        <p>Nerium SkinCare created the patented technology that is used to develop our line of skin care products. This technology utilizes pure liquid Aloe vera as the medium to extract the natural components of the Nerium oleander plant in a way that preserves the unique and beneficial properties of both plants.</p>
-                        <p>PRODUCT DEVELOPMENT</p>
-                        <p>Initial product development included our flagship products, NeriumAD® Age-Defying Night Cream, NeriumAD® Age-Defying Day Cream, and NeriumAD® Age-Defying Firming Body Contour Cream. Additional products are under development including research into a future line of over-the-counter products called NeriumRx®.</p>
+                        <p class="p-indi">ADVANCEMENT</p>
+                        <p class="p-indi">Nerium SkinCare, Inc. is committed to advancing skin care science through clinical research. We will never stop innovating or waiver in our promise to deliver “best-in-class” products to the consumer.</p>
+                        <p class="p-indi">OUR TECHNOLOGY</p>
+                        <p class="p-indi">Nerium SkinCare created the patented technology that is used to develop our line of skin care products. This technology utilizes pure liquid Aloe vera as the medium to extract the natural components of the Nerium oleander plant in a way that preserves the unique and beneficial properties of both plants.</p>
+                        <p class="p-indi">PRODUCT DEVELOPMENT</p>
+                        <p class="p-indi">Initial product development included our flagship products, NeriumAD® Age-Defying Night Cream, NeriumAD® Age-Defying Day Cream, and NeriumAD® Age-Defying Firming Body Contour Cream. Additional products are under development including research into a future line of over-the-counter products called NeriumRx®.</p>
                     </div>
                 </div>
                 
@@ -840,7 +845,7 @@
                 <!-- ING TEXT SECTION-->
                 <div class="row">
                     <div class="col-12">
-                        <h1>Ingredients</h1>
+                        <h3 class="h3-indi">Ingredients</h3>
                         <div class="col-sm-12">
                             <div class="grid-wrapper">
 
@@ -1155,14 +1160,21 @@
                 <!-- LEADERSHIP TEXT SECTION-->
                 <div class="row">
                     <div class="col-12">
-                        <h1>Leadership</h1>
+                        <h3 class="h3-indi">Scientific Advisory Board</h3>
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="../img2/SAB-mobile.png" alt="18 Various Doctors who lead our Scientific Advisory Board" width="100%"/>
+                            </div>
+                        </div>
+                        <hr/>
+                        <h3 class="h3-indi">Leadership</h3>
                         <div class="row">
                             <div class="col-lg-2 mb-2">
                                 <img src="../img/headshots/knockeD.jpg" alt="Dennis R. Knocke"/>
                             </div>
                             <div class="col-lg-10">
                                 <h4>Dennis R. Knocke, Chief Executive Officer and Chairman of the Board of Directors</h4>  
-                                <p>Mr. Knocke attended Sam Houston State University in Huntsville, Texas. He has successfully founded and operated several start-up 
+                                <p class="p-indi">Mr. Knocke attended Sam Houston State University in Huntsville, Texas. He has successfully founded and operated several start-up 
                                 healthcare companies that were acquired by national and international business entities listed on the New York and London stock exchanges. Mr. Knocke was
                                 previously President of Bexar Credentials Verification, Inc., a start-up software technology company whose principals included the Bexar County Medical 
                                 Society, the Texas Medical Liability Trust, and Florida Physicians Insurance Company.</p>
@@ -1174,7 +1186,7 @@
                             </div>
                             <div class="col-lg-10">
                                 <h4>Joseph B. Nester, Executive Vice President and Sec.Treasurer</h4>
-                                <p>Mr. Nester graduated from the University of Texas at Austin with a BBA in General Business. He has over 23 years experience in the financial
+                                <p class="p-indi">Mr. Nester graduated from the University of Texas at Austin with a BBA in General Business. He has over 23 years experience in the financial
                                 service industry as well as four years experience with a start-up pharmaceutical company, where he was initially the Secretary Treasurer and after four months
                                 was named the President. During this time, he led Anvirzel™ in a successful Phase I clinical study, implemented a Compassionate Use Investigational New Drug 
                                 (CUIND) program, and had direct involvement with the FDA, among other regulatory agencies.</p>
@@ -1186,7 +1198,7 @@
                             </div>      
                             <div class="col-lg-10">
                                 <h4>Lori Jones, Chief Financial Officer</h4>
-                                <p>Ms. Jones has more than 25 years’ experience in finance and accounting with both private and publicly held entities.  She has served as 
+                                <p class="p-indi">Ms. Jones has more than 25 years’ experience in finance and accounting with both private and publicly held entities.  She has served as 
                                 Chief Financial Officer and other executive level positions in various industries including biotech, manufacturing, and technology.   Those position included,
                                 in part, service as Vice President of Finance of CeloNova BioSciences, Inc, a global medical device manufacturer, CFO of Analytical Surveys, Inc., a publicly 
                                 traded geo-spatial mapping company, and was a partner in Tatum CFO, LLP.   Ms. Jones is a CPA and holds an MBA from the University of Texas at San Antonio. </p>
@@ -1194,7 +1206,7 @@
                         </div>
 
                             <h4 class="mt-3">Peter A. Leininger, M.D, Director</h4>
-                            <p>Dr. Leininger received his medical degree from Indiana University. Upon graduation, he joined the U.S. Army as an intern and graduated as a Urologist from the Walter 
+                            <p class="p-indi">Dr. Leininger received his medical degree from Indiana University. Upon graduation, he joined the U.S. Army as an intern and graduated as a Urologist from the Walter 
                             Reed Army Medical Center. He served as Staff Urologist at Ft. Carson, Colorado, after which he entered private practice. In 1978, he joined his brother James R. 
                             Leininger, M. D. at Kinetic Concepts, Inc. (KCI), a new medical products company in San Antonio, Texas. KCI became internationally recognized for innovation in 
                             medical specialty beds and related products, eventually becoming an overwhelming success leading up to an IPO and sale of the company in 1998. Dr. Leininger’s 
@@ -1205,7 +1217,7 @@
                             various other business and real estate partnerships.</p>
                         
                             <h4>Michael J. Burke, Director</h4>
-                            <p>Mr. Michael J. Burke’s education includes a Bachelor’s degree in Chemistry from State University of New York and a Master’s degree in Chemistry from Union College 
+                            <p class="p-indi">Mr. Michael J. Burke’s education includes a Bachelor’s degree in Chemistry from State University of New York and a Master’s degree in Chemistry from Union College 
                             in Schenectady, New York. He began his career at Sterling Drug in 1969 and served in various management roles worldwide. In 1985 he returned to corporate as VP of 
                             MFG. with responsibility for Sterling’s 60+ manufacturing facilities. As part of a corporate development plan in 1992 he was named General Manager of Sterling Drug’s
                             regional office in Hong Kong with responsibilities for sales, marketing and an entry strategy into China. After the sale of Sterling Drug in 1995, Mr. Burke moved 
@@ -1214,14 +1226,14 @@
                             fabrication company located in San Antonio, Texas.</p>
                         
                             <h4>Gustavo Ulloa, Jr., Director</h4>
-                            <p>Mr. Ulloa is General Manager and Director for Laboratorios Francelia, a pharmaceutical laboratory and manufacturing facility located in Tegucigalpa, Honduras. The 
+                            <p class="p-indi">Mr. Ulloa is General Manager and Director for Laboratorios Francelia, a pharmaceutical laboratory and manufacturing facility located in Tegucigalpa, Honduras. The 
                             GMP clean room of Nerium is located inside this facility. He is also Country Sales Manager and Director for Distribuidora Francelia, an import and distribution firm 
                             focusing on pharmaceuticals, disposables, hospital equipment, and related items. Mr. Ulloa attended the University of Miami where he studied Industrial Engineering. In 
                             his various capacities, he interacts with governmental agencies and private entities throughout Central America. Mr. Ulloa is a member of various pharmaceutical trade 
                             and producers organizations. He is presently involved in free trade negotiations related to pharmaceuticals between various Central American countries.</p>
                         
                             <h4> Richard Boxer, Director</h4>
-                            <p>Mr. Boxer holds a B.A., from Queens University, Kingston, an M.B.A from York University, Toronto and is a Chartered Accountant. His career began with Clarkson
+                            <p class="p-indi">Mr. Boxer holds a B.A., from Queens University, Kingston, an M.B.A from York University, Toronto and is a Chartered Accountant. His career began with Clarkson
                             Gordon (now Ernst &amp; Young) and moved to the private business sector. During his business career he served as President of Waldec of Canada (a manufacturing 
                             company), acted as financial agent in a variety of equity transactions, founded and started a venture capital fund specializing in bridge loans, and has 
                             functioned as an angel investor in numerous business sectors. Presently Mr. Boxer is involved as a Director and a shareholder in Falls Management Company, which
@@ -1229,14 +1241,14 @@
                             owned Canadian merchant bank. Buckingham and an associated company, Rosmir Capital is involved in equity and debt financing, either as an agent or as a principal.</p>
                         
                             <h4> Kerry Mitchell, Director</h4>
-                            <p>Ms. Mitchell completed the Executive Program at the Tuck School of Business at Dartmouth College in New Hampshire. She is a sought after speaker in Canada and 
+                            <p class="p-indi">Ms. Mitchell completed the Executive Program at the Tuck School of Business at Dartmouth College in New Hampshire. She is a sought after speaker in Canada and 
                             the U.S. on topics including Media, Leadership,Branding, Marketing to Women, and Women in Business. She provides extensive experience as an executive with a strong
                             record of building and transforming multi-platform media brands that include some of the most iconic names in Canadian publishing. Her extensive leadership experience
                             in brand development, marketing and sales, including in the cosmetics, fashion, and lifestyle industries, will be a great benefit to the development and marketing of
                             Nerium’s consumer products.</p>
                         
                             <h4>J. Peter Nettelfield, Honorary/Founding Director (2007-2012) </h4>
-                            <p>Mr. Nettelfield attended the University of Manitoba in Winnipeg and prior to graduation joined the prestigious Canadian investment banking firm of Wood Gundy 
+                            <p class="p-indi">Mr. Nettelfield attended the University of Manitoba in Winnipeg and prior to graduation joined the prestigious Canadian investment banking firm of Wood Gundy 
                             &amp; Company, Limited. During his time there he assisted in the initial development of the Canadian money market. After 10 years with Wood Gundy, Mr. Nettelfield’s
                             interest changed from fixed income securities to equities. He then joined Burns Bros. &amp; Denton, noted for its excellent research department. Mr. Nettelfield 
                             serviced major institutions and commercial accounts. While at Burns Bros., at the invitation of Sir John Templeton, he became a director of the Templeton Growth 
@@ -1245,17 +1257,18 @@
                             Mr. Nettelfield has been a resident of Texas for over 30 years, he is proud of his Canadian heritage and has retained his Canadian citizenship.</p>
                             
                             <h4>John Christopher Counsel Wansbrough, Director (Retired 2016)</h4>
-                            <p>Mr. Wansbrough holds a B.A., from the University of Toronto, and is a Chartered Financial Analyst. His career began with the prestigious Canadian investment banking
+                            <p class="p-indi">Mr. Wansbrough holds a B.A., from the University of Toronto, and is a Chartered Financial Analyst. His career began with the prestigious Canadian investment banking
                             firm of Wood Gundy &amp; Company, Limited. After 7 years with Wood Gundy he joined National Trust Company Limited, were he served as President of National Trust Company
                             from 1977 to 1986, Vice Chairman from 1986 to 1991 and Lead Director through 1995. Mr. Wansbrough has also served as Chairman of the Board of OMERS Realty Corporation 
                             from 1989 to 1997, Chairman of the R.S. McLaughlin Foundation from 1994 to 2007, and currently serves as Chairman of Rogers Telecommunications Limited from 1997 to the
                             present. His service as a director to many additional business and community affiliations are too numerous to list.</p>
                         
                             <hr>
-                            <h1>Advisory Board</h1><br/>
+                            <h3 class="h3-indi">Advisory Board</h3>
+                            <br/>
                         
                             <h4>Robert A. Newman, Ph.D., Scientific Advisor</h4>
-                            <p>Dr. Newman obtained his M.S. and Ph.D. degrees in Pharmacology and Toxicology from the University of Connecticut and then served in postdoctoral positions at the 
+                            <p class="p-indi">Dr. Newman obtained his M.S. and Ph.D. degrees in Pharmacology and Toxicology from the University of Connecticut and then served in postdoctoral positions at the 
                             Medical School of the University of Georgia as well as the Department of Biochemistry at the University of Vermont. He served as a faculty member at the University of 
                             Vermont Medical School for seven years and then spent a sabbatical year at Stanford University performing research on immune targeted therapy. He has spent the last 24
                             years at the University of Texas M. D. Anderson Cancer Center in Houston, Texas where he served as the founder and Co-Director of the Pharmaceutical Development Center.
@@ -1263,7 +1276,7 @@
                             from M. D. Anderson, but remains actively involved in continuing research as Scientific Advisor to NBI.</p>
                         
                             <h4>Keith I. Block, M.D., Medical Advisor</h4>
-                            <p>Dr. Block is an internationally recognized integrative cancer-care specialist and visiting lecturer. As Medical Director of the Block Center for Integrative Cancer 
+                            <p class="p-indi">Dr. Block is an internationally recognized integrative cancer-care specialist and visiting lecturer. As Medical Director of the Block Center for Integrative Cancer 
                             Care in Evanston, Illinois, the Block Center is committed to caring for people with cancer and improving total wellness through the integration of research-based 
                             complementary therapies with innovative approaches to conventional medicine. Dr. Block is the Director of Integrative Medical Education and the Clinical Assistant 
                             Professor, Department of Medical Education for the College of Medicine, University of Illinois at Chicago. While too numerous to list all governmental, teaching, and
@@ -1272,13 +1285,13 @@
                             clinical knowledge of Anvirzel™ and its effects through his observations of patients receiving Anvirzel™ therapy.</p>
                         
                             <h4>Donald E. Baxter, M.D., International Medical Advisor</h4>
-                            <p>Dr. Baxter is an internationally renowned and board-certified orthopedic surgeon with a private practice in Houston, Texas. He has been a Clinical Professor of 
+                            <p class="p-indi">Dr. Baxter is an internationally renowned and board-certified orthopedic surgeon with a private practice in Houston, Texas. He has been a Clinical Professor of 
                             Orthopedic Surgery at both Baylor College of Medicine and the University of Texas Health Science Center. While too numerous to list here, Dr. Baxter is the author of
                             many papers and books. He is also an international and visiting lecturer. Additionally, Dr. Baxter is a past president and director of the Texas Neurofibromatosis 
                             Foundation. He brings first hand knowledge of Anvirzel ™ and its effects through his personal observations of family and friends receiving Anvirzel™ therapy.</p>
                         
                             <h4>Charles R. Hughes, Branding and Marketing Advisor</h4>
-                            <p>Mr. Hughes is the founder and presently operates Brand Rules, LLC, located in Severna Park, Maryland. Brand Rules is a consulting consortium that applies decades 
+                            <p class="p-indi">Mr. Hughes is the founder and presently operates Brand Rules, LLC, located in Severna Park, Maryland. Brand Rules is a consulting consortium that applies decades 
                             of experience to create, shape, and sustain successful brands. It guides clients in developing a differentiating market strategy, an engaged culture, and effective 
                             execution of product, marketing, and retail. Clients include Hyundai, Kia, Ford, and Zodiac as well as start-ups, not-for-profits, and marketing companies. Mr. Hughes 
                             was the founder, President, and CEO of Land Rover North America, BMW Group located in Lanham, Maryland. As Chief Executive Officer, he presided over a $1 billion, 

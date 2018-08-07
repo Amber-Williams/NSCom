@@ -1,27 +1,5 @@
 <?php include('homeHeader.php'); ?>
 
-    <style>
-        .img-text-center-left {
-            position: absolute;
-            top: 50%;
-            left: 5%;
-            transform: translate(0%, -50%);
-        }
-
-        .img-text-center-right {
-          position: absolute;
-          top: 50%;
-          right: 5%;
-          transform: translate(0%, -50%);
-        }
-
-        .img-text-centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
     <!--Slider/Carousel Start-->
     <!--DELETE IF SLIDER IS WANTED
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -146,7 +124,7 @@
           <a href="SkinCare/index.php">
             <button class="shop-btn-white">SHOP NOW</button>
           </a>
-          <p class="p-index white my-5">Launching in USA in 2019 <br/>Available in Mexico now!</p>
+          <p class="p-index white mt-5">Launching in USA in 2019 <br/>Available in Mexico now!</p>
         </div>
     </div>
 
