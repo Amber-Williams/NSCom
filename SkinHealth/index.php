@@ -1,7 +1,7 @@
 <?php include('../deepPageHeader.php'); ?>
 
   <div class="row">
-    <div class="col-12 img-container">
+    <div class="col-12 img-container px-0">
       <!--Mobile Banner-->
       <img src="../img/515x278-Therapy-Main-Banner-V1.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/>
       <!--Desktop banner-->
