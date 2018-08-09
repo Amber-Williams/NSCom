@@ -215,7 +215,7 @@
         var lgDesktopImg = "";
 
         function bannerInnerHTML(){ document.getElementById("bannerChangeHere").innerHTML = '<img src="../img/'+ mobileImg + '" class="move-center d-block d-sm-block d-md-none" width="100%"/><img src="../img/'+ desktopImg +'" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/><img src="../img/'+ lgDesktopImg +'" class="banner-container move-center d-none d-xl-block" width="100%"/>';
-        }
+        } 
 
         function bannerChange(num){
             if(num == 1){

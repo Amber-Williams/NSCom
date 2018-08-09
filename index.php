@@ -61,7 +61,7 @@
 
             <div id='product-component-96b5e16e7e8'>
               <a href="Therapy-Dermal/index.php">
-                <img src="img/TL-packaging-web/Therapy.Dermal.Bottle-SMALL2.jpg" alt="Dermal Pain Relief Therapy" height="300px" class="productImg-responsive"/>
+                <img src="img/TL-packaging-web/1800x2160-Dermal-Bottle.jpg" alt="Dermal Pain Relief Therapy" height="300px" class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Dermal Pain Relief <br/> &amp; Shingles Support</p>
                 <p class="p-index">$42.95</p>
               </a>
@@ -69,7 +69,7 @@
 
                 <div id='product-component-c9bdb7359c8'>
               <a href="Therapy-CSduo/index.php">
-                <img src="img/TL-packaging-web/Therapy.CS.LM.Dual.Group-BOTTLES-SMALL.jpg" alt="Cold Sore Dual Treatment" height="300px"class="productImg-responsive"/>
+                <img src="img/TL-packaging-web/1800x2160-Cold-Sore-Lip-Bottle-Shadow.jpg" alt="Cold Sore Dual Treatment" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Cold Sore Dual <br/>Treatment</p>
                 <p class="p-index">$29.95</p>
               </a>
@@ -77,7 +77,7 @@
 
               <div id='product-component-c41dd6e7d80'>
               <a href="Therapy-PS/index.php">
-                <img src="img/TL-packaging-web/Therapy.Psoriasis.bottle-SMALL2.jpg" alt="Psoriasis Relief Therapy" height="300px"class="productImg-responsive"/>
+                <img src="img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Shadow.jpg" alt="Psoriasis Relief Therapy" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Psoriasis Relief <br/>Therapy</p>
                 <p class="p-index">$39.95</p>
               </a>
@@ -99,9 +99,9 @@
     <!--Call to action images-->
     <div class="container position-relative mb-4">
         <!--Dsktop size therapy line image-->
-        <img src="img/index/1152x584-Main-Page-Therapy-Line-V3.jpg" class="move-center d-none d-md-block d-lg-block" alt="NeriumRX Therapy Line Collection" width="100%">
+        <img src="img/index/1152x584-Main-Page-Therapy-Line-V4.jpg" class="move-center d-none d-md-block d-lg-block" alt="NeriumRX Therapy Line Collection" width="100%">
         <!--Mobile size therapy line image-->
-        <img src="img/index/545x552-Main-Page-Therapy-Line-V3.png" class="move-center d-block d-sm-block d-md-none" alt="NeriumRX Therapy Line Collection" width="100%"/>
+        <img src="img/index/545x552-Main-Page-Therapy-Line-V4.png" class="move-center d-block d-sm-block d-md-none" alt="NeriumRX Therapy Line Collection" width="100%"/>
         
         <div class="img-text-center-right text-center">
           <h1>NERIUMRX THERAPY</h1>

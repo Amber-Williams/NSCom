@@ -3,16 +3,15 @@
   <div class="row">
     <div class="col-12 img-container px-0">
       <!--Mobile Banner-->
-      <img src="../img/515x278-Therapy-Main-Banner-V1.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/>
+      <img src="../img/515x278-Therapy-Main-Banner-V2.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/>
       <!--Desktop banner-->
-        <img src="../img/1150x310-Therapy-Main-Banner-V1.jpg" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/>
+        <img src="../img/1150x310-Therapy-Main-Banner-V4.jpg" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/>
       <!--Larger Screen Banner-->
-        <img src="../img/1150x310-Therapy-Main-Banner-V1.jpg" class="banner-container move-center d-none d-xl-block" width="100%"/>
+        <img src="../img/1150x310-Therapy-Main-Banner-V4.jpg" class="banner-container move-center d-none d-xl-block" width="100%"/>
     </div>
   </div>
 
-<div class="container mb-5">
-  <div class="container">
+  <div class="container  mb-5">
         <div class="row">
             <div class="col-12">
                 <h1 class="italiana text-center mt-5"> NERIUMRX THERAPY COLLECTION</h1>
@@ -23,7 +22,7 @@
 
           <div id='product-component-8b4b581f1d5'>
               <a href="../Therapy-PS/index.php">
-                <img src="../img/TL-packaging-web/Therapy.Psoriasis.Group-WithBox-SMALL.jpg" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
+                <img src="../img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Carton-Shadow.jpg" alt="Psoriasis Relief Therapy" height="300px" class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Psoriasis Relief <br/>Therapy</p>
                 <p class="p-index">$39.95</p>
               </a>
@@ -31,7 +30,7 @@
 
             <div id='product-component-2b4f706b88a'>
               <a href="../Therapy-CSduo/index.php">
-                <img src="../img/TL-packaging-web/Therapy.CS.LM.Dual.Group-SMALL.jpg" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
+                <img src="../img/TL-packaging-web/1800x2160-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg" alt="Cold Sore Dual Treatment" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Cold Sore Dual <br/>Treatment</p>
                 <p class="p-index">$29.95</p>
               </a>
@@ -39,7 +38,7 @@
 
             <div id='product-component-65f42d102d9'>
               <a href="../Therapy-Dermal/index.php">
-                <img src="../img/TL-packaging-web/Therapy.Dermal.Group-SMALL.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
+                <img src="../img/TL-packaging-web/1800x2160-Dermal-Bottle-Carton-Shadow.jpg" alt="Dermal Pain Relief Therapy" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Dermal Pain Relief <br/> &amp; Shingles Support</p>
                 <p class="p-index">$42.95</p>
               </a>
@@ -48,7 +47,6 @@
         </div>
     </div>
   <!--END Container Div-->
-  </div>
 
   <!--Scrips Per Shopify Buy Button-->
   

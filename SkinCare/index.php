@@ -11,8 +11,7 @@
     </div>
   </div>
 
-<div class="container mb-5">
-  <div class="container">
+  <div class="container mb-5">
         <div class="row">
             <div class="col-12">
                 <h1 class="italiana text-center mt-5"> ADVANCED COLLECTION</h1>
@@ -57,7 +56,6 @@
         </div>
     </div>
   <!--END Container Div-->
-  </div>
 
   <!--Scrips Per Shopify Buy Button-->
       <!--Night cream
