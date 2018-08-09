@@ -19,12 +19,24 @@
     <div class="row mt-3 hide-xs">
       <div class="col-12">
             <ul class="navigation-menu  move-center">
-              <li class="move-center" id="story-nav" onclick="bannerChange(1)">Our Story</li>
-              <li class="move-center" id="products-nav" onclick="bannerChange(2)">Products</li>
-              <li class="move-center" id="farms-nav" onclick="bannerChange(3)">Farm</li>
-              <li class="move-center" id="philosophy-nav" onclick="bannerChange(4)">Philosophy</li>
-              <li class="move-center" id="ingredients-nav" onclick="bannerChange(5)">Ingredients</li>
-              <li class="move-center" id="leadership-nav" onclick="bannerChange(6)">Leadership</li>
+              <li class="move-center" id="story-nav" onclick="bannerChange(1)">
+                  <a href="">Our Story</a>
+                </li>
+              <li class="move-center" id="products-nav" onclick="bannerChange(2)">
+                  <a href="">Products</a>
+                </li>
+              <li class="move-center" id="farms-nav" onclick="bannerChange(3)">
+                    <a href="">Farm</a>
+                </li>
+              <li class="move-center" id="philosophy-nav" onclick="bannerChange(4)">
+                    <a href="">Philosophy</a>
+                </li>
+              <li class="move-center" id="ingredients-nav" onclick="bannerChange(5)">
+                    <a href="">Ingredients</a>
+                </li>
+              <li class="move-center" id="leadership-nav" onclick="bannerChange(6)">
+                    <a href="">Leadership</a>
+                </li>
             </ul>
       </div>
     </div>

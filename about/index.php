@@ -16,13 +16,13 @@
     <div class="row hide-md">
       <div class="col-12">
             <ul class="navigation-menu  move-center">
-              <li><a href="#story">Our Story</a></li>
-              <li><a href="#products">Products</a></li>
-              <li><a href="#farms">Farm</a></li>
-              <li><a href="#philosophy">Philosophy</a></li>
-              <li><a href="#ingredients">Ingredients</a></li>
-              <li><a href="#leadership">Leadership</a></li>
-              <li><a href="#contact">Contact Us</a></li>
+              <li class="text-center"><a href="#story">Our Story</a></li>
+              <li class="text-center"><a href="#products">Products</a></li>
+              <li class="text-center"><a href="#farms">Farm</a></li>
+              <li class="text-center"><a href="#philosophy">Philosophy</a></li>
+              <li class="text-center"><a href="#ingredients">Ingredients</a></li>
+              <li class="text-center"><a href="#leadership">Leadership</a></li>
+              <li class="text-center"><a href="#contact">Contact Us</a></li>
             </ul>
       </div>
     </div>
