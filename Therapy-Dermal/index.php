@@ -2,7 +2,7 @@
 
 <hr class="hr-indi"/>
 
-  <div class="container">
+  <div class="container mt-3">
 
     <div class="row">
 

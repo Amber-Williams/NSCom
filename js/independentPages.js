@@ -34,7 +34,7 @@
 
 
   function pictureChangeFirstPS() {
-    document.getElementById("indi-display-img").src="../img/TL-packaging-web/Therapy.Psoriasis.Group-WithBox-SMALL.jpg";
+    document.getElementById("indi-display-img").src="../img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Carton-Shadow.jpg";
     }
   function pictureChangeSecondPS() {
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Psoriasis-Smear.jpg";
@@ -45,7 +45,7 @@
 
 
   function pictureChangeFirstDermal() {
-    document.getElementById("indi-display-img").src="../img/TL-packaging-web/Therapy.Dermal.Group-SMALL.jpg";
+    document.getElementById("indi-display-img").src="../img/TL-packaging-web/1800x2160-Dermal-Bottle-Carton-Shadow.jpg";
     }
   function pictureChangeSecondDermal() {
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Dermal-Smear.jpg";
@@ -56,7 +56,7 @@
 
 
   function pictureChangeFirstCS() {
-    document.getElementById("indi-display-img").src="../img/TL-packaging-web/Therapy.CS.LM.Dual.Group-SMALL.jpg";
+    document.getElementById("indi-display-img").src="../img/TL-packaging-web/1800x2160-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg";
     }
   function pictureChangeSecondCS() {
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Cold-Sore-Lip-Smear.jpg";
