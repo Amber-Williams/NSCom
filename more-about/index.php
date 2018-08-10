@@ -562,15 +562,6 @@
                  and affiliated with various business and community organizations. He currently serves as Chairman and President of The Arbor Group, President of Peak Finance, LP and 
                  various other business and real estate partnerships.</p>
             
-                <h4>Michael J. Burke, Director</h4>
-                <p>Mr. Michael J. Burke’s education includes a Bachelor’s degree in Chemistry from State University of New York and a Master’s degree in Chemistry from Union College 
-                in Schenectady, New York. He began his career at Sterling Drug in 1969 and served in various management roles worldwide. In 1985 he returned to corporate as VP of 
-                MFG. with responsibility for Sterling’s 60+ manufacturing facilities. As part of a corporate development plan in 1992 he was named General Manager of Sterling Drug’s
-                regional office in Hong Kong with responsibilities for sales, marketing and an entry strategy into China. After the sale of Sterling Drug in 1995, Mr. Burke moved 
-                to Kinetic Concepts, Inc., first as head of Manufacturing and Quality and then as head of Research and Development. During this time, he participated in the sale of
-                the company to private investors and later took part in taking it public again. After retiring from KCI in 2007, Mr. Burke opened Burke and Company, a private metal 
-                fabrication company located in San Antonio, Texas.</p>
-            
                 <h4>Gustavo Ulloa, Jr., Director</h4>
                 <p>Mr. Ulloa is General Manager and Director for Laboratorios Francelia, a pharmaceutical laboratory and manufacturing facility located in Tegucigalpa, Honduras. The 
                 GMP clean room of Nerium is located inside this facility. He is also Country Sales Manager and Director for Distribuidora Francelia, an import and distribution firm 
@@ -1215,15 +1206,6 @@
                             Sales Manager, Medical Director, Board Member and Executive Vice President from 1978 to 1998. In recent years, he has been active in various entrepreneurial endeavors
                             and affiliated with various business and community organizations. He currently serves as Chairman and President of The Arbor Group, President of Peak Finance, LP and 
                             various other business and real estate partnerships.</p>
-                        
-                            <h4>Michael J. Burke, Director</h4>
-                            <p class="p-indi">Mr. Michael J. Burke’s education includes a Bachelor’s degree in Chemistry from State University of New York and a Master’s degree in Chemistry from Union College 
-                            in Schenectady, New York. He began his career at Sterling Drug in 1969 and served in various management roles worldwide. In 1985 he returned to corporate as VP of 
-                            MFG. with responsibility for Sterling’s 60+ manufacturing facilities. As part of a corporate development plan in 1992 he was named General Manager of Sterling Drug’s
-                            regional office in Hong Kong with responsibilities for sales, marketing and an entry strategy into China. After the sale of Sterling Drug in 1995, Mr. Burke moved 
-                            to Kinetic Concepts, Inc., first as head of Manufacturing and Quality and then as head of Research and Development. During this time, he participated in the sale of
-                            the company to private investors and later took part in taking it public again. After retiring from KCI in 2007, Mr. Burke opened Burke and Company, a private metal 
-                            fabrication company located in San Antonio, Texas.</p>
                         
                             <h4>Gustavo Ulloa, Jr., Director</h4>
                             <p class="p-indi">Mr. Ulloa is General Manager and Director for Laboratorios Francelia, a pharmaceutical laboratory and manufacturing facility located in Tegucigalpa, Honduras. The 
