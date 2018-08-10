@@ -107,7 +107,7 @@
             <button class="shop-btn m-2">Night Cream</button>  
           </a>
           <a href="../Advanced-Body/index.php">
-            <button class="shop-btn m-2">Body Cream</button>
+            <button class="shop-btn m-2">Body Firming Cream</button>
           </a>
         </div>
       </div>
@@ -171,7 +171,7 @@
                 <button class="shop-btn m-2">Night Cream</button>  
               </a>
               <a href="../Advanced-Body/index.php">
-                <button class="shop-btn m-2">Body Cream</button>
+                <button class="shop-btn m-2">Body Firming Cream</button>
               </a>
             </div>
           </div>
@@ -254,7 +254,7 @@
                   <button class="shop-btn m-2">Night Cream</button>  
                 </a>
                 <a href="../Advanced-Body/index.php">
-                  <button class="shop-btn m-2">Body Cream</button>
+                  <button class="shop-btn m-2">Body Firming Cream</button>
                 </a>
               </div>
             </div>
@@ -347,7 +347,7 @@
                     <button class="shop-btn m-2">Night Cream</button>  
                   </a>
                   <a href="../Advanced-Body/index.php">
-                    <button class="shop-btn m-2">Body Cream</button>
+                    <button class="shop-btn m-2">Body Firming Cream</button>
                   </a>
                 </div>
               </div>

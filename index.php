@@ -122,7 +122,7 @@
           <h1 class="white">NERIUM ADVANCED</h1>
           <p class="p-index white">Our exclusive beauty line <br/>formulated better then ever</p>
           <a href="SkinCare/index.php">
-            <button class="shop-btn-white">SHOP NOW</button>
+            <button class="shop-btn-white">VIEW MORE</button>
           </a>
           <p class="p-index white mt-5">Launching in USA in 2019 <br/>Available in Mexico now!</p>
         </div>

@@ -50,18 +50,19 @@
           <li>Enhanced Healing</li>
           <li>Anti-microbial Activity</li>
           <li>Immuno-regulating Support</li>
-          <li>Anti-viral Suppoer</li>
+          <li>Anti-viral Support</li>
 
           <br/>
         <h3 class="h3-indi">Daily Lip Maintance</h3>
           <li>Maintain Healthy Lips</li>
           <li>Immuno-regulating Support</li>
           <li>Delay Cold Sore Reoccurrence</li>
-          <li>Anti-viral Suppoer</li>
+          <li>Anti-viral Support</li>
           <li>Moisturizing</li>
           <li>Toning</li>
           <li>Smoothing</li>
           <li>Lip Protection</li>
+          <li>Protection from Environmental Stressors</li>
         </ul>
         <div class="move-center">
           <!--Shopify buy button-->

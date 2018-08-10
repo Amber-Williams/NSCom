@@ -45,11 +45,11 @@
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">
+          <li>Smooths Cellulite</li>
           <li>Firms and Tones</li>
           <li>Improves Elasticity</li>
           <li>Rejuvenates and Hydrates</li>
           <li>Supports Excercise Programs</li>
-          <li>Smooths Cellulite</li>
           <li>Stretch Marks</li>
           <li>Tightens</li>
         </ul>

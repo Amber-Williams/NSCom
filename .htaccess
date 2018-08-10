@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?neriumskincare\.com
+RewriteRule ^(.*)$ https://www.neriumskincare.com/$1 [R,L]

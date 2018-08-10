@@ -45,9 +45,8 @@
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">
-          <li>Shingles Symptoms Support</li>
-          <li>Damaged Skin Repair Spray</li>
-          <li>Effective Pain Reliever</li>
+          <li>Effective Shingles Pain Reliever</li>
+          <li>Shingles Damaged Skin Repair Spray</li>
           <li>Protective Barrier Against Skin Infection</li>
           <li>Enhanced Healing</li>
           <li>Analgesic Support</li>
