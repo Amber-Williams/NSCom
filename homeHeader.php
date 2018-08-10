@@ -15,7 +15,7 @@
   
   <body>
     <!--MOBILE NAV-->
-    <div class="m-nav mb-5">
+    <div class="m-nav">
     </div>
     <div class="pos-f-t m-nav fixed-top">
         <nav class="navbar navbar-light bg-light">
