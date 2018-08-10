@@ -41,7 +41,7 @@
       <div class="col-md-5">
         <h1 class="h1-indi text-uppercase">NeriumFirm Advanced Firming Body Cream</h1>
         <h4 class="h4-indi">200ml / 6.7 fl.oz</h4>
-        <h2 class="h2-indi mb-4">$120<h2>
+        <h2 class="h2-indi mb-4">$1110<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">

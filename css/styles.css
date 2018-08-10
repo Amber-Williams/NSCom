@@ -13,7 +13,10 @@
   }
 
   h1 {
-    font-family:italiana;
+    font-family: mrs-eaves-xl-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
   }
   .grey{
     color:#777777;
@@ -44,7 +47,10 @@
 }
 .ul-nav li a {
     display: block;
-    font-family: 'Italiana', serif;
+    font-family: mrs-eaves-xl-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
     font-size: 21px;
     color:#4D4D4D;
     padding: 10px 15px;
@@ -86,7 +92,10 @@
 }
 .ul-m-nav li a {
     display: block;
-    font-family: 'Italiana', serif;
+    font-family: mrs-eaves-xl-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
     font-size: 21px;
     color:#4D4D4D;
     padding: 10px 15px;
@@ -202,15 +211,24 @@
 /* Individual Product Page Stylings */
   .h1-indi{
     font-size: 2rem;
-    font-family: italiana;
+    font-family: mrs-eaves-xl-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
   }
   .h2-indi{
-    font-family: italiana;
     font-size: 1.7rem;
+    font-family: mrs-eaves-xl-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
   }
   .h3-indi{
-    font-family: italiana;
     font-size:1.2rem;
+    font-family: mrs-eaves-xl-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
   }
   .h4-indi{
     font-size: 0.9rem;
@@ -681,5 +699,11 @@ transform: translate(0%, -50%);
 }
 /* Fonts */
 .italiana {
+    /* replaced italiana font for another for legablity per DK 8/10/18
     font-family: 'Italiana', serif;
+    */
+    font-family: mrs-eaves-xl-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
