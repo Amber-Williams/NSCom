@@ -29,8 +29,10 @@
       </div>
     </div>
 
+    <!--Div to hide section during mobile sizing-->
+    <div class="hide-xs">
     <!--OUR STORY SECTION-->
-    <div id="story-text" class="row hide-xs">
+    <div id="story-text" class="row">
       <div class="col-12"> 
         <h1> Our Story</h1>
         <p>Nerium SkinCare, Inc. is dedicated to offering health and beauty solutions that are based on scientific research and actual customer success. Our natural products are founded on the result of years of continuing research at leading medical institutions, using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and developed a complete line of products that harnesses the unique and effective properties of the Nerium oleander plant.<br/>
@@ -59,6 +61,7 @@
     </div>
 
     <!--PRODUCTS SECTION-->
+    <div class="hide-xs"></div>
     <div id="products-text" class="row">
       <div class="col-12"> 
         <h1> Products</h1>
@@ -637,7 +640,7 @@
     </div>
     <hr/>
     <!--END DESK TOP SECTION-->
-
+    </div>
 
         <!--START Show on Mobile-->
         <div class="show-xs">

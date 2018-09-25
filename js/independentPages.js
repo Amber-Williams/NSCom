@@ -231,7 +231,7 @@
             } else if (num == 2){
                 mobileImg = "515x278-About-Us-Products-Banner.jpg";
                 desktopImg = "1366x500-About-Us-Products-Banner.jpg";
-                lgDesktopImg = "1150x310-About-Us-Products-Banner.jpg";
+                lgDesktopImg = "1150x310-About-Us-Products-Banner-V1.jpg";
                 bannerInnerHTML();
                 if(currentBanner != 2){
                     fadeOutIn();
