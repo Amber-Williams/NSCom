@@ -24,7 +24,7 @@
               <a href="../Advanced-Night/">
                 <img src="../img/Updated-Advanced-Packaging/adv-nc-cs.jpg" alt="Advanced Nightly Face Treatment" height="300px" class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Nightly<br/>Face Treatment</p>
-                <p class="p-index">$59.95</p>
+                <p class="p-index">$110</p>
               </a>
               <div class="coming-soon-btn-container">
                 <button class="coming-soon-btn">COMING SOON USA 2019</button>
@@ -35,7 +35,7 @@
               <a href="../Advanced-Day/">
                 <img src="../img/Updated-Advanced-Packaging/adv-dc-cs.jpg" alt="Advanced Daily Face Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">Nerium Advanced Daily <br/>Face Cream</p>
-                <p class="p-index">$49.95</p>
+                <p class="p-index">$90</p>
               </a>
               <div class="coming-soon-btn-container">
                 <button class="coming-soon-btn">COMING SOON USA 2019</button>
@@ -46,7 +46,7 @@
               <a href="../Advanced-Body">
                 <img src="../img/Updated-Advanced-Packaging/adv-body-cs.jpg" alt="Advanced Firming Cream" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NeriumFirm Advanced <br/>Firming Body Cream</p>
-                <p class="p-index">$??</p>
+                <p class="p-index">$110</p>
               </a>
               <div class="coming-soon-btn-container">
                 <button class="coming-soon-btn">COMING SOON USA 2019</button>

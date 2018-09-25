@@ -33,7 +33,7 @@
                         <li><a href="SkinHealth/">Health</a></li>
                         <li><a href="about/">About Us</a></li>
                         <li><a href="about/#contact">Contact Us</a></li>
-                        <li><a href="https://neriumhcp.com/">Healthcare Professional Site</a></li>
+                        <li><a href="https://neriumrx.com/" target="_blank">Healthcare Professional Site</a></li>
                       </ul>
                 </div>
             </div>
@@ -61,7 +61,7 @@
              <a href="about/#contact">Contact Us</a>
              </div>
             </div>
-            <a href="https://neriumhcp.com/">Healthcare Professional Site</a>
+            <a href="https://neriumrx.com/" target="_blank">Healthcare Professional Site</a>
           </div>
         </div>
       </div>
