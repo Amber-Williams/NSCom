@@ -41,7 +41,7 @@
       <div class="col-md-5">
         <h1 class="h1-indi text-uppercase">Nerium Advanced Daily Face Cream</h1>
         <h4 class="h4-indi">30ml / 1 fl.oz</h4>
-        <h2 class="h2-indi mb-4">$90<h2>
+        <h2 class="h2-indi mb-4">$49.95<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">
