@@ -62,8 +62,8 @@
     </div>
 
     <div id="farms" class="img-container my-5">
-      <img src="../img/about-us/1151x807-Nerium-Farms.jpg" alt="Nerium Farms Photo" style="width:100%; filter: opacity(40%);">
-      <div class="bottom-left">
+      <img src="../img/about-us/1151x807-Nerium-Farms-V4.jpg" alt="Nerium Farms Photo" width="100%"/>
+      <div class="aboutUs__farmText aboutUs__farmText--mobile">
         <h1>Nerium Farms</h1>
         <p>The Nerium Farms™ is the largest Nerium oleander operation of its kind in the world. With over 100,000 Nerium oleander plants, we employ natural and organic farming practices and our orchard helps to minimize our carbon footprint by eliminating greenhouse gases throughout the year.</p>
         <a class="" href="../more-about/"><p>Read more about our Nerium oleander Farm >></p></a>

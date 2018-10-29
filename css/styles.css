@@ -560,7 +560,6 @@
 .img-container {
     position: relative;
 }
-
 .top-left {
     position: absolute;
     top: 8px;
@@ -569,10 +568,18 @@
 .top-left p {
 max-width:50vw;
 }
-.bottom-left {
+.aboutUs__farmText {
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+@media (max-width:545px){
+  .aboutUs__farmText--mobile{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-top: -100px;
+  }
 }
 .img-text-center-left {
   position: absolute;

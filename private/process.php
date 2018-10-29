@@ -10,8 +10,8 @@ $phone = $_POST['phone'];
 $product = $_POST['product'];
 $message = $_POST['message'];
 $from = "<" . $email . ">";
-$to = "amber@neriumskincare.com";
-$subject = "NeriumSkinCare.com Web General Inquiry";
+$to = "info@neriumskincare.com , amber@neriumskincare.com , LizatNeriumBiotech@gmail.com";
+$subject = "NeriumSkinCarecom Web General Inquiry";
 $body =
 "First name: {$firstName}
 Last name: {$lastName}
