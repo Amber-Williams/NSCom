@@ -57,6 +57,7 @@
           <!--Shopify buy button-->
           <div id='product-component-65f42d102d9'></div>
         </div>
+      
       </div>
     </div>
     <!--Hide this section on mobile-->
@@ -95,6 +96,7 @@
         <br/><br/>
         FDA-registered, over-the counter (OTC), formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
         </p>
+        <iframe class="mt-3" width="100%" height="280px" src="https://www.youtube.com/embed/PdslajTB7PU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="col-md-5 bg-c-grey">
 
@@ -264,6 +266,7 @@
               <br/><br/>
               FDA-registered, over-the counter (OTC), formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
               </p>
+              <iframe class="mt-3" width="100%" height="280px" src="https://www.youtube.com/embed/PdslajTB7PU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-12 bg-c-grey">
 

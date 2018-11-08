@@ -1,4 +1,22 @@
+  //Script for Index Youtube Video Play on Click
+  $(document).ready(function(){
+  function changeIndexVideo() {
+    var urlk = document.getElementById('index__video').src;
+    if (urlk == 'https://www.neriumskincare.com/img/index/garyStoryStill-2.jpg') {
+        document.getElementById('index__video').src = 'img/index/garyStoryStill-1.jpg';
+    } else {
+        document.getElementById('index__video').src = 'img/index/garyStoryStill-2.jpg';
+    }
+  }
+  setInterval(changeIndexVideo, 1000);
+  document.getElementById('index__video').onclick = function() {
+    document.getElementById("index__video").classList.add('d-none');
+    document.getElementById("index__video--play").classList.remove('d-none');
+  }
+}
+  //END Script for Index Youtube Video Play on Click
 
+  
   //Script for changing Individual display images
   function pictureChangeFirstNC() {
     document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png";

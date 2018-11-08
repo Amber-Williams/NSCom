@@ -92,6 +92,12 @@
             <img src="img/index/slogan.jpg" alt="The Nerium Promise of Healthy Skin For Life" width="100%"/>
           </div>
         </div>
+        <div class="row">
+        <div class="col-12 mb-4 ">
+          <img id="index__video" src="img/index/garyStoryStill-2.jpg" alt="Play Button for Gary's Story youtube video" width="100%"/>
+          <iframe id="index__video--play" class="d-none index__video__sizing" width="100%" src="https://www.youtube.com/embed/PdslajTB7PU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
     </div>
 
     <!--Call to action images-->
