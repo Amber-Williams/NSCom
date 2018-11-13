@@ -1,5 +1,52 @@
 <?php include('../deepPageHeader.php'); ?>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+<script>
+//Script for changing indi-sub sections
+$(document).ready(function(){
+        $("#details").click(function(){
+            $("#details-text").show();
+            $("#recommended-text").hide();
+            $("#howTo-text").hide();
+            $("#ingredients-text").hide();
+            $("#details-bullet").show();
+            $("#recommended-bullet").hide();
+            $("#howTo-bullet").hide();
+            $("#ingredients-bullet").hide();
+        });
+        $("#recommended").click(function(){
+            $("#details-text").hide();
+            $("#recommended-text").show();
+            $("#howTo-text").hide();
+            $("#ingredients-text").hide();
+            $("#details-bullet").hide();
+            $("#recommended-bullet").show();
+            $("#howTo-bullet").hide();
+            $("#ingredients-bullet").hide();
+            
+        });
+        $("#howTo").click(function(){
+            $("#details-text").hide();
+            $("#recommended-text").hide();
+            $("#howTo-text").show();
+            $("#ingredients-text").hide();
+            $("#details-bullet").hide();
+            $("#recommended-bullet").hide();
+            $("#howTo-bullet").show();
+            $("#ingredients-bullet").hide();
+        });
+        $("#ingredients").click(function(){
+            $("#details-text").hide();
+            $("#recommended-text").hide();
+            $("#howTo-text").hide();
+            $("#ingredients-text").show();
+            $("#details-bullet").hide();
+            $("#recommended-bullet").hide();
+            $("#howTo-bullet").hide();
+            $("#ingredients-bullet").show();
+        });
+    });
+</script>
 <hr class="hr-indi"/>
 
   <div class="container mt-3">
@@ -266,7 +313,7 @@
               <br/><br/>
               FDA-registered, over-the counter (OTC), formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
               </p>
-              <iframe class="mt-3" width="100%" height="280px" src="https://www.youtube.com/embed/PdslajTB7PU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="mt-3" width="100%" height="280px" src="https://www.youtube.com/embed/ir8vIQdvj9M?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-12 bg-c-grey">
 

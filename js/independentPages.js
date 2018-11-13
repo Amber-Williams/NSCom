@@ -1,19 +1,23 @@
   //Script for Index Youtube Video Play on Click
-  $(document).ready(function(){
+  //https://www.neriumskincare.com/img/index/GarysStoryStillOrgPack1.jpg
+  //http://localhost:8888/NSCom/img/index/GarysStoryStillOrgPack1.jpg
+  
   function changeIndexVideo() {
     var urlk = document.getElementById('index__video').src;
-    if (urlk == 'https://www.neriumskincare.com/img/index/garyStoryStill-2.jpg') {
-        document.getElementById('index__video').src = 'img/index/garyStoryStill-1.jpg';
+    if (urlk == 'https://www.neriumskincare.com/img/index/GarysStoryStillOrgPack1.jpg') {
+        document.getElementById('index__video').src = 'img/index/GarysStoryStillOrgPack2.jpg';
     } else {
-        document.getElementById('index__video').src = 'img/index/garyStoryStill-2.jpg';
+        document.getElementById('index__video').src = 'img/index/GarysStoryStillOrgPack1.jpg';
     }
   }
   setInterval(changeIndexVideo, 1000);
+
+
   document.getElementById('index__video').onclick = function() {
     document.getElementById("index__video").classList.add('d-none');
     document.getElementById("index__video--play").classList.remove('d-none');
   }
-}
+
   //END Script for Index Youtube Video Play on Click
 
   
@@ -27,7 +31,6 @@
   function pictureChangeThirdNC() {
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Night-Cream-Drug-Facts.jpg";
     }
-
 
   function pictureChangeFirstDC() {
     document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/NSC.ADV.DC.BottleAndCarton.HR.CMYK.V1.png";
@@ -91,102 +94,6 @@
     document.getElementById("indi-display-img").src="../img/nc-indi-display3.jpg";
     }
 
-  //Script for changing indi-sub sections
-    $(document).ready(function(){
-        $("#details").click(function(){
-            $("#details-text").show();
-            $("#recommended-text").hide();
-            $("#howTo-text").hide();
-            $("#ingredients-text").hide();
-            $("#details-bullet").show();
-            $("#recommended-bullet").hide();
-            $("#howTo-bullet").hide();
-            $("#ingredients-bullet").hide();
-        });
-        $("#recommended").click(function(){
-            $("#details-text").hide();
-            $("#recommended-text").show();
-            $("#howTo-text").hide();
-            $("#ingredients-text").hide();
-            $("#details-bullet").hide();
-            $("#recommended-bullet").show();
-            $("#howTo-bullet").hide();
-            $("#ingredients-bullet").hide();
-            
-        });
-        $("#howTo").click(function(){
-            $("#details-text").hide();
-            $("#recommended-text").hide();
-            $("#howTo-text").show();
-            $("#ingredients-text").hide();
-            $("#details-bullet").hide();
-            $("#recommended-bullet").hide();
-            $("#howTo-bullet").show();
-            $("#ingredients-bullet").hide();
-        });
-        $("#ingredients").click(function(){
-            $("#details-text").hide();
-            $("#recommended-text").hide();
-            $("#howTo-text").hide();
-            $("#ingredients-text").show();
-            $("#details-bullet").hide();
-            $("#recommended-bullet").hide();
-            $("#howTo-bullet").hide();
-            $("#ingredients-bullet").show();
-        });
-    });
-
-        //Script for changing More About - sub sections
-        $(document).ready(function(){
-          $("#story-nav").click(function(){
-              $("#story-text").show();
-              $("#products-text").hide();
-              $("#farms-text").hide();
-              $("#philosophy-text").hide();
-              $("#ingredients-text").hide();
-              $("#leadership-text").hide();
-          });
-          $("#products-nav").click(function(){
-            $("#story-text").hide();
-            $("#products-text").show();
-            $("#farms-text").hide();
-            $("#philosophy-text").hide();
-            $("#ingredients-text").hide();
-            $("#leadership-text").hide();
-          });
-          $("#farms-nav").click(function(){
-            $("#story-text").hide();
-            $("#products-text").hide();
-            $("#farms-text").show();
-            $("#philosophy-text").hide();
-            $("#ingredients-text").hide();
-            $("#leadership-text").hide();
-          });
-          $("#philosophy-nav").click(function(){
-            $("#story-text").hide();
-            $("#products-text").hide();
-            $("#farms-text").hide();
-            $("#philosophy-text").show();
-            $("#ingredients-text").hide();
-            $("#leadership-text").hide();
-          });
-          $("#ingredients-nav").click(function(){
-            $("#story-text").hide();
-            $("#products-text").hide();
-            $("#farms-text").hide();
-            $("#philosophy-text").hide();
-            $("#ingredients-text").show();
-            $("#leadership-text").hide();
-          });
-          $("#leadership-nav").click(function(){
-            $("#story-text").hide();
-            $("#products-text").hide();
-            $("#farms-text").hide();
-            $("#philosophy-text").hide();
-            $("#ingredients-text").hide();
-            $("#leadership-text").show();
-          });
-      });
       //Script to make more-about page banner change per subject clicked with a fade out/in 
       var eOutIn = document.querySelector('#elementOutIn');
 

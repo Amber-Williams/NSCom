@@ -5,6 +5,61 @@
         text-decoration:  none;
     }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+        //Script for changing More About - sub sections
+        $(document).ready(function(){
+          $("#story-nav").click(function(){
+              $("#story-text").show();
+              $("#products-text").hide();
+              $("#farms-text").hide();
+              $("#philosophy-text").hide();
+              $("#ingredients-text").hide();
+              $("#leadership-text").hide();
+          });
+          $("#products-nav").click(function(){
+            $("#story-text").hide();
+            $("#products-text").show();
+            $("#farms-text").hide();
+            $("#philosophy-text").hide();
+            $("#ingredients-text").hide();
+            $("#leadership-text").hide();
+          });
+          $("#farms-nav").click(function(){
+            $("#story-text").hide();
+            $("#products-text").hide();
+            $("#farms-text").show();
+            $("#philosophy-text").hide();
+            $("#ingredients-text").hide();
+            $("#leadership-text").hide();
+          });
+          $("#philosophy-nav").click(function(){
+            $("#story-text").hide();
+            $("#products-text").hide();
+            $("#farms-text").hide();
+            $("#philosophy-text").show();
+            $("#ingredients-text").hide();
+            $("#leadership-text").hide();
+          });
+          $("#ingredients-nav").click(function(){
+            $("#story-text").hide();
+            $("#products-text").hide();
+            $("#farms-text").hide();
+            $("#philosophy-text").hide();
+            $("#ingredients-text").show();
+            $("#leadership-text").hide();
+          });
+          $("#leadership-nav").click(function(){
+            $("#story-text").hide();
+            $("#products-text").hide();
+            $("#farms-text").hide();
+            $("#philosophy-text").hide();
+            $("#ingredients-text").hide();
+            $("#leadership-text").show();
+          });
+      });
+</script>
   <div class="row" id="elementOutIn">
     <div class="col-12 px-0 mb-2" id="bannerChangeHere">
       <!--Mobile Banner-->
@@ -34,7 +89,7 @@
     <!--OUR STORY SECTION-->
     <div id="story-text" class="row">
       <div class="col-12"> 
-        <h1> Our Story</h1>
+        <h1>Our Story</h1>
         <p>Nerium SkinCare, Inc. is dedicated to offering health and beauty solutions that are based on scientific research and actual customer success. Our natural products are founded on the result of years of continuing research at leading medical institutions, using the latest scientific methods and technology. Utilizing biotechnology research and new breakthrough extraction technology, Nerium SkinCare has formulated and developed a complete line of products that harnesses the unique and effective properties of the Nerium oleander plant.<br/>
         <br/>
         Our vision is to consistently bring “first-in-class” products to market based on our firm belief in three tenets:
