@@ -22,6 +22,16 @@
 
   
   //Script for changing Individual display images
+  function pictureChangeFirstEye() {
+    document.getElementById("indi-display-img").src="../img/indi-stuff/357x500-Eye-Cream-Bottle-Carton-Shadow.png";
+    }
+  function pictureChangeSecondEye() {
+    document.getElementById("indi-display-img").src="../img/indi-stuff/417x500-Eye-Cream-Smear.jpg";
+    }
+  function pictureChangeThirdEye() {
+    document.getElementById("indi-display-img").src="../img/indi-stuff/417x500-Eye-Cream-Drug-Facts.png";
+    }
+
   function pictureChangeFirstNC() {
     document.getElementById("indi-display-img").src="../img/Updated-Advanced-Packaging/NSC.ADV.NC.BottleAndCarton.HR.CMYK.V1.png";
     }
@@ -53,6 +63,15 @@
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Body-Firm-Drug-Facts.jpg";
     }
 
+  function pictureChangeFirstAcne() {
+    document.getElementById("indi-display-img").src="../img/indi-stuff/357x500-Acne-30mL-Tube-Carton-Shadow.png";
+    }
+  function pictureChangeSecondAcne() {
+    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Psoriasis-Smear.jpg";
+    }
+  function pictureChangeThirdAcne() {
+    document.getElementById("indi-display-img").src="../img/indi-stuff/417x500-Acne-Drug-Facts.png";
+    }
 
   function pictureChangeFirstPS() {
     document.getElementById("indi-display-img").src="../img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Carton-Shadow.jpg";
