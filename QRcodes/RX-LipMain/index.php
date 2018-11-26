@@ -1,3 +1,7 @@
+<?php
+header("HTTP/1.1 301 Redirect",true);
+header("Location: https://www.neriumskincare.com/SkinHealth/",true);
+?>
 <?php include('../deepPageHeader.php'); ?>
 
 <hr class="hr-indi" />
@@ -8,65 +12,53 @@
 
       <div class="col-2 d-flex flex-column"> 
         <div class="p-2 hide-md">
-          <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstCS()"/>
+          <img src="../img/TL-packaging-web/116x116-Psoriasis-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstPS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Smear.jpg" class="float-left" onclick="pictureChangeSecondCS()"/>
+          <img src="../img/indi-stuff/116x116-Psoriasis-Smear.jpg" class="float-left" onclick="pictureChangeSecondPS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="float-left" onclick="pictureChangeThirdCS()"/>
+          <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="float-left" onclick="pictureChangeThirdPS()"/>
         </div>
       </div>
 
       <div class="col-md-5">
         <div class="d-flex align-items-center indi-display">
-          <img id="indi-display-img" src="../img/TL-packaging-web/1800x2160-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg" class="float-right indi-display-img-cs"/>
+          <img id="indi-display-img" src="../img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Carton-Shadow.jpg" class="float-right"/>
         </div>
       </div>
 
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstCS()"/>
+              <img src="../img/TL-packaging-web/116x116-Psoriasis-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstPS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/indi-stuff/116x116-Cold-Sore-Lip-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondCS()"/>
+              <img src="../img/indi-stuff/116x116-Psoriasis-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondPS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdCS()"/>
+              <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdPS()"/>
             </div>
         </div>
       </div>
 
       <div class="col-md-5">
-        <h1 class="h1-indi text-uppercase"> NeriumCS Cold Sore Therapy and Daily Lip Maintance Treatment</h1>
-        <h4 class="h4-indi">3.5ml / 0.12 fl.oz | 8ml / 0.27 fl.oz</h4>
-        <h2 class="h2-indi mb-4">$29.95<h2>
+        <h1 class="h1-indi text-uppercase">NeriumRX Psoriasis Relief Therapy </h1>
+        <h4 class="h4-indi">30ml / 1 fl.oz</h4>
+        <h2 class="h2-indi mb-4">$39.95<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
-        <h3 class="h3-indi">Cold Sore Therapy</h3>
         <ul class="h4-indi ul-hexbullets">
-          <li>Effective Pain Reliever</li>
-          <li>Enhanced Healing</li>
+          <li>Antioxidant Cell Protection</li>
+          <li>Anti-Inflammatory</li>
           <li>Anti-microbial Activity</li>
-          <li>Immuno-regulating Support</li>
-          <li>Anti-viral Support</li>
-
-          <br/>
-        <h3 class="h3-indi">Daily Lip Maintance</h3>
-          <li>Maintain Healthy Lips</li>
-          <li>Immuno-regulating Support</li>
-          <li>Delay Cold Sore Reoccurrence</li>
-          <li>Anti-viral Support</li>
-          <li>Moisturizing</li>
-          <li>Toning</li>
-          <li>Smoothing</li>
-          <li>Lip Protection</li>
-          <li>Protection from Environmental Stressors</li>
+          <li>Restores Skin Integrity</li>
+          <li>Damaged Skin Repair Cream</li>
+          <li>Immuno-Regulating Support</li>
         </ul>
         <div class="move-center">
           <!--Shopify buy button-->
-          <div id='product-component-2b4f706b88a'></div>
+          <div id='product-component-8b4b581f1d5'></div>
         </div>
       </div>
     </div>
@@ -100,13 +92,7 @@
       <div class="col-md-7">
         <h3 class="h3-indi">Product Details</h3>
         <p class="p-indi">
-        This treatment system works together to fight against symptoms of cold sores and delay the reoccurrence. Introducing a one of a kind treatment system that not only provides instant relief from cold sores, but also increases protection against them.
-        </p>
-        <h3 class="h3-indi benefits-line">Cold Sore Therapy</h3>
-        <p class="p-indi">Provides fast-acting pain relief upon first contact and stimulates healing; while helping to reduce the appearance and spread of the cold sore lesions. Formulated with powerful ingredients, this dynamic treatment helps to calm, improve cold sore appearance while easing discomfort and inflammation in the process.</p>
-        <h3 class="h3-indi benefits-line">Daily Lip Maintance</h3>
-        <p class="p-indi">
-        Daily Lip Maintenance is designed to provide hydration and increased protection to the lips following breakouts, thereby ensuring continuous overall lip health. With powerful active ingredients, this formula incorporates sun protection to ensure that your lips are protected from harmful environmental elements and stressors.
+        This fast-acting Psoriasis relief cream is a powerful formula designed to help relieve and sooth skin’s itching, irritation, redness, flakiness and scaling, along with other symptoms associated with psoriasis and seborrheic dermatitis. Formulated for ultra-strength, this cream performs as a skin protectant while enhancing rejuvenation of the skin, reducing active flare-ups, and delaying future recurrences.
         <br/><br/>
         Dermatologist Tested.
         <br/><br/>
@@ -118,11 +104,11 @@
         <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
         <img src="../img/TL-packaging-web/385x420-Therapy-Line-Products.png" width="100%"/>
         <div class="move-center">
-          <a href="../Therapy-PS/index.php">
-            <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+          <a href="../Therapy-CSduo/index.php">
+            <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
           </a>
           <a href="../Therapy-Dermal/index.php">
-            <button class="shop-btn m-2">Dermal Pain Relief</button>  
+            <button class="shop-btn m-2">Dermal Pain Relief</button>
           </a>
         </div>
 
@@ -133,28 +119,36 @@
     <div id="recommended-text">
       <div class="row mb-5">
         <div class="col-md-7">
-          <h3 class="h3-indi">Symptoms &amp; Causes</h3>
+          <h3 class="h3-indi">Symptoms and Causes</h3>
           <div class="row justify-content-center">
             <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/cold-sore-symptoms/NSC.TL.Website.Symptoms_CS.1.tingling.png" width="50%"/>
-              <p>Tingling &amp; Itching</p>
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.1.Dryness.png" width="50%"/>
+              <p>Dryness</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/cold-sore-symptoms/NSC.TL.Website.Symptoms_CS.2.blister.png" width="50%"/>
-              <p>Blisters</p>
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.2.Rashes.png" width="50%"/>
+              <p>Rashes</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/cold-sore-symptoms/NSC.TL.Website.Symptoms_CS.3.crusting.png" width="50%"/>
-              <p>Oozing &amp; Crusting</p>
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.3.flaking.png" width="50%"/>
+              <p>Flaking</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center">
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.4.Thickness.png" width="50%"/>
+              <p>Thickness</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center">
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.5.JointPain.png" width="50%"/>
+              <p>Joint Pain</p>
             </div>
           </div>
 
           <h3 class="h3-indi mt-4">Causes</h3>
-          <p>Cold sores are caused by the herpes simplex virus-1. However, most people who have the virus never develop signs and symptoms of cold sores. Once you have had an outbreak, the virus lies dormant deep in nerve cells under the skin. Recurrence of another cold sore may emerge due to viral infection, hormonal changes, stress, exposure to sunlight or wind and changes in the immune system.</p>
+          <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
         </div>
 
         <div class="col-md-5">
-          <img src="../img/indi-stuff/Cold-Sore-Before-After-Image.jpg" width="100%"/>
+          <img src="../img/indi-stuff/Psoriasis-Before-After-Image.jpg" width="100%"/>
         </div>
       </div>
     </div>
@@ -169,7 +163,7 @@
                 <img src="../img/indi-stuff/RXStep1.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0"><b>Cold Sore Therapy:</b> Apply to cold sore 3 to 4 times daily. Recommended to clean hands and virus site before applying.</p>
+                <p class="p-indi mb-0">Apply to affected areas 1 to 4 times daily until condition subsides.</p>
               </div>
             </div>
             <div class="row mb-3">
@@ -177,7 +171,7 @@
                 <img src="../img/indi-stuff/RXStep2.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">Once cold sore is fully healed, stop using Cold Sore Therapy. </p>
+                <p class="p-indi mb-0">Rub product in a circular motion for 20 seconds or until fully absorbed.</p>
               </div>
             </div>
             <div class="row mb-3">
@@ -185,7 +179,7 @@
                 <img src="../img/indi-stuff/RXStep3.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0"><b>Daily Lip Maintenance:</b> Apply as needed to prevent recurrence of cold sore. Use only after cold sore is fully healed. Recommended to clean applicator in between use.</p>
+                <p class="p-indi mb-0">For optimal results apply before bed. For pain associated with Psoriasis, use in combination with Dermal Pain Relief Therapy</p>
               </div>
             </div>
           </div>
@@ -194,11 +188,11 @@
             <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
             <img src="../img/TL-packaging-web/385x420-Therapy-Line-Products.png" width="100%"/>
             <div class="move-center">
-              <a href="../Therapy-PS/index.php">
-                <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+              <a href="../Therapy-CSduo/index.php">
+                <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
               </a>
               <a href="../Therapy-Dermal/index.php">
-                <button class="shop-btn m-2">Dermal Pain Relief</button>  
+                <button class="shop-btn m-2">Dermal Pain Relief</button>
               </a>
             </div>
 
@@ -208,72 +202,54 @@
     
       <!--INGREDIENTS TEXT SECTION-->
       <div id="ingredients-text">
-      <h3 class="h3-indi">Key Ingredients - Cold Sore Therapy</h3>
+      <h3 class="h3-indi">Key Ingredients</h3>
         <div class="row text-center">
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi">Powerful antioxidant and anti-microbial activity.</p>
+            <p class="p-indi ">Powerful antioxidant to reduce the impact of inflammation.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/Camphor.png" alt="Camphor"/>
-            <p class="p-indi">Works upon application to relieve pain.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/SalicylicAcid.png" alt="Salicylic Acid"/>
+            <p class="p-indi">Exfoliates the skin by softening and dissolving keratin (protein that causes the skin cells to stick together)</p>
           </div>
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
-            <p class="p-indi">Works to enhance immunity activity in Nerium Oleander extract.</p>
+            <p class="p-indi">Relief of pain and works to normalize collagen and elastin skin structures.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/Docosanol.png" alt="Docosanol"/>
-            <p class="p-indi">This key ingredient speeds up the healing of cold sores and symptoms associated with cold sores. Working to block the virus from entering healthy skin cells.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/PB8.png" alt="Parsely Basil Extract"/>
+            <p class="p-indi">As a source of vitamin A, this key ingredient encourages healthy skin cell production.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/GeraniumOil.png" alt="Geranium Oil"/>
-            <p class="p-indi">Speed up healing and decrease scarring.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/CollidalOatmeal.png" alt="Collidal Oatmeal"/>
+            <p class="p-indi">helps smooth and comfort skin that is itchy and dry.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/OliveLeafExtract.png" alt="Olive Leaf Extract"/>
-            <p class="p-indi">Has antiviral, antibacterial, anti-fungal and immune boosting properties.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/CasterSeedOil.png" alt="Caster Seed Oil"/>
+            <p class="p-indi">Works to condition the skin giving it moisture and softness.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/SheaButter.png" alt="Shea Butter"/>
+            <p class="p-indi">Replenishes and nourishes the skin with natural vitamin and essential fatty acids.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Extract"/>
+            <p class="p-indi">Derived from the meat of the coconut, this extract is highly absorbent while it moisturizes, nourishing moisture into the skin effectively.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/ApricotExtract.png" alt="Apricot Extract"/>
+            <p class="p-indi">Soften and smooth the skin when activated by the skin’s oils</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/OregonGrapeRootExtract.png" alt="Oregon Grape Root Extract"/>
+            <p class="p-indi">This grape root extract grown in Oregon helps combat skin irritants associated with psoriasis and other atopic dermatitis illnesses.</p>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-12">
             <h3 class="h3-indi">Full ingredients</h3> 
-            <p class="p-indi">CAMPHOR (2.0 %), <br/>
-            ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, BEHENYL ALCOHOL, COCOS NUCIFERA (COCONUT) OIL, GLYCERIN, ARACHIDYL ALCOHOL, CETEARYL OLIVATE, HYDROLYZED EGG SHELL MEMBRANE, OLEA EUROPAEA (OLIVE) FRUIT OIL, WATER (AQUA), SORBITAN OLIVATE, SUCROSE COCOATE, DIMETHICONE, LINUM USITATISSIMUM (LINSEED) SEED OIL, TOCOPHEROL, ARACHIDYL GLUCOSIDE, PELARGONIUM GRAVEOLENS FLOWER OIL, ALLANTOIN, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, XANTHAN GUM, POTASSIUM SORBATE, CARRAGEENAN, BENZYL ALCOHOL, ASCORBYL PALMITATE, DIPOTASSIUM GLYCYRRHIZATE, LYSINE HCL, OLEA EUROPAEA (OLIVE) LEAF EXTRACT</p>
-          </div>
-        </div>
-        <h3 class="h3-indi">Key Ingredients - Daily Lip Maintenance</h3>
-        <div class="row text-center">
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi">Powerful antioxidant and anti-microbial activity.</p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/Allantoin.png" alt="Allantoin"/>
-            <p class="p-indi">Works to protect the skin from environmental stressors and bacteria.</p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
-            <p class="p-indi">Works to enhance immunity activity in Nerium Oleander extract.</p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/LinseedOil.png" alt="Linseed Oil"/>
-            <p class="p-indi">Also known as Flaxseed oil, this ingredient works to balance and maintain the lip’s oil and reduce inflammation, helping to repair the skin.</p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Fruit Extract"/>
-            <p class="p-indi">Delivers non-irritating moisturizing and conditioning benefits effectively to the skin.</p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/AniseFruitExtract.png" alt="Anise Fruit Extract"/>
-            <p class="p-indi">This extract provides instant relief to damaged skin while stimulating blood circulation.</p>
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-12">
-            <h3 class="h3-indi">Full ingredients</h3> 
-            <p class="p-indi">ALLANTOIN (0.5%),<br/>
-            ALOE BARBADENSIS LEAF JUICE, GLYCERIN, PROPANEDIOL, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, ETHYLHEXYL METHOXYCINNAMATE, HYDROLYZED EGG SHELL MEMBRANE, WATER (AQUA), GLYCERYL CAPRYLATE, HYDROXYETHYLCELLULOSE, GLYCERYL STEARATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, LINUM USITATISSIMUM (LINSEED) SEED OIL, CARRAGEENAN, LYSOLECITHIN, SCLEROTIUM GUM, PELARGONIUM GRAVEOLENS FLOWER OIL, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, BENZYL ALCOHOL, PULLULAN, XANTHAN GUM, GLYCERYL UNDECYLENATE, POTASSIUM SORBATE, BUTTER EXTRACT, COCOS NUCIFERA (COCONUT) FRUIT EXTRACT, CUCUMIS MELO CANTALUPENSIS FRUIT EXTRACT, MUSA SAPIENTUM (BANANA) FRUIT EXTRACT, PIMPINELLA ANISUM (ANISE) FRUIT EXTRACT, PRUNUS ARMENIACA (APRICOT) FRUIT EXTRACT, PYRUS MALUS (APPLE) FRUIT EXTRACT, SANTALUM ALBUM (SANDALOWOOD) EXTRACT, VACCINIUM MACROCARPON (CRANBERRY) FRUIT EXTRACT, VANILLA PLANIFOLIA FRUIT EXTRACT</p>
+            <p class="p-indi">SALICYLIC ACID (2%), <br/>
+            ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, PROPANEDIOL, HYDROLYZED EGG SHELL MEMBRANE, WATER (AQUA), CETYL ALCOHOL, GLYCERIN, GLYCERYL STEARATE, POTASSIUM CETYL PHOSPHATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, GLYCERYL CAPRYLATE, CETEARYL OLIVATE, DIMETHICONE, OCIMUM BASILICUM (BASIL) EXTRACT, RICINUS COMMUNIS (CASTOR) SEED OIL, SORBITAN OLIVATE, LYSOLECITHIN, SCLEROTIUM GUM, ALLANTOIN, ARGININE, BUTYROSPERMUM PARKII (SHEA) BUTTER, CARUM PETROSELINUM (PARSLEY) EXTRACT, COLLOIDAL OATMEAL, OLEA EUROPAEA (OLIVE) FRUIT OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, PRUNUS ARMENIACA (APRICOT) FRUIT EXTRACT, TOCOPHEROL, XANTHAN GUM, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, PULLULAN, AQUA, LINUM USITATISSIMUM (LINSEED) SEED OIL, SODIUM BENZOATE, BENZYL ALCOHOL, POTASSIUM SORBATE, CITRIC ACID, DIPOTASSIUM GLYCYRRHIZATE, GLYCERYL UNDECYLENATE, LECITHIN, MAHONIA AQUIFOLIUM ROOT EXTRACT, SEA SALT, BUTTER EXTRACT, COCOS NUCIFERA (COCONUT) FRUIT EXTRACT, CUCUMIS MELO CANTALUPENSIS FRUIT EXTRACT, MUSA SAPIENTUM (BANANA) FRUIT EXTRACT, PIMPINELLA ANISUM (ANISE) FRUIT EXTRACT, PLANKTON EXTRACT, PYRUS MALUS (APPLE) FRUIT EXTRACT, SANTALUM ALBUM (SANDALOWOOD) EXTRACT, VACCINIUM MACROCARPON (CRANBERRY) FRUIT EXTRACT, VANILLA PLANIFOLIA FRUIT EXTRACT</p>
           </div>
         </div>
       </div>
@@ -299,13 +275,7 @@
             <div class="col-12">
               <h3 class="h3-indi">Product Details</h3>
               <p class="p-indi">
-              This treatment system works together to fight against symptoms of cold sores and delay the reoccurrence. Introducing a one of a kind treatment system that not only provides instant relief from cold sores, but also increases protection against them.
-              </p>
-              <h3 class="h3-indi benefits-line">Cold Sore Therapy</h3>
-              <p class="p-indi">Provides fast-acting pain relief upon first contact and stimulates healing; while helping to reduce the appearance and spread of the cold sore lesions. Formulated with powerful ingredients, this dynamic treatment helps to calm, improve cold sore appearance while easing discomfort and inflammation in the process.</p>
-              <h3 class="h3-indi benefits-line">Daily Lip Maintance</h3>
-              <p class="p-indi">
-              Daily Lip Maintenance is designed to provide hydration and increased protection to the lips following breakouts, thereby ensuring continuous overall lip health. With powerful active ingredients, this formula incorporates sun protection to ensure that your lips are protected from harmful environmental elements and stressors.
+              This fast-acting Psoriasis relief cream is a powerful formula designed to help relieve and sooth skin’s itching, irritation, redness, flakiness and scaling, along with other symptoms associated with psoriasis and seborrheic dermatitis. Formulated for ultra-strength, this cream performs as a skin protectant while enhancing rejuvenation of the skin, reducing active flare-ups, and delaying future recurrences.
               <br/><br/>
               Dermatologist Tested.
               <br/><br/>
@@ -317,11 +287,11 @@
               <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
               <img src="../img/TL-packaging-web/385x420-Therapy-Line-Products.png" width="100%"/>
               <div class="move-center">
-                <a href="../Therapy-PS/index.php">
-                  <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+                <a href="../Therapy-CSduo/index.php">
+                  <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
                 </a>
                 <a href="../Therapy-Dermal/index.php">
-                  <button class="shop-btn m-2">Dermal Pain Relief</button>  
+                  <button class="shop-btn m-2">Dermal Pain Relief</button>
                 </a>
               </div>
 
@@ -343,32 +313,40 @@
       <div class="collapse" id="collapseRecommended">
         <div class="card card-body">
 
-          <!--RECOMMENDED TEXT M SECTION-->
+          <!--RECOMMENDED TEXT SECTION-->
 
             <div class="row">
               <div class="col-md-7">
                 <h3 class="h3-indi">Symptoms and Causes</h3>
                 <div class="row justify-content-center">
                   <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/cold-sore-symptoms/NSC.TL.Website.Symptoms_CS.1.tingling.png" width="35%"/>
-                    <p>Tingling &amp; Itching</p>
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.1.Dryness.png" width="35%"/>
+                    <p>Dryness</p>
                   </div>
                   <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/cold-sore-symptoms/NSC.TL.Website.Symptoms_CS.2.blister.png" width="35%"/>
-                    <p>Blisters</p>
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.2.Rashes.png" width="35%"/>
+                    <p>Rashes</p>
                   </div>
                   <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/cold-sore-symptoms/NSC.TL.Website.Symptoms_CS.3.crusting.png" width="35%"/>
-                    <p>Oozing &amp; Crusting</p>
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.3.flaking.png" width="35%"/>
+                    <p>Flaking</p>
+                  </div>
+                  <div class="col-12 text-center">
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.4.Thickness.png" width="35%"/>
+                    <p>Thickness</p>
+                  </div>
+                  <div class="col-12 text-center">
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.5.JointPain.png" width="35%"/>
+                    <p>Joint Pain</p>
                   </div>
                 </div>
                 
                 <h3 class="h3-indi mt-4">Causes</h3>
-                <p>Cold sores are caused by the herpes simplex virus-1. However, most people who have the virus never develop signs and symptoms of cold sores. Once you have had an outbreak, the virus lies dormant deep in nerve cells under the skin. Recurrence of another cold sore may emerge due to viral infection, hormonal changes, stress, exposure to sunlight or wind and changes in the immune system.</p>
+                <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
               </div>
 
               <div class="col-12">
-                <img src="../img/indi-stuff/Cold-Sore-Before-After-Image.jpg" width="100%"/> 
+                <img src="../img/indi-stuff/Psoriasis-Before-After-Image.jpg" width="100%"/>
               </div>
             </div>
 
@@ -386,7 +364,7 @@
       <div class="collapse" id="collapseHowTo">
         <div class="card card-body">
 
-          <!--HOW TO TEXT M SECTION-->
+          <!--HOW TO TEXT SECTION-->
 
             <div class="row">
               <div class="col-12">
@@ -397,7 +375,7 @@
                     <img src="../img/indi-stuff/RXStep1.png"/>
                   </div>
                   <div class="col-12 d-flex align-items-center">
-                    <p class="p-indi mb-0"> <b>Cold Sore Therapy:</b> Apply to cold sore 3 to 4 times daily. Recommended to clean hands and virus site before applying.</p>
+                    <p class="p-indi mb-0">Apply to affected areas 1 to 4 times daily until condition subsides.</p>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -405,7 +383,7 @@
                     <img src="../img/indi-stuff/RXStep2.png"/>
                   </div>
                   <div class="col-sm-10 d-flex align-items-center">
-                    <p class="p-indi mb-0">Once cold sore is fully healed, stop using Cold Sore Therapy.</p>
+                    <p class="p-indi mb-0">Rub product in a circular motion for 20 seconds or until fully absorbed.</p>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -413,7 +391,7 @@
                     <img src="../img/indi-stuff/RXStep3.png"/>
                   </div>
                   <div class="col-12 d-flex align-items-center">
-                    <p class="p-indi mb-0"><b>Daily Lip Maintenance:</b> Apply as needed to prevent recurrence of cold sore. Use only after cold sore is fully healed. Recommended to clean applicator in between use.</p>
+                    <p class="p-indi mb-0">For optimal results apply before bed. For pain associated with Psoriasis, use in combination with Dermal Pain Relief Therapy</p>
                   </div>
                 </div>
               </div>
@@ -422,11 +400,11 @@
                 <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
                 <img src="../img/TL-packaging-web/385x420-Therapy-Line-Products.png" width="100%"/>
                 <div class="move-center">
-                  <a href="../Therapy-PS/index.php">
-                    <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+                  <a href="../Therapy-CSduo/index.php">
+                    <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
                   </a>
                   <a href="../Therapy-Dermal/index.php">
-                    <button class="shop-btn m-2">Dermal Pain Relief</button>  
+                    <button class="shop-btn m-2">Dermal Pain Relief</button>
                   </a>
                 </div>
 
@@ -448,31 +426,47 @@
         <div class="card card-body">
 
           <!--INGREDIENTS TEXT SECTION-->
-          <h3 class="h3-indi">Key Ingredients - Cold Sore Therapy</h3>
+          <h3 class="h3-indi">Key Ingredients</h3>
             <div class="row text-center">
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi">Powerful antioxidant and anti-microbial activity.</p>
+                <p class="p-indi ">Powerful antioxidant to reduce the impact of inflammation.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/Camphor.png" alt="Camphor"/>
-                <p class="p-indi">Works upon application to relieve pain.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/SalicylicAcid.png" alt="Salicylic Acid"/>
+                <p class="p-indi">Exfoliates the skin by softening and dissolving keratin (protein that causes the skin cells to stick together)</p>
               </div>
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
-                <p class="p-indi">Works to enhance immunity activity in Nerium Oleander extract.</p>
+                <p class="p-indi">Relief of pain and works to normalize collagen and elastin skin structures.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/Docosanol.png" alt="Docosanol"/>
-                <p class="p-indi">This key ingredient speeds up the healing of cold sores and symptoms associated with cold sores. Working to block the virus from entering healthy skin cells.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/PB8.png" alt="Parsely Basil Extract"/>
+                <p class="p-indi">As a source of vitamin A, this key ingredient encourages healthy skin cell production.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/GeraniumOil.png" alt="Geranium Oil"/>
-                <p class="p-indi">Speed up healing and decrease scarring.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/CollidalOatmeal.png" alt="Collidal Oatmeal"/>
+                <p class="p-indi">helps smooth and comfort skin that is itchy and dry.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/OliveLeafExtract.png" alt="Olive Leaf Extract"/>
-                <p class="p-indi">Has antiviral, antibacterial, anti-fungal and immune boosting properties.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/CasterSeedOil.png" alt="Caster Seed Oil"/>
+                <p class="p-indi">Works to condition the skin giving it moisture and softness.</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/SheaButter.png" alt="Shea Butter"/>
+                <p class="p-indi">Replenishes and nourishes the skin with natural vitamin and essential fatty acids.</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Extract"/>
+                <p class="p-indi">Derived from the meat of the coconut, this extract is highly absorbent while it moisturizes, nourishing moisture into the skin effectively.</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/ApricotExtract.png" alt="Apricot Extract"/>
+                <p class="p-indi">Soften and smooth the skin when activated by the skin’s oils</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/OregonGrapeRootExtract.png" alt="Oregon Grape Root Extract"/>
+                <p class="p-indi">This grape root extract grown in Oregon helps combat skin irritants associated with psoriasis and other atopic dermatitis illnesses.</p>
               </div>
             </div>
             <div class="row mb-5">
@@ -480,41 +474,6 @@
                 <h3 class="h3-indi">Full ingredients</h3> 
                 <p class="p-indi">SALICYLIC ACID (2%), <br/>
                 ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, PROPANEDIOL, HYDROLYZED EGG SHELL MEMBRANE, WATER (AQUA), CETYL ALCOHOL, GLYCERIN, GLYCERYL STEARATE, POTASSIUM CETYL PHOSPHATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, GLYCERYL CAPRYLATE, CETEARYL OLIVATE, DIMETHICONE, OCIMUM BASILICUM (BASIL) EXTRACT, RICINUS COMMUNIS (CASTOR) SEED OIL, SORBITAN OLIVATE, LYSOLECITHIN, SCLEROTIUM GUM, ALLANTOIN, ARGININE, BUTYROSPERMUM PARKII (SHEA) BUTTER, CARUM PETROSELINUM (PARSLEY) EXTRACT, COLLOIDAL OATMEAL, OLEA EUROPAEA (OLIVE) FRUIT OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, PRUNUS ARMENIACA (APRICOT) FRUIT EXTRACT, TOCOPHEROL, XANTHAN GUM, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, PULLULAN, AQUA, LINUM USITATISSIMUM (LINSEED) SEED OIL, SODIUM BENZOATE, BENZYL ALCOHOL, POTASSIUM SORBATE, CITRIC ACID, DIPOTASSIUM GLYCYRRHIZATE, GLYCERYL UNDECYLENATE, LECITHIN, MAHONIA AQUIFOLIUM ROOT EXTRACT, SEA SALT, BUTTER EXTRACT, COCOS NUCIFERA (COCONUT) FRUIT EXTRACT, CUCUMIS MELO CANTALUPENSIS FRUIT EXTRACT, MUSA SAPIENTUM (BANANA) FRUIT EXTRACT, PIMPINELLA ANISUM (ANISE) FRUIT EXTRACT, PLANKTON EXTRACT, PYRUS MALUS (APPLE) FRUIT EXTRACT, SANTALUM ALBUM (SANDALOWOOD) EXTRACT, VACCINIUM MACROCARPON (CRANBERRY) FRUIT EXTRACT, VANILLA PLANIFOLIA FRUIT EXTRACT</p>
-              </div>
-            </div>
-
-          <h3 class="h3-indi">Key Ingredients - Daily Lip Maintenance</h3>
-            <div class="row text-center">
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi">Powerful antioxidant and anti-microbial activity.</p>
-              </div>
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/Allantoin.png" alt="Allantoin"/>
-                <p class="p-indi">Works to protect the skin from environmental stressors and bacteria.</p>
-              </div>
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
-                <p class="p-indi">Works to enhance immunity activity in Nerium Oleander extract.</p>
-              </div>
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/LinseedOil.png" alt="Linseed Oil"/>
-                <p class="p-indi">Also known as Flaxseed oil, this ingredient works to balance and maintain the lip’s oil and reduce inflammation, helping to repair the skin.</p>
-              </div>
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Fruit Extract"/>
-                <p class="p-indi">Delivers non-irritating moisturizing and conditioning benefits effectively to the skin.</p>
-              </div>
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/AniseFruitExtract.png" alt="Anise Fruit Extract"/>
-                <p class="p-indi">This extract provides instant relief to damaged skin while stimulating blood circulation.</p>
-              </div>
-            </div>
-            <div class="row mb-5">
-              <div class="col-12">
-                <h3 class="h3-indi">Full ingredients</h3> 
-                <p class="p-indi">ALLANTOIN (0.5%),<br/>
-                ALOE BARBADENSIS LEAF JUICE, GLYCERIN, PROPANEDIOL, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, ETHYLHEXYL METHOXYCINNAMATE, HYDROLYZED EGG SHELL MEMBRANE, WATER (AQUA), GLYCERYL CAPRYLATE, HYDROXYETHYLCELLULOSE, GLYCERYL STEARATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, LINUM USITATISSIMUM (LINSEED) SEED OIL, CARRAGEENAN, LYSOLECITHIN, SCLEROTIUM GUM, PELARGONIUM GRAVEOLENS FLOWER OIL, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, BENZYL ALCOHOL, PULLULAN, XANTHAN GUM, GLYCERYL UNDECYLENATE, POTASSIUM SORBATE, BUTTER EXTRACT, COCOS NUCIFERA (COCONUT) FRUIT EXTRACT, CUCUMIS MELO CANTALUPENSIS FRUIT EXTRACT, MUSA SAPIENTUM (BANANA) FRUIT EXTRACT, PIMPINELLA ANISUM (ANISE) FRUIT EXTRACT, PRUNUS ARMENIACA (APRICOT) FRUIT EXTRACT, PYRUS MALUS (APPLE) FRUIT EXTRACT, SANTALUM ALBUM (SANDALOWOOD) EXTRACT, VACCINIUM MACROCARPON (CRANBERRY) FRUIT EXTRACT, VANILLA PLANIFOLIA FRUIT EXTRACT</p>
               </div>
             </div>
 
@@ -532,7 +491,7 @@
 
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
-    <!--CS Duo -->
+    <!--PS Cream-->
     <script type="text/javascript">
         /*<![CDATA[*/
 
@@ -565,8 +524,8 @@
 
             ShopifyBuy.UI.onReady(client).then(function (ui) {
               ui.createComponent('product', {
-                id: [1375190614099],
-                node: document.getElementById('product-component-2b4f706b88a'),
+                id: [1375191367763],
+                node: document.getElementById('product-component-8b4b581f1d5'),
                 moneyFormat: '%24%7B%7Bamount%7D%7D',
                 options: {
           "product": {
@@ -746,6 +705,3 @@
         /*]]>*/
       </script>
 <?php include('../deepPageFooter.php'); ?>
-
-
-

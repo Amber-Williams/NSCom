@@ -1,3 +1,7 @@
+<?php
+header("HTTP/1.1 301 Redirect",true);
+header("Location: https://www.neriumskincare.com/SkinHealth/",true);
+?>
 <?php include('../deepPageHeader.php'); ?>
 
 <hr class="hr-indi" />

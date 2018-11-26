@@ -1,6 +1,10 @@
+<?php
+header("HTTP/1.1 301 Redirect",true);
+header("Location: https://www.neriumskincare.com/SkinHealth/",true);
+?>
 <?php include('../deepPageHeader.php'); ?>
 
-<hr class="hr-indi"/>
+<hr class="hr-indi" />
 
   <div class="container mt-3">
 
@@ -8,54 +12,53 @@
 
       <div class="col-2 d-flex flex-column"> 
         <div class="p-2 hide-md">
-          <img src="../img/TL-packaging-web/116x116-Dermal-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstDermal()"/>
+          <img src="../img/TL-packaging-web/116x116-Psoriasis-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstPS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/indi-stuff/116x116-Dermal-Smear.jpg" class="float-left" onclick="pictureChangeSecondDermal()"/>
+          <img src="../img/indi-stuff/116x116-Psoriasis-Smear.jpg" class="float-left" onclick="pictureChangeSecondPS()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="float-left" onclick="pictureChangeThirdDermal()"/>
+          <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="float-left" onclick="pictureChangeThirdPS()"/>
         </div>
       </div>
 
       <div class="col-md-5">
         <div class="d-flex align-items-center indi-display">
-          <img id="indi-display-img" src="../img/TL-packaging-web/1800x2160-Dermal-Bottle-Carton-Shadow.jpg" class="float-right"/>
+          <img id="indi-display-img" src="../img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Carton-Shadow.jpg" class="float-right"/>
         </div>
       </div>
 
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/TL-packaging-web/116x116-Dermal-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstDermal()"/>
+              <img src="../img/TL-packaging-web/116x116-Psoriasis-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstPS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/indi-stuff/116x116-Dermal-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondDermal()"/>
+              <img src="../img/indi-stuff/116x116-Psoriasis-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondPS()"/>
             </div>
             <div class="p-2">
-              <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDermal()"/>
+              <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdPS()"/>
             </div>
         </div>
       </div>
 
       <div class="col-md-5">
-        <h1 class="h1-indi text-uppercase">NeriumRX Dermal Pain Relief Therapy </h1>
+        <h1 class="h1-indi text-uppercase">NeriumRX Psoriasis Relief Therapy </h1>
         <h4 class="h4-indi">30ml / 1 fl.oz</h4>
-        <h2 class="h2-indi mb-4">$42.95<h2>
+        <h2 class="h2-indi mb-4">$39.95<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">
-          <li>Effective Shingles Pain Reliever</li>
-          <li>Shingles Damaged Skin Repair Spray</li>
-          <li>Protective Barrier Against Skin Infection</li>
-          <li>Enhanced Healing</li>
-          <li>Analgesic Support</li>
+          <li>Antioxidant Cell Protection</li>
+          <li>Anti-Inflammatory</li>
           <li>Anti-microbial Activity</li>
-          <li>Immuno-regulating Support</li>
+          <li>Restores Skin Integrity</li>
+          <li>Damaged Skin Repair Cream</li>
+          <li>Immuno-Regulating Support</li>
         </ul>
         <div class="move-center">
           <!--Shopify buy button-->
-          <div id='product-component-65f42d102d9'></div>
+          <div id='product-component-8b4b581f1d5'></div>
         </div>
       </div>
     </div>
@@ -70,7 +73,7 @@
                 </li>
               <li id="recommended" class="text-center">
                       <img src="../img/bluebullet.png" width="15px" id="recommended-bullet"/>
-                      Symptoms
+                      Symptoms &amp; Causes
                 </li>
               <li id="howTo" class="text-center">
                       <img src="../img/bluebullet.png" width="15px" id="howTo-bullet"/>
@@ -89,7 +92,7 @@
       <div class="col-md-7">
         <h3 class="h3-indi">Product Details</h3>
         <p class="p-indi">
-        Introducing the first ever fast acting Dermal Pain Relief Therapy. This pain-relieving formula is designed to provide instant pain relief and supports the healing process during breakout for symptoms of shingles and various other skin conditions. With powerful skin protecting and effective ingredients, this formulation is a fast-acting spray that will quickly help to relieve symptoms such as pain, itching, tingling and burning caused from various skin conditions such as shingles, painful skin irritations and insect bites.
+        This fast-acting Psoriasis relief cream is a powerful formula designed to help relieve and sooth skin’s itching, irritation, redness, flakiness and scaling, along with other symptoms associated with psoriasis and seborrheic dermatitis. Formulated for ultra-strength, this cream performs as a skin protectant while enhancing rejuvenation of the skin, reducing active flare-ups, and delaying future recurrences.
         <br/><br/>
         Dermatologist Tested.
         <br/><br/>
@@ -104,8 +107,8 @@
           <a href="../Therapy-CSduo/index.php">
             <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
           </a>
-          <a href="../Therapy-PS/index.php">
-            <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+          <a href="../Therapy-Dermal/index.php">
+            <button class="shop-btn m-2">Dermal Pain Relief</button>
           </a>
         </div>
 
@@ -116,41 +119,36 @@
     <div id="recommended-text">
       <div class="row mb-5">
         <div class="col-md-7">
-          <h3 class="h3-indi">Symptoms</h3>
+          <h3 class="h3-indi">Symptoms and Causes</h3>
           <div class="row justify-content-center">
             <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.1.Shingles.png" alt="shingles" width="50%"/>
-              <p>Shingles</p>
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.1.Dryness.png" width="50%"/>
+              <p>Dryness</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.2.Sunburn.png" alt="Dermatitis" width="50%"/>
-              <p>Dermatitis</p>
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.2.Rashes.png" width="50%"/>
+              <p>Rashes</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.3.Scrapes.png" alt="Scrapes" width="50%"/>
-              <p>Scrapes</p>
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.3.flaking.png" width="50%"/>
+              <p>Flaking</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.6.Inflammation.png" alt="Irritation" width="50%"/>
-              <p>Irritation</p>
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.4.Thickness.png" width="50%"/>
+              <p>Thickness</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.4.InsectBite.png" alt="Insect Bites" width="50%"/>
-              <p>Insect Bites</p>
-            </div>
-            <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.8.Itching.png" alt="Itching and Burning" width="50%"/>
-              <p>Itching &amp; Burning</p>
-            </div>
-            <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.7.Blister.png" alt="Blistering" width="50%"/>
-              <p>Blistering</p>
+              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.5.JointPain.png" width="50%"/>
+              <p>Joint Pain</p>
             </div>
           </div>
+
+          <h3 class="h3-indi mt-4">Causes</h3>
+          <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
         </div>
 
         <div class="col-md-5">
-          <img src="../img/indi-stuff/Dermal-Before-After-Image.jpg" width="100%"/>
+          <img src="../img/indi-stuff/Psoriasis-Before-After-Image.jpg" width="100%"/>
         </div>
       </div>
     </div>
@@ -165,7 +163,7 @@
                 <img src="../img/indi-stuff/RXStep1.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">Apply to shingles, dermatitis, scrapes, insect bites and other dermal pain related conditions 3 to 4 times daily for fast-acting pain relief.</p>
+                <p class="p-indi mb-0">Apply to affected areas 1 to 4 times daily until condition subsides.</p>
               </div>
             </div>
             <div class="row mb-3">
@@ -173,7 +171,7 @@
                 <img src="../img/indi-stuff/RXStep2.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">Reapply as needed.</p>
+                <p class="p-indi mb-0">Rub product in a circular motion for 20 seconds or until fully absorbed.</p>
               </div>
             </div>
             <div class="row mb-3">
@@ -181,7 +179,7 @@
                 <img src="../img/indi-stuff/RXStep3.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">For optimal results, use apply before bed.</p>
+                <p class="p-indi mb-0">For optimal results apply before bed. For pain associated with Psoriasis, use in combination with Dermal Pain Relief Therapy</p>
               </div>
             </div>
           </div>
@@ -193,8 +191,8 @@
               <a href="../Therapy-CSduo/index.php">
                 <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
               </a>
-              <a href="../Therapy-PS/index.php">
-                <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+              <a href="../Therapy-Dermal/index.php">
+                <button class="shop-btn m-2">Dermal Pain Relief</button>
               </a>
             </div>
 
@@ -208,34 +206,50 @@
         <div class="row text-center">
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi">Powerful antioxidant and anti-microbial activity.</p>
+            <p class="p-indi ">Powerful antioxidant to reduce the impact of inflammation.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/Camphor.png" alt="Camphor"/>
-            <p class="p-indi">An effective topical pain reliever. Known for its duel hot and cold activity, it numbs and cools the nerve endings then warms the painful area as it increases blood flow to stiff and sore muscles or joints. In addition, this essential oil’s odor gives off a calming, soothing effect.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/SalicylicAcid.png" alt="Salicylic Acid"/>
+            <p class="p-indi">Exfoliates the skin by softening and dissolving keratin (protein that causes the skin cells to stick together)</p>
           </div>
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
-            <p class="p-indi">Antioxidant and helps increase production of collagen and elastin by dermal fibroblasts.</p>
+            <p class="p-indi">Relief of pain and works to normalize collagen and elastin skin structures.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/TeaTreeOil.png" alt="Tea Tree Oil"/>
-            <p class="p-indi">A natural infection fighter</p>
+            <img src="../img/indi-stuff/ingredients/therapy/PB8.png" alt="Parsely Basil Extract"/>
+            <p class="p-indi">As a source of vitamin A, this key ingredient encourages healthy skin cell production.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/LavenderOil.png" alt="Lavender Oil"/>
-            <p class="p-indi">Helps numb the area, working to relieve pain.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/CollidalOatmeal.png" alt="Collidal Oatmeal"/>
+            <p class="p-indi">helps smooth and comfort skin that is itchy and dry.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/Dimethicone.png" alt="Dimethicone"/>
-            <p class="p-indi">Creates a protective barrier on top of the skin, effectively preventing skin infections.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/CasterSeedOil.png" alt="Caster Seed Oil"/>
+            <p class="p-indi">Works to condition the skin giving it moisture and softness.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/SheaButter.png" alt="Shea Butter"/>
+            <p class="p-indi">Replenishes and nourishes the skin with natural vitamin and essential fatty acids.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Extract"/>
+            <p class="p-indi">Derived from the meat of the coconut, this extract is highly absorbent while it moisturizes, nourishing moisture into the skin effectively.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/ApricotExtract.png" alt="Apricot Extract"/>
+            <p class="p-indi">Soften and smooth the skin when activated by the skin’s oils</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/therapy/OregonGrapeRootExtract.png" alt="Oregon Grape Root Extract"/>
+            <p class="p-indi">This grape root extract grown in Oregon helps combat skin irritants associated with psoriasis and other atopic dermatitis illnesses.</p>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-12">
             <h3 class="h3-indi">Full ingredients</h3> 
-            <p class="p-indi">CAMPHOR (3.0 %), <br/>
-            ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, GLYCERIN, WATER (AQUA), HYDROLYZED EGG SHELL MEMBRANE, PELARGONIUM GRAVEOLENS FLOWER OIL, ALLANTOIN, CAPSICUM FRUTESCENS FRUIT EXTRACT, DIMETHICONE, LINUM USITATISSIMUM (LINSEED) SEED OIL, TOCOPHEROL, CETEARYL ALCOHOL, GLYCERYL CAPRYLATE, GLYCERYL STEARATE, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, CITRUS AURANTIUM DULCIS (ORANGE) PEEL EXTRACT, SODIUM LAUROYL GLUTAMATE, STEARIC ACID, LYSOLECITHIN, SCLEROTIUM GUM, POTASSIUM SORBATE, MICROCRYSTALLINE CELLULOSE, BENZYL ALCOHOL, LAVANDULA ANGUSTIFOLIA (LAVENDER) OIL, LYSINE HCL, MENTHOL, PULLULAN, XANTHAN GUM, DIPOTASSIUM GLYCYRRHIZATE, GLYCERYL UNDECYLENATE, MELALEUCA ALTERNIFOLIA (TEA TREE) LEAF OIL, CELLULOSE GUM, OLEA EUROPAEA (OLIVE) LEAF EXTRACT</p>
+            <p class="p-indi">SALICYLIC ACID (2%), <br/>
+            ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, PROPANEDIOL, HYDROLYZED EGG SHELL MEMBRANE, WATER (AQUA), CETYL ALCOHOL, GLYCERIN, GLYCERYL STEARATE, POTASSIUM CETYL PHOSPHATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, GLYCERYL CAPRYLATE, CETEARYL OLIVATE, DIMETHICONE, OCIMUM BASILICUM (BASIL) EXTRACT, RICINUS COMMUNIS (CASTOR) SEED OIL, SORBITAN OLIVATE, LYSOLECITHIN, SCLEROTIUM GUM, ALLANTOIN, ARGININE, BUTYROSPERMUM PARKII (SHEA) BUTTER, CARUM PETROSELINUM (PARSLEY) EXTRACT, COLLOIDAL OATMEAL, OLEA EUROPAEA (OLIVE) FRUIT OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, PRUNUS ARMENIACA (APRICOT) FRUIT EXTRACT, TOCOPHEROL, XANTHAN GUM, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, PULLULAN, AQUA, LINUM USITATISSIMUM (LINSEED) SEED OIL, SODIUM BENZOATE, BENZYL ALCOHOL, POTASSIUM SORBATE, CITRIC ACID, DIPOTASSIUM GLYCYRRHIZATE, GLYCERYL UNDECYLENATE, LECITHIN, MAHONIA AQUIFOLIUM ROOT EXTRACT, SEA SALT, BUTTER EXTRACT, COCOS NUCIFERA (COCONUT) FRUIT EXTRACT, CUCUMIS MELO CANTALUPENSIS FRUIT EXTRACT, MUSA SAPIENTUM (BANANA) FRUIT EXTRACT, PIMPINELLA ANISUM (ANISE) FRUIT EXTRACT, PLANKTON EXTRACT, PYRUS MALUS (APPLE) FRUIT EXTRACT, SANTALUM ALBUM (SANDALOWOOD) EXTRACT, VACCINIUM MACROCARPON (CRANBERRY) FRUIT EXTRACT, VANILLA PLANIFOLIA FRUIT EXTRACT</p>
           </div>
         </div>
       </div>
@@ -245,6 +259,9 @@
     <!--START Show on Mobile-->
     <div class="show-xs">
       <!--DETAILS MOBILE BUTTON-->
+
+
+
       <button class="myButton btn indi-m-btn mt-4" data-isminus="false" type="button" data-toggle="collapse" data-target="#collapseProductDetails" aria-expanded="false" aria-controls="collapseExample">
         <span class="float-left">Product Details</span> 
         <span class="float-right minusPlus">+</span>
@@ -258,7 +275,7 @@
             <div class="col-12">
               <h3 class="h3-indi">Product Details</h3>
               <p class="p-indi">
-              Introducing the first ever fast acting Dermal Pain Relief Therapy. This pain-relieving formula is designed to provide instant pain relief and supports the healing process during breakout for symptoms of shingles and various other skin conditions. With powerful skin protecting and effective ingredients, this formulation is a fast-acting spray that will quickly help to relieve symptoms such as pain, itching, tingling and burning caused from various skin conditions such as shingles, painful skin irritations and insect bites.
+              This fast-acting Psoriasis relief cream is a powerful formula designed to help relieve and sooth skin’s itching, irritation, redness, flakiness and scaling, along with other symptoms associated with psoriasis and seborrheic dermatitis. Formulated for ultra-strength, this cream performs as a skin protectant while enhancing rejuvenation of the skin, reducing active flare-ups, and delaying future recurrences.
               <br/><br/>
               Dermatologist Tested.
               <br/><br/>
@@ -273,8 +290,8 @@
                 <a href="../Therapy-CSduo/index.php">
                   <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
                 </a>
-                <a href="../Therapy-PS/index.php">
-                  <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+                <a href="../Therapy-Dermal/index.php">
+                  <button class="shop-btn m-2">Dermal Pain Relief</button>
                 </a>
               </div>
 
@@ -296,45 +313,40 @@
       <div class="collapse" id="collapseRecommended">
         <div class="card card-body">
 
-          <!--RECOMMENDED TEXT M SECTION-->
+          <!--RECOMMENDED TEXT SECTION-->
 
             <div class="row">
               <div class="col-md-7">
                 <h3 class="h3-indi">Symptoms and Causes</h3>
                 <div class="row justify-content-center">
                   <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.1.Shingles.png" alt="shingles" width="35%"/>
-                    <p>Shingles</p>
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.1.Dryness.png" width="35%"/>
+                    <p>Dryness</p>
                   </div>
                   <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.2.Sunburn.png" alt="Sun Burn" width="35%"/>
-                    <p>Sun Burn</p>
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.2.Rashes.png" width="35%"/>
+                    <p>Rashes</p>
                   </div>
                   <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.3.Scrapes.png" alt="Scrapes" width="35%"/>
-                    <p>Scrapes</p>
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.3.flaking.png" width="35%"/>
+                    <p>Flaking</p>
                   </div>
                   <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.6.Inflammation.png" alt="Irritation" width="35%"/>
-                    <p>Irritation</p>
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.4.Thickness.png" width="35%"/>
+                    <p>Thickness</p>
                   </div>
                   <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.4.InsectBite.png" alt="Insect Bites" width="35%"/>
-                    <p>Insect Bites</p>
-                  </div>
-                  <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.8.Itching.png" alt="Itching and Burning" width="35%"/>
-                    <p>Itching &amp; Burning</p>
-                  </div>
-                  <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/dermal-pain-symptoms/NSC.TL.Website.Symptoms_DP.7.Blister.png" alt="Blistering" width="35%"/>
-                    <p>Blistering</p>
+                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.5.JointPain.png" width="35%"/>
+                    <p>Joint Pain</p>
                   </div>
                 </div>
+                
+                <h3 class="h3-indi mt-4">Causes</h3>
+                <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
               </div>
 
               <div class="col-12">
-                <img src="../img/indi-stuff/Dermal-Before-After-Image.jpg" width="100%"/>
+                <img src="../img/indi-stuff/Psoriasis-Before-After-Image.jpg" width="100%"/>
               </div>
             </div>
 
@@ -363,7 +375,7 @@
                     <img src="../img/indi-stuff/RXStep1.png"/>
                   </div>
                   <div class="col-12 d-flex align-items-center">
-                    <p class="p-indi mb-0">Apply to shingles, dermatitis, scrapes, insect bites and other dermal pain related conditions 3 to 4 times daily for fast-acting pain relief.</p>
+                    <p class="p-indi mb-0">Apply to affected areas 1 to 4 times daily until condition subsides.</p>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -371,7 +383,7 @@
                     <img src="../img/indi-stuff/RXStep2.png"/>
                   </div>
                   <div class="col-sm-10 d-flex align-items-center">
-                    <p class="p-indi mb-0">Reapply as needed.</p>
+                    <p class="p-indi mb-0">Rub product in a circular motion for 20 seconds or until fully absorbed.</p>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -379,7 +391,7 @@
                     <img src="../img/indi-stuff/RXStep3.png"/>
                   </div>
                   <div class="col-12 d-flex align-items-center">
-                    <p class="p-indi mb-0">For optimal results, use apply before bed.</p>
+                    <p class="p-indi mb-0">For optimal results apply before bed. For pain associated with Psoriasis, use in combination with Dermal Pain Relief Therapy</p>
                   </div>
                 </div>
               </div>
@@ -391,8 +403,8 @@
                   <a href="../Therapy-CSduo/index.php">
                     <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
                   </a>
-                  <a href="../Therapy-PS/index.php">
-                    <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+                  <a href="../Therapy-Dermal/index.php">
+                    <button class="shop-btn m-2">Dermal Pain Relief</button>
                   </a>
                 </div>
 
@@ -418,34 +430,50 @@
             <div class="row text-center">
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi">Powerful antioxidant and anti-microbial activity.</p>
+                <p class="p-indi ">Powerful antioxidant to reduce the impact of inflammation.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/Camphor.png" alt="Camphor"/>
-                <p class="p-indi">An effective topical pain reliever. Known for its duel hot and cold activity, it numbs and cools the nerve endings then warms the painful area as it increases blood flow to stiff and sore muscles or joints. In addition, this essential oil’s odor gives off a calming, soothing effect.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/SalicylicAcid.png" alt="Salicylic Acid"/>
+                <p class="p-indi">Exfoliates the skin by softening and dissolving keratin (protein that causes the skin cells to stick together)</p>
               </div>
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
-                <p class="p-indi">Antioxidant and helps increase production of collagen and elastin by dermal fibroblasts.</p>
+                <p class="p-indi">Relief of pain and works to normalize collagen and elastin skin structures.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/TeaTreeOil.png" alt="Tea Tree Oil"/>
-                <p class="p-indi">A natural infection fighter</p>
+                <img src="../img/indi-stuff/ingredients/therapy/PB8.png" alt="Parsely Basil Extract"/>
+                <p class="p-indi">As a source of vitamin A, this key ingredient encourages healthy skin cell production.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/LavenderOil.png" alt="Lavender Oil"/>
-                <p class="p-indi">Helps numb the area, working to relieve pain.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/CollidalOatmeal.png" alt="Collidal Oatmeal"/>
+                <p class="p-indi">helps smooth and comfort skin that is itchy and dry.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/Dimethicone.png" alt="Dimethicone"/>
-                <p class="p-indi">Creates a protective barrier on top of the skin, effectively preventing skin infections.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/CasterSeedOil.png" alt="Caster Seed Oil"/>
+                <p class="p-indi">Works to condition the skin giving it moisture and softness.</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/SheaButter.png" alt="Shea Butter"/>
+                <p class="p-indi">Replenishes and nourishes the skin with natural vitamin and essential fatty acids.</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Extract"/>
+                <p class="p-indi">Derived from the meat of the coconut, this extract is highly absorbent while it moisturizes, nourishing moisture into the skin effectively.</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/ApricotExtract.png" alt="Apricot Extract"/>
+                <p class="p-indi">Soften and smooth the skin when activated by the skin’s oils</p>
+              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/therapy/OregonGrapeRootExtract.png" alt="Oregon Grape Root Extract"/>
+                <p class="p-indi">This grape root extract grown in Oregon helps combat skin irritants associated with psoriasis and other atopic dermatitis illnesses.</p>
               </div>
             </div>
             <div class="row mb-5">
               <div class="col-12">
                 <h3 class="h3-indi">Full ingredients</h3> 
-                <p class="p-indi">CAMPHOR (3.0 %), <br/>
-                ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, GLYCERIN, WATER (AQUA), HYDROLYZED EGG SHELL MEMBRANE, PELARGONIUM GRAVEOLENS FLOWER OIL, ALLANTOIN, CAPSICUM FRUTESCENS FRUIT EXTRACT, DIMETHICONE, LINUM USITATISSIMUM (LINSEED) SEED OIL, TOCOPHEROL, CETEARYL ALCOHOL, GLYCERYL CAPRYLATE, GLYCERYL STEARATE, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, CITRUS AURANTIUM DULCIS (ORANGE) PEEL EXTRACT, SODIUM LAUROYL GLUTAMATE, STEARIC ACID, LYSOLECITHIN, SCLEROTIUM GUM, POTASSIUM SORBATE, MICROCRYSTALLINE CELLULOSE, BENZYL ALCOHOL, LAVANDULA ANGUSTIFOLIA (LAVENDER) OIL, LYSINE HCL, MENTHOL, PULLULAN, XANTHAN GUM, DIPOTASSIUM GLYCYRRHIZATE, GLYCERYL UNDECYLENATE, MELALEUCA ALTERNIFOLIA (TEA TREE) LEAF OIL, CELLULOSE GUM, OLEA EUROPAEA (OLIVE) LEAF EXTRACT</p>
+                <p class="p-indi">SALICYLIC ACID (2%), <br/>
+                ALOE BARBADENSIS LEAF JUICE, NERIUM OLEANDER (OLEANDER) LEAF EXTRACT, PROPANEDIOL, HYDROLYZED EGG SHELL MEMBRANE, WATER (AQUA), CETYL ALCOHOL, GLYCERIN, GLYCERYL STEARATE, POTASSIUM CETYL PHOSPHATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, GLYCERYL CAPRYLATE, CETEARYL OLIVATE, DIMETHICONE, OCIMUM BASILICUM (BASIL) EXTRACT, RICINUS COMMUNIS (CASTOR) SEED OIL, SORBITAN OLIVATE, LYSOLECITHIN, SCLEROTIUM GUM, ALLANTOIN, ARGININE, BUTYROSPERMUM PARKII (SHEA) BUTTER, CARUM PETROSELINUM (PARSLEY) EXTRACT, COLLOIDAL OATMEAL, OLEA EUROPAEA (OLIVE) FRUIT OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, PRUNUS ARMENIACA (APRICOT) FRUIT EXTRACT, TOCOPHEROL, XANTHAN GUM, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, PULLULAN, AQUA, LINUM USITATISSIMUM (LINSEED) SEED OIL, SODIUM BENZOATE, BENZYL ALCOHOL, POTASSIUM SORBATE, CITRIC ACID, DIPOTASSIUM GLYCYRRHIZATE, GLYCERYL UNDECYLENATE, LECITHIN, MAHONIA AQUIFOLIUM ROOT EXTRACT, SEA SALT, BUTTER EXTRACT, COCOS NUCIFERA (COCONUT) FRUIT EXTRACT, CUCUMIS MELO CANTALUPENSIS FRUIT EXTRACT, MUSA SAPIENTUM (BANANA) FRUIT EXTRACT, PIMPINELLA ANISUM (ANISE) FRUIT EXTRACT, PLANKTON EXTRACT, PYRUS MALUS (APPLE) FRUIT EXTRACT, SANTALUM ALBUM (SANDALOWOOD) EXTRACT, VACCINIUM MACROCARPON (CRANBERRY) FRUIT EXTRACT, VANILLA PLANIFOLIA FRUIT EXTRACT</p>
               </div>
             </div>
 
@@ -463,217 +491,217 @@
 
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
-    <!--Dermal Pain-->
+    <!--PS Cream-->
     <script type="text/javascript">
-      /*<![CDATA[*/
+        /*<![CDATA[*/
 
-      (function () {
-        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-        if (window.ShopifyBuy) {
-          if (window.ShopifyBuy.UI) {
-            ShopifyBuyInit();
+        (function () {
+          var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+          if (window.ShopifyBuy) {
+            if (window.ShopifyBuy.UI) {
+              ShopifyBuyInit();
+            } else {
+              loadScript();
+            }
           } else {
             loadScript();
           }
-        } else {
-          loadScript();
-        }
 
-        function loadScript() {
-          var script = document.createElement('script');
-          script.async = true;
-          script.src = scriptURL;
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-          script.onload = ShopifyBuyInit;
-        }
+          function loadScript() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = scriptURL;
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+            script.onload = ShopifyBuyInit;
+          }
 
-        function ShopifyBuyInit() {
-          var client = ShopifyBuy.buildClient({
-            domain: 'neriumskincare-products.myshopify.com',
-            apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
-            appId: '6',
-          });
-
-          ShopifyBuy.UI.onReady(client).then(function (ui) {
-            ui.createComponent('product', {
-              id: [1375190909011],
-              node: document.getElementById('product-component-65f42d102d9'),
-              moneyFormat: '%24%7B%7Bamount%7D%7D',
-              options: {
-        "product": {
-          "variantId": "all",
-          "width": "240px",
-          "contents": {
-            "img": false,
-            "imgWithCarousel": false,
-            "title": false,
-            "variantTitle": false,
-            "price": false,
-            "description": false,
-            "buttonWithQuantity": false,
-            "quantity": false
-          },
-          "styles": {
-            "product": {
-              "text-align": "right",
-              "@media (min-width: 601px)": {
-                "max-width": "100%",
-                "margin-left": "0",
-                "margin-bottom": "50px"
-              }
-            },
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              "display": "block",
-              "margin": "0 auto",
-              ":hover": {
-                "background-color": "#91bdcf"
-              },
-              ":focus": {
-                "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "variantTitle": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "title": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal",
-              "color": "#808080"
-            },
-            "description": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "price": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "compareAt": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal",
-              "color": "#4c4c4c",
-              "font-size": "12px"
-            }
-          }
-        },
-        "cart": {
-          "contents": {
-            "button": true
-          },
-          "styles": {
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              ":hover": {
-                "background-color": "#91bdcf"
-              },
-              ":focus": {
-                "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "footer": {
-              "background-color": "#ffffff"
-            }
-          }
-        },
-        "modalProduct": {
-          "contents": {
-            "img": false,
-            "imgWithCarousel": true,
-            "variantTitle": false,
-            "buttonWithQuantity": true,
-            "button": false,
-            "quantity": false
-          },
-          "styles": {
-            "product": {
-              "@media (min-width: 601px)": {
-                "max-width": "100%",
-                "margin-left": "0px",
-                "margin-bottom": "0px"
-              }
-            },
-            "button": {
-              "background-color": "#a1d2e6",
-              "font-family": "Arial, sans-serif",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              ":hover": {
-                "background-color": "#91bdcf"
-              },
-              ":focus": {
-                "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            },
-            "variantTitle": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "title": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "description": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "price": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            },
-            "compareAt": {
-              "font-family": "Arial, sans-serif",
-              "font-weight": "normal"
-            }
-          }
-        },
-        "toggle": {
-          "styles": {
-            "toggle": {
-              "font-family": "Arial, sans-serif",
-              "background-color": "#a1d2e6",
-              ":hover": {
-                "background-color": "#91bdcf"
-              },
-              ":focus": {
-                "background-color": "#91bdcf"
-              },
-              "font-weight": "normal"
-            }
-          }
-        },
-        "option": {
-          "styles": {
-            "label": {
-              "font-family": "Arial, sans-serif"
-            },
-            "select": {
-              "font-family": "Arial, sans-serif"
-            }
-          }
-        },
-        "productSet": {
-          "styles": {
-            "products": {
-              "@media (min-width: 601px)": {
-                "margin-left": "-20px"
-              }
-            }
-          }
-        }
-      }
+          function ShopifyBuyInit() {
+            var client = ShopifyBuy.buildClient({
+              domain: 'neriumskincare-products.myshopify.com',
+              apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
+              appId: '6',
             });
-          });
+
+            ShopifyBuy.UI.onReady(client).then(function (ui) {
+              ui.createComponent('product', {
+                id: [1375191367763],
+                node: document.getElementById('product-component-8b4b581f1d5'),
+                moneyFormat: '%24%7B%7Bamount%7D%7D',
+                options: {
+          "product": {
+            "variantId": "all",
+            "width": "240px",
+            "contents": {
+              "img": false,
+              "imgWithCarousel": false,
+              "title": false,
+              "variantTitle": false,
+              "price": false,
+              "description": false,
+              "buttonWithQuantity": false,
+              "quantity": false
+            },
+            "styles": {
+              "product": {
+                "text-align": "right",
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0",
+                  "margin-bottom": "50px"
+                }
+              },
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                "padding-left": "8px",
+                "padding-right": "8px",
+                "display": "block",
+                "margin": "0 auto",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "variantTitle": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "title": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal",
+                "color": "#808080"
+              },
+              "description": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "price": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "compareAt": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal",
+                "color": "#4c4c4c",
+                "font-size": "12px"
+              }
+            }
+          },
+          "cart": {
+            "contents": {
+              "button": true
+            },
+            "styles": {
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "footer": {
+                "background-color": "#ffffff"
+              }
+            }
+          },
+          "modalProduct": {
+            "contents": {
+              "img": false,
+              "imgWithCarousel": true,
+              "variantTitle": false,
+              "buttonWithQuantity": true,
+              "button": false,
+              "quantity": false
+            },
+            "styles": {
+              "product": {
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0px",
+                  "margin-bottom": "0px"
+                }
+              },
+              "button": {
+                "background-color": "#a1d2e6",
+                "font-family": "Arial, sans-serif",
+                "padding-left": "8px",
+                "padding-right": "8px",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              },
+              "variantTitle": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "title": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "description": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "price": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              },
+              "compareAt": {
+                "font-family": "Arial, sans-serif",
+                "font-weight": "normal"
+              }
+            }
+          },
+          "toggle": {
+            "styles": {
+              "toggle": {
+                "font-family": "Arial, sans-serif",
+                "background-color": "#a1d2e6",
+                ":hover": {
+                  "background-color": "#91bdcf"
+                },
+                ":focus": {
+                  "background-color": "#91bdcf"
+                },
+                "font-weight": "normal"
+              }
+            }
+          },
+          "option": {
+            "styles": {
+              "label": {
+                "font-family": "Arial, sans-serif"
+              },
+              "select": {
+                "font-family": "Arial, sans-serif"
+              }
+            }
+          },
+          "productSet": {
+            "styles": {
+              "products": {
+                "@media (min-width: 601px)": {
+                  "margin-left": "-20px"
+                }
+              }
+            }
+          }
         }
-      })();
-      /*]]>*/
-    </script>
+              });
+            });
+          }
+        })();
+        /*]]>*/
+      </script>
 <?php include('../deepPageFooter.php'); ?>
