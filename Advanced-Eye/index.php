@@ -86,20 +86,19 @@ $(document).ready(function(){
       </div>
 
       <div class="col-md-5">
-        <h1 class="h1-indi">NERIUM ADVANCED NIGHTLY FACE TREATMENT</h1>
-        <h4 class="h4-indi">30ml / 1 fl.oz</h4>
-        <h2 class="h2-indi mb-4">$110<h2>
+        <h1 class="h1-indi">NERIUM ADVANCED EYE CREAM</h1>
+        <h4 class="h4-indi">10ml / 0.3 fl.oz</h4>
+        <h2 class="h2-indi mb-4">$60<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">
-          <li>Enhanced Collagen Production</li>
-          <li>Skin Protectant</li>
-          <li>Fine Lines and Wrinkles</li>
-          <li>Sagging Skin</li>
-          <li>Reduce Collagen Breakdown</li>
-          <li>Restores Radiance Over-night</li>
-          <li>Fights Signs of Aging</li>
-          <li>Blemised and Sun Damaged Skin</li>
+          <li>Reduce puffiness</li>
+          <li>Reduce the appearance of dark circles</li>
+          <li>Smoothes out fine lines and wrinkles</li>
+          <li>Improves moisture retention and hydrates the skin</li>
+          <li>Provides nutrients essential for protein synthesis</li>
+          <li>Enhanced tissue collagen integrity</li>
+          <li>Anti-redness care for sensitive skin</li>
         </ul>
         <div class="move-center">
           <!--Shopify buy button
@@ -139,11 +138,7 @@ $(document).ready(function(){
       <div class="col-md-7">
         <h3 class="h3-indi">Product Details</h3>
         <p class="p-indi">
-        Advanced Nightly Face Treatment is a rich, concentrated age-defying skin protection formula designed to fight oxidative stress and improve the appearance of aging and sun damaged skin while promoting healthy skin of face, neck, and décolletage. This treatment is infused with a matrix of skin revitalizing key ingredients which work in synergy to reduce the appearance of fine lines and wrinkles, enhance and restore your skin’s ability to look fresh, natural, and radiant overnight.
-        <br/><br/>
-        Dermatologist Tested.
-        <br/><br/>
-        FDA-registered, over-the counter (OTC) formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
+        Nerium Advanced Eye Cream is an essential formula designed to rejuvenate the delicate skin around your eyes. With key ingredients designed to nourish and hydrate the skin, this cream reduces the appearance of puffiness, wrinkles and dark circles while providing a more revitalized, youthful looking appearance. 
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
@@ -166,12 +161,15 @@ $(document).ready(function(){
         <div class="col-md-7">
           <h3 class="h3-indi">Recommended For</h3>
           <ul class="h4-indi ul-hexbullets">
-            <li>Sun Damaged Skin</li>
-            <li>Signs of Aging</li>
-            <li>Blemishes/Spots/Discoloration</li>
-            <li>Skin Elasticity</li>
-            <li>Urban/Environmental stressor factors</li>
-            <li>Underlying factors that damage skin</li>
+            <li>Under eye bags</li>
+            <li>Puffiness</li>
+            <li>Dark circles</li>
+            <li>Signs of aging</li>
+            <li>Wrinkles around eyes</li>
+            <li>Improving tissue suppleness</li>
+            <li>Dryness and Dehydration</li>
+            <li>Pollution Prevention Care</li>
+            <li>Sun Damage</li>
           </ul>
         </div>
         <div class="col-md-5">
@@ -190,7 +188,7 @@ $(document).ready(function(){
                 <img src="../img/indi-stuff/Step1.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">Clean skin throughly from excess dirt and debris.</p>
+                <p class="p-indi mb-0">After cleansing skin thoroughly, apply one or two pumps. </p>
               </div>
             </div>
             <div class="row mb-3">
@@ -198,7 +196,7 @@ $(document).ready(function(){
                 <img src="../img/indi-stuff/Step2.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">Apply as needed. Recommended to apply four (+/-) pumps to face, neck and décolletage.</p>
+                <p class="p-indi mb-0">Gently massage into the soft tissue around each eye.</p>
               </div>
             </div>
             <div class="row mb-3">
@@ -206,7 +204,7 @@ $(document).ready(function(){
                 <img src="../img/indi-stuff/Step3.png"/>
               </div>
               <div class="col-sm-10 d-flex align-items-center">
-                <p class="p-indi mb-0">Rinse skin in the morning following usage. For optimal results, follow with Nerium ADVANCED Daily Face Cream.</p>
+                <p class="p-indi mb-0">Apply once every morning and every evening. To enjoy Healthy Skin for Life, use with Advanced Day Cream and Nightly Face Treatment.</p>
               </div>
             </div>
           </div>
@@ -231,29 +229,33 @@ $(document).ready(function(){
         <div class="row text-center">
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/DNB-Nerium.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi ">Targets not just the signs of aging but also the underlying cause. Delivers powerful antioxidants to target free radical damage. Boosts the skin rejuvenating process to reveal younger-looking skin.</p>
+            <p class="p-indi ">Delivers powerful antioxidants to target free radical damage and to boost the skin rejuvenating processes. Studies show Nerium Oleander Extract help induce specific cytokines in dermal fibroblasts (skin support cells), known to be relevant in restoring damaged skin.</p>
           </div>
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png" alt="BiovaDerm"/>
-            <p class="p-indi">This advanced technology process retains the natural ratios of key elements found in nature’s potent life source of proteins and peptides from water soluble egg membrane (WSEM) that are beneficial to skin.</p>
+            <p class="p-indi">Provides anti-aging benefits while restoring and maintaining the skin's youthful appearance! Benefits include collagen, elastin and glycosaminoglycan; provides essential nutrients to the skin.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi">Vitamin B3</p>
+            <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png" alt="Niacinamide"/>
+            <p class="p-indi">Enhances and maintains the skin collagenous structure, as shown in studies, thereby reducing the emergence of fine lines and wrinkles, and helping the skin appear smoother, tighter and younger. Its essential nutrient, Vitamin B3, has been shown to mitigate oxidative stress and rejuvenate the skin’s regenerating processes.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/NB-Dimethicone.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi">One of the most commonly found skin care ingredient is a silicon-based polymer used to condition the skin while protecting the skin, working to prevent water loss by forming a hydrating barrier on the skin. Fills in wrinkles and lines on the face to give it a temporary plumped appearance.</p>
+            <img src="../img/indi-stuff/ingredients/advanced/CollidalOatmeal-adv.png" alt="Collidal Oatmeal"/>
+            <p class="p-indi">With key anti-inflammatory properties, this ingredient minimizes the inflammatory response that may lead to tissue destruction, redness, and irritation.   With powerful antioxidants and humectants, this ingredient provides powerful restorative and hydrating properties to the skin.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/advanced/N-Chia-Seed-Oil.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi">Text here text here</p>
+            <img src="../img/indi-stuff/ingredients/advanced/Aesculus-Hippocastanum-Extract.jpg" alt="Aesculus Hippocastanum (Horse Chestnut) Flower Extract"/>
+            <p class="p-indi">Studies show that horse chestnut contains a unique chemical (aescin) that improves the structural support of skin blood vessels.  In essence, this supportive action of horse chestnut along with its powerful anti-inflammatory properties minimizes the permeability or leakiness of blood vessels that leads to swelling and or puffiness.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="../img/indi-stuff/ingredients/advanced/Ascophyllum-Nodosum-Extract.jpg" alt="Ascophyllum Nodosum (Brown Algae) Extract"/>
+            <p class="p-indi">A novel anti-pollution ingredient, studies show that its inhibits the AhR pathway in cells. The AhR pathway is activated by environmental pollutants and has been implicated in pollution associated skin damage such as inflammation, loss of barrier function and increase in dark spots.</p>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-12">
             <h3 class="h3-indi">Full ingredients</h3> 
-            <p class="p-indi">Dimethicone, Water (Aqua), Aloe Barbadensis Leaf Juice, Hydrolyzed Egg Shell Membrane (Peptide Matrix - Collagen and Elastin), Nerium Oleander Leaf Extract, Niacinamide, Glycerin, Propanediol, Butylene Glycol, Glyceryl Stearate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Hydrogenated Polydecene, Cocos Nucifera (Coconut) Oil, Caprylic/Capric Triglyceride, Helianthus Annuus (Sunflower) Seed Oil, Squalane, Cetearyl Olivate, Sorbitan Olivate, C12-15 Alkyl Benzoate, Stearic Acid, Leuconostoc/Radish Root Ferment Filtrate, Butyrospermum Parkii (Shea) Butter, Theobroma Cacao (Cocoa) Seed Butter, Polysorbate 80, Caprylyl Glycol, Salvia Hispanica (Chia) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Sodium Lactate, Tocopheryl Acetate, Xanthan Gum, Cymbopogon Schoenanthus Extract, Disodium EDTA, Acetyl Hexapeptide-30, Alteromonas Ferment Extract, Arginine, Caramel, Potassium Sorbate, Glyceryl Caprylate, Phenylpropanol, Limonene, Citral, Hydroxycitronellal, Linalool</p>
+            <p class="p-indi">Water (Aqua), Dimethicone, Cyclopentasiloxane, Polysilicone-11, Isododecane, Hydrolyzed Egg Shell Membrane (Peptide Matrix – Collagen & Elastin), Niacinamide, Polymethylsilsesquioxane/Silica Crosspolymer, Glycerin, Nerium Oleander Leaf Extract (NAE8®), Colloidal Oatmeal, Aesculus Hippocastanum (Horse Chestnut) Extract, Ascophyllum Nodosum (Brown Algae) Extract, Butylene Glycol, Palmitoyl Tripeptide-5, Aloe Barbadensis Leaf Juice, Phenethyl Alcohol, Caprylyl Glycol, Leuconostoc/Radish Root Ferment Filtrate, Fructose, Sodium Hyaluronate, Dunaliella Salina Extract, Panthenol, HDI/Trimethylol Hexyllactone Crosspolymer, Polymethylsilsesquioxane, Pantolactone, Carbomer, Sodium Benzoate, Potassium Sorbate, Polysorbate 40, Ethylhexylglycerin, Laureth-12, Phenoxyethanol, Citric Acid, Aminomethyl Propanediol.</p>
           </div>
         </div>
       </div>
@@ -276,11 +278,7 @@ $(document).ready(function(){
             <div class="col-12">
               <h3 class="h3-indi">Product Details</h3>
               <p class="p-indi">
-              Advanced Nightly Face Treatment is a rich, concentrated age-defying skin protection formula designed to fight oxidative stress and improve the appearance of aging and sun damaged skin while promoting healthy skin of face, neck, and décolletage. This treatment is infused with a matrix of skin revitalizing key ingredients which work in synergy to reduce the appearance of fine lines and wrinkles, enhance and restore your skin’s ability to look fresh, natural, and radiant overnight.
-              <br/><br/>
-              Dermatologist Tested.
-              <br/><br/>
-              FDA-registered, over-the counter (OTC) formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
+              Nerium Advanced Eye Cream is an essential formula designed to rejuvenate the delicate skin around your eyes. With key ingredients designed to nourish and hydrate the skin, this cream reduces the appearance of puffiness, wrinkles and dark circles while providing a more revitalized, youthful looking appearance. 
               </p>
             </div>
             <div class="col-12 bg-c-grey">
@@ -301,13 +299,11 @@ $(document).ready(function(){
       <!--END DETAILS M SECTION-->
       </div>
       
-
       <!--RECOMMENDED MOBILE BUTTON-->
       <button class="myButton btn indi-m-btn mt-4" data-isminus="false" type="button" data-toggle="collapse" data-target="#collapseRecommended" aria-expanded="false" aria-controls="collapseExample">
         <span class="float-left">Recommended</span> 
         <span class="float-right minusPlus">+</span>
       </button>
-
       <br/>
       <div class="collapse" id="collapseRecommended">
         <div class="card card-body">
@@ -318,12 +314,15 @@ $(document).ready(function(){
               <div class="col-12">
                 <h3 class="h3-indi">Recommended For</h3>
                 <ul class="h4-indi ul-hexbullets">
-                  <li>Sun Damaged Skin</li>
-                  <li>Signs of Aging</li>
-                  <li>Blemishes/Spots/Discoloration</li>
-                  <li>Skin Elasticity</li>
-                  <li>Urban/Environmental stressor factors</li>
-                  <li>Underlying factors that damage skin</li>
+                <li>Under eye bags</li>
+                <li>Puffiness</li>
+                <li>Dark circles</li>
+                <li>Signs of aging</li>
+                <li>Wrinkles around eyes</li>
+                <li>Improving tissue suppleness</li>
+                <li>Dryness and Dehydration</li>
+                <li>Pollution Prevention Care</li>
+                <li>Sun Damage</li>
                 </ul>
               </div>
               <div class="col-12">
@@ -335,7 +334,6 @@ $(document).ready(function(){
       <!--END RECOMMENDED MOBILE BUTTON-->
       </div>
       
-
       <!--HOW TO MOBILE BUTTON-->
       <button class="myButton btn indi-m-btn mt-4" type="button" data-isminus="false" data-toggle="collapse" data-target="#collapseHowTo" aria-expanded="false" aria-controls="collapseExample">
         <span class="float-left">How To Use</span> 
@@ -356,7 +354,7 @@ $(document).ready(function(){
                     <img src="../img/indi-stuff/Step1.png"/>
                   </div>
                   <div class="col-12 d-flex align-items-center">
-                    <p class="p-indi mb-0">Clean skin throughly from excess dirt and debris.</p>
+                    <p class="p-indi mb-0">After cleansing skin thoroughly, apply one or two pumps.</p>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -364,7 +362,7 @@ $(document).ready(function(){
                     <img src="../img/indi-stuff/Step2.png"/>
                   </div>
                   <div class="col-sm-10 d-flex align-items-center">
-                    <p class="p-indi mb-0">Apply as needed. Recommended to apply four (+/-) pumps to face, neck and décolletage.</p>
+                    <p class="p-indi mb-0">Gently massage into the soft tissue around each eye.</p>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -372,7 +370,7 @@ $(document).ready(function(){
                     <img src="../img/indi-stuff/Step3.png"/>
                   </div>
                   <div class="col-12 d-flex align-items-center">
-                    <p class="p-indi mb-0">Rinse skin in the morning following usage. For optimal results, follow with Nerium ADVANCED Daily Face Cream.</p>
+                    <p class="p-indi mb-0">Apply once every morning and every evening. To enjoy Healthy Skin for Life, use with Advanced Day Cream and Nightly Face Treatment.</p>
                   </div>
                 </div>
               </div>
@@ -409,29 +407,32 @@ $(document).ready(function(){
             <div class="row text-center">
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/advanced/DNB-Nerium.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi ">Targets not just the signs of aging but also the underlying cause. Delivers powerful antioxidants to target free radical damage. Boosts the skin rejuvenating process to reveal younger-looking skin.</p>
+                <p class="p-indi ">Delivers powerful antioxidants to target free radical damage and to boost the skin rejuvenating processes. Studies show Nerium Oleander Extract help induce specific cytokines in dermal fibroblasts (skin support cells), known to be relevant in restoring damaged skin.</p>
               </div>
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/advanced/NB-Peptide-Matrix.png" alt="BiovaDerm"/>
-                <p class="p-indi">This advanced technology process retains the natural ratios of key elements found in nature’s potent life source of proteins and peptides from water soluble egg membrane (WSEM) that are beneficial to skin.</p>
+                <p class="p-indi">Provides anti-aging benefits while restoring and maintaining the skin's youthful appearance! Benefits include collagen, elastin and glycosaminoglycan; provides essential nutrients to the skin.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi">Vitamin B3</p>
+                <img src="../img/indi-stuff/ingredients/advanced/DN-Niacinamide.png" alt="Niacinamide"/>
+                <p class="p-indi">Enhances and maintains the skin collagenous structure, as shown in studies, thereby reducing the emergence of fine lines and wrinkles, and helping the skin appear smoother, tighter and younger. Its essential nutrient, Vitamin B3, has been shown to mitigate oxidative stress and rejuvenate the skin’s regenerating processes.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/NB-Dimethicone.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi">One of the most commonly found skin care ingredient is a silicon-based polymer used to condition the skin while protecting the skin, working to prevent water loss by forming a hydrating barrier on the skin. Fills in wrinkles and lines on the face to give it a temporary plumped appearance.</p>
+                <img src="../img/indi-stuff/ingredients/advanced/CollidalOatmeal-adv.png" alt="Collidal Oatmeal"/>
+                <p class="p-indi">With key anti-inflammatory properties, this ingredient minimizes the inflammatory response that may lead to tissue destruction, redness, and irritation.   With powerful antioxidants and humectants, this ingredient provides powerful restorative and hydrating properties to the skin.</p>              </div>
+              <div class="col-12">
+                <img src="../img/indi-stuff/ingredients/advanced/Aesculus-Hippocastanum-Extract.jpg" alt="Aesculus Hippocastanum (Horse Chestnut) Flower Extract"/>
+                <p class="p-indi">Studies show that horse chestnut contains a unique chemical (aescin) that improves the structural support of skin blood vessels.  In essence, this supportive action of horse chestnut along with its powerful anti-inflammatory properties minimizes the permeability or leakiness of blood vessels that leads to swelling and or puffiness.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/advanced/N-Chia-Seed-Oil.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi">Text here text here</p>
+                <img src="../img/indi-stuff/ingredients/advanced/Ascophyllum-Nodosum-Extract.jpg" alt="Ascophyllum Nodosum (Brown Algae) Extract"/>
+                <p class="p-indi">A novel anti-pollution ingredient, studies show that its inhibits the AhR pathway in cells. The AhR pathway is activated by environmental pollutants and has been implicated in pollution associated skin damage such as inflammation, loss of barrier function and increase in dark spots.</p>
               </div>
             </div>
             <div class="row mb-5">
               <div class="col-12">
                 <h3 class="h3-indi">Full ingredients</h3> 
-                <p class="p-indi">Dimethicone, Water (Aqua), Aloe Barbadensis Leaf Juice, Hydrolyzed Egg Shell Membrane (Peptide Matrix - Collagen and Elastin), Nerium Oleander Leaf Extract, Niacinamide, Glycerin, Propanediol, Butylene Glycol, Glyceryl Stearate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Hydrogenated Polydecene, Cocos Nucifera (Coconut) Oil, Caprylic/Capric Triglyceride, Helianthus Annuus (Sunflower) Seed Oil, Squalane, Cetearyl Olivate, Sorbitan Olivate, C12-15 Alkyl Benzoate, Stearic Acid, Leuconostoc/Radish Root Ferment Filtrate, Butyrospermum Parkii (Shea) Butter, Theobroma Cacao (Cocoa) Seed Butter, Polysorbate 80, Caprylyl Glycol, Salvia Hispanica (Chia) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Sodium Lactate, Tocopheryl Acetate, Xanthan Gum, Cymbopogon Schoenanthus Extract, Disodium EDTA, Acetyl Hexapeptide-30, Alteromonas Ferment Extract, Arginine, Caramel, Potassium Sorbate, Glyceryl Caprylate, Phenylpropanol, Limonene, Citral, Hydroxycitronellal, Linalool</p>
+                <p class="p-indi">Water (Aqua), Dimethicone, Cyclopentasiloxane, Polysilicone-11, Isododecane, Hydrolyzed Egg Shell Membrane (Peptide Matrix – Collagen & Elastin), Niacinamide, Polymethylsilsesquioxane/Silica Crosspolymer, Glycerin, Nerium Oleander Leaf Extract (NAE8®), Colloidal Oatmeal, Aesculus Hippocastanum (Horse Chestnut) Extract, Ascophyllum Nodosum (Brown Algae) Extract, Butylene Glycol, Palmitoyl Tripeptide-5, Aloe Barbadensis Leaf Juice, Phenethyl Alcohol, Caprylyl Glycol, Leuconostoc/Radish Root Ferment Filtrate, Fructose, Sodium Hyaluronate, Dunaliella Salina Extract, Panthenol, HDI/Trimethylol Hexyllactone Crosspolymer, Polymethylsilsesquioxane, Pantolactone, Carbomer, Sodium Benzoate, Potassium Sorbate, Polysorbate 40, Ethylhexylglycerin, Laureth-12, Phenoxyethanol, Citric Acid, Aminomethyl Propanediol.</p>
               </div>
             </div>
 
