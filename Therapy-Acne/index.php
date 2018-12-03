@@ -102,7 +102,8 @@ $(document).ready(function(){
         </ul>
         <div class="move-center">
           <!--Shopify buy button-->
-          <div id='product-component-8b4b581f1d5'></div>
+          <!-- <div id='product-component-8b4b581f1d5'></div> -->
+          <button class="coming-soon-btn">COMING SOON</button>
         </div>
       </div>
     </div>
