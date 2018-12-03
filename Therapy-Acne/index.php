@@ -87,18 +87,18 @@ $(document).ready(function(){
       </div>
 
       <div class="col-md-5">
-        <h1 class="h1-indi text-uppercase">NeriumRX Psoriasis Relief Therapy </h1>
+        <h1 class="h1-indi text-uppercase">NeriumRX Acne Treatment</h1>
         <h4 class="h4-indi">30ml / 1 fl.oz</h4>
         <h2 class="h2-indi mb-4">$39.95<h2>
             
         <h3 class="h3-indi benefits-line">BENEFITS</h3>
         <ul class="h4-indi ul-hexbullets">
-          <li>Antioxidant Cell Protection</li>
-          <li>Anti-Inflammatory</li>
-          <li>Anti-microbial Activity</li>
-          <li>Restores Skin Integrity</li>
-          <li>Damaged Skin Repair Cream</li>
-          <li>Immuno-Regulating Support</li>
+          <li>Clears Acne Blemishes allowing skin to heal</li>
+          <li>Restores skin texture and reduces outbreaks</li>
+          <li>Antimicrobial and anti-inflammatory properties</li>
+          <li>Balances sebum (oil) secretion by penetrating pores to control acne blemishes</li>
+          <li>Immunoregulation support</li>
+          <li>Enhanced antioxidant protection rejuvenates and hydrates skin Stimulates regenerative properties</li>
         </ul>
         <div class="move-center">
           <!--Shopify buy button-->
@@ -136,11 +136,7 @@ $(document).ready(function(){
       <div class="col-md-7">
         <h3 class="h3-indi">Product Details</h3>
         <p class="p-indi">
-        This fast-acting Psoriasis relief cream is a powerful formula designed to help relieve and sooth skin’s itching, irritation, redness, flakiness and scaling, along with other symptoms associated with psoriasis and seborrheic dermatitis. Formulated for ultra-strength, this cream performs as a skin protectant while enhancing rejuvenation of the skin, reducing active flare-ups, and delaying future recurrences.
-        <br/><br/>
-        Dermatologist Tested.
-        <br/><br/>
-        FDA-registered, over-the counter (OTC), formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
+        NeriumRX Acne Treatment is a revolutionary formula designed with key ingredients working in synergy to eliminate and prevent acne breakouts. Infused with Nerium SkinCare’s patented Nerium Aloe Extract, along with other unique key ingredients, this formula not only treats acne but also provides the necessary support to regulate, support and rejuvenate the skin’s physiology.
         </p>
       </div>
       <div class="col-md-5 bg-c-grey">
@@ -165,30 +161,9 @@ $(document).ready(function(){
         <div class="col-md-7">
           <h3 class="h3-indi">Symptoms and Causes</h3>
           <div class="row justify-content-center">
-            <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.1.Dryness.png" width="50%"/>
-              <p>Dryness</p>
-            </div>
-            <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.2.Rashes.png" width="50%"/>
-              <p>Rashes</p>
-            </div>
-            <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.3.flaking.png" width="50%"/>
-              <p>Flaking</p>
-            </div>
-            <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.4.Thickness.png" width="50%"/>
-              <p>Thickness</p>
-            </div>
-            <div class="col-sm-6 col-md-4 text-center">
-              <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.5.JointPain.png" width="50%"/>
-              <p>Joint Pain</p>
-            </div>
+            <p>Acne is a common skin condition whereby keratinized cells cause blockage of sebaceous follicles (hair follicle surrounded by oil glands).  The resultant blockage causes gradual accumulation of sebum or oil in the canal of the hair follicle. Inflammation results due to irritation caused by the concurrent growth and breakdown of the oils blocked in the canal by the bacteria Propionibacterium acnes.  The inflammation results in the formation of acne pustules, and in severe cases cysts may form.
+            </p>
           </div>
-
-          <h3 class="h3-indi mt-4">Causes</h3>
-          <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
         </div>
 
         <div class="col-md-5">
@@ -250,43 +225,31 @@ $(document).ready(function(){
         <div class="row text-center">
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
-            <p class="p-indi ">Powerful antioxidant to reduce the impact of inflammation.</p>
+            <p class="p-indi ">Powerful in its activity and novel in its design, this patented and proprietary ingredient of Nerium SkinCare delivers powerful antioxidants to target free radical damage and to boost the skin rejuvenating processes. Studies show Nerium Aloe Extract helps induce specific cytokines in dermal fibroblasts (skin support cells), known to be relevant in restoring damaged skin.</p>
           </div>
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/SalicylicAcid.png" alt="Salicylic Acid"/>
-            <p class="p-indi">Exfoliates the skin by softening and dissolving keratin (protein that causes the skin cells to stick together)</p>
+            <p class="p-indi">Salicylic Acid is a FDA approved over the counter ingredient in the treatment of acne.  As an ingredient it is a keratolytic, meaning it is an exfoliant that dissolves keratin.  It has further been shone to dissolve lipids such as fat and oils.  Since acne is due to blockage of keratinized cells and accumulation of oil, in its mechanism to dissolve both keratin and skin cells, salicylic acid works as effective active ingredient in acne treatment and management.</p>
           </div>
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
-            <p class="p-indi">Relief of pain and works to normalize collagen and elastin skin structures.</p>
+            <p class="p-indi">BiovaDerm contains collagen, elastin and glycosaminoglycans in natural harmony to provide essential nutrients to the skin.  Studies show that BiovaDerm provides potent cellular protection against oxidative injury that may result from inflammatory cells.  Combined with its in-vitro demonstration for inducing skin cell to make connective tissue, this ingredient has the potential in minimizing acne associated inflammation while enhancing associated healing.</p>
           </div>
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/PB8.png" alt="Parsely Basil Extract"/>
-            <p class="p-indi">As a source of vitamin A, this key ingredient encourages healthy skin cell production.</p>
+            <p class="p-indi">Parsley Basil Extract are natural sources of vitamin A. Vitamin A and its derivatives and precursors, collectively called retinoids, are well documented in treatment of acne.  Along with providing rich antioxidants, the natural parsley basil extract offers a safe, holistic approach for delivery of natural retinoids in management of acne.</p>
           </div>
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/CollidalOatmeal.png" alt="Collidal Oatmeal"/>
-            <p class="p-indi">helps smooth and comfort skin that is itchy and dry.</p>
+            <p class="p-indi">Colloidal Oatmeal is well recognized in the scientific community as topical ingredient to help reduce skin redness and irritation.  Studies show it has rich antioxidant and anti-inflammatory activity.  Furthermore, rich in beta-glucans and saponins, it has hydrating and cleansing properties, respectively.  All these functional properties allow colloidal oatmeal to serve as an effective supporting ingredient in the management of acne conditions. </p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/CasterSeedOil.png" alt="Caster Seed Oil"/>
-            <p class="p-indi">Works to condition the skin giving it moisture and softness.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/LinseedOil.png" alt="Linseed Oil"/>
+            <p class="p-indi">Linseed oil is renowned for its enrichment in omega-3 fatty acids.  Omega-3 fatty acids have well-established anti-inflammatory activity.  As such, linseed oil has the properties to potentially minimize the severity of acne lesions (due to inflammation) and reduce outbreaks.</p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/SheaButter.png" alt="Shea Butter"/>
-            <p class="p-indi">Replenishes and nourishes the skin with natural vitamin and essential fatty acids.</p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Extract"/>
-            <p class="p-indi">Derived from the meat of the coconut, this extract is highly absorbent while it moisturizes, nourishing moisture into the skin effectively.</p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/ApricotExtract.png" alt="Apricot Extract"/>
-            <p class="p-indi">Soften and smooth the skin when activated by the skin’s oils</p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="../img/indi-stuff/ingredients/therapy/OregonGrapeRootExtract.png" alt="Oregon Grape Root Extract"/>
-            <p class="p-indi">This grape root extract grown in Oregon helps combat skin irritants associated with psoriasis and other atopic dermatitis illnesses.</p>
+            <img src="../img/indi-stuff/ingredients/therapy/GeraniumOil.png" alt="Geranium Flower Oil"/>
+            <p class="p-indi">Geranium Flower Oil is highly regarded in herbal medicine for its antimicrobial properties.  In consideration, it has traditionally been used as an antiseptic for would care and to treat infections.  In addition, numerous studies cite the potent anti-inflammatory properties of this ingredient.  In respect, the combination of antibacterial and anti-inflammatory property of this oil is why it has been traditionally regarded as an effective antiacne therapy.  </p>
           </div>
         </div>
         <div class="row mb-5">
@@ -319,11 +282,7 @@ $(document).ready(function(){
             <div class="col-12">
               <h3 class="h3-indi">Product Details</h3>
               <p class="p-indi">
-              This fast-acting Psoriasis relief cream is a powerful formula designed to help relieve and sooth skin’s itching, irritation, redness, flakiness and scaling, along with other symptoms associated with psoriasis and seborrheic dermatitis. Formulated for ultra-strength, this cream performs as a skin protectant while enhancing rejuvenation of the skin, reducing active flare-ups, and delaying future recurrences.
-              <br/><br/>
-              Dermatologist Tested.
-              <br/><br/>
-              FDA-registered, over-the counter (OTC), formula. Produced in accordance to FDA Good Manufacturing Practices (cGMP) guidelines.
+              NeriumRX Acne Treatment is a revolutionary formula designed with key ingredients working in synergy to eliminate and prevent acne breakouts. Infused with Nerium SkinCare’s patented Nerium Aloe Extract, along with other unique key ingredients, this formula not only treats acne but also provides the necessary support to regulate, support and rejuvenate the skin’s physiology.
               </p>
             </div>
             <div class="col-12 bg-c-grey">
@@ -363,30 +322,9 @@ $(document).ready(function(){
               <div class="col-md-7">
                 <h3 class="h3-indi">Symptoms and Causes</h3>
                 <div class="row justify-content-center">
-                  <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.1.Dryness.png" width="35%"/>
-                    <p>Dryness</p>
-                  </div>
-                  <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.2.Rashes.png" width="35%"/>
-                    <p>Rashes</p>
-                  </div>
-                  <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.3.flaking.png" width="35%"/>
-                    <p>Flaking</p>
-                  </div>
-                  <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.4.Thickness.png" width="35%"/>
-                    <p>Thickness</p>
-                  </div>
-                  <div class="col-12 text-center">
-                    <img src="../img/indi-stuff/psoriasis-symptoms/NSC.TL.Website.Symptoms_PS.5.JointPain.png" width="35%"/>
-                    <p>Joint Pain</p>
-                  </div>
-                </div>
-                
-                <h3 class="h3-indi mt-4">Causes</h3>
-                <p>Psoriasis is a chronic inflammatory condition characterized by pink to salmon-colored plaques with characteristic silver-white scales. The condition results from increased cell turnover in the epidermis (the superficial layer of the skin) resulting in marked skin thickening with associated scale formation.</p>
+                  <p>Acne is a common skin condition whereby keratinized cells cause blockage of sebaceous follicles (hair follicle surrounded by oil glands).  The resultant blockage causes gradual accumulation of sebum or oil in the canal of the hair follicle. Inflammation results due to irritation caused by the concurrent growth and breakdown of the oils blocked in the canal by the bacteria Propionibacterium acnes.  The inflammation results in the formation of acne pustules, and in severe cases cysts may form.
+                  </p>
+                </div>   
               </div>
 
               <div class="col-12">
@@ -474,43 +412,31 @@ $(document).ready(function(){
             <div class="row text-center">
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/NAE-8.png" alt="Nerium Oleander Extract"/>
-                <p class="p-indi ">Powerful antioxidant to reduce the impact of inflammation.</p>
+                <p class="p-indi ">Powerful in its activity and novel in its design, this patented and proprietary ingredient of Nerium SkinCare delivers powerful antioxidants to target free radical damage and to boost the skin rejuvenating processes. Studies show Nerium Aloe Extract helps induce specific cytokines in dermal fibroblasts (skin support cells), known to be relevant in restoring damaged skin.  </p>
               </div>
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/SalicylicAcid.png" alt="Salicylic Acid"/>
-                <p class="p-indi">Exfoliates the skin by softening and dissolving keratin (protein that causes the skin cells to stick together)</p>
+                <p class="p-indi">Salicylic Acid is a FDA approved over the counter ingredient in the treatment of acne.  As an ingredient it is a keratolytic, meaning it is an exfoliant that dissolves keratin.  It has further been shone to dissolve lipids such as fat and oils.  Since acne is due to blockage of keratinized cells and accumulation of oil, in its mechanism to dissolve both keratin and skin cells, salicylic acid works as effective active ingredient in acne treatment and management.</p>
               </div>
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/BiovaDerm.png" alt="Peptide Matrix"/>
-                <p class="p-indi">Relief of pain and works to normalize collagen and elastin skin structures.</p>
+                <p class="p-indi">BiovaDerm contains collagen, elastin and glycosaminoglycans in natural harmony to provide essential nutrients to the skin.  Studies show that BiovaDerm provides potent cellular protection against oxidative injury that may result from inflammatory cells.  Combined with its in-vitro demonstration for inducing skin cell to make connective tissue, this ingredient has the potential in minimizing acne associated inflammation while enhancing associated healing.</p>
               </div>
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/PB8.png" alt="Parsely Basil Extract"/>
-                <p class="p-indi">As a source of vitamin A, this key ingredient encourages healthy skin cell production.</p>
+                <p class="p-indi">Parsley Basil Extract are natural sources of vitamin A. Vitamin A and its derivatives and precursors, collectively called retinoids, are well documented in treatment of acne.  Along with providing rich antioxidants, the natural parsley basil extract offers a safe, holistic approach for delivery of natural retinoids in management of acne.</p>
               </div>
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/CollidalOatmeal.png" alt="Collidal Oatmeal"/>
-                <p class="p-indi">helps smooth and comfort skin that is itchy and dry.</p>
+                <p class="p-indi">Colloidal Oatmeal is well recognized in the scientific community as topical ingredient to help reduce skin redness and irritation.  Studies show it has rich antioxidant and anti-inflammatory activity.  Furthermore, rich in beta-glucans and saponins, it has hydrating and cleansing properties, respectively.  All these functional properties allow colloidal oatmeal to serve as an effective supporting ingredient in the management of acne conditions. </p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/CasterSeedOil.png" alt="Caster Seed Oil"/>
-                <p class="p-indi">Works to condition the skin giving it moisture and softness.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/LinseedOil.png" alt="Linseed Oil"/>
+                <p class="p-indi">Linseed oil is renowned for its enrichment in omega-3 fatty acids.  Omega-3 fatty acids have well-established anti-inflammatory activity.  As such, linseed oil has the properties to potentially minimize the severity of acne lesions (due to inflammation) and reduce outbreaks.</p>
               </div>
               <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/SheaButter.png" alt="Shea Butter"/>
-                <p class="p-indi">Replenishes and nourishes the skin with natural vitamin and essential fatty acids.</p>
-              </div>
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/CoconutExtract.png" alt="Coconut Extract"/>
-                <p class="p-indi">Derived from the meat of the coconut, this extract is highly absorbent while it moisturizes, nourishing moisture into the skin effectively.</p>
-              </div>
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/ApricotExtract.png" alt="Apricot Extract"/>
-                <p class="p-indi">Soften and smooth the skin when activated by the skin’s oils</p>
-              </div>
-              <div class="col-12">
-                <img src="../img/indi-stuff/ingredients/therapy/OregonGrapeRootExtract.png" alt="Oregon Grape Root Extract"/>
-                <p class="p-indi">This grape root extract grown in Oregon helps combat skin irritants associated with psoriasis and other atopic dermatitis illnesses.</p>
+                <img src="../img/indi-stuff/ingredients/therapy/GeraniumOil.png" alt="Geranium Flower Oil"/>
+                <p class="p-indi">Geranium Flower Oil is highly regarded in herbal medicine for its antimicrobial properties.  In consideration, it has traditionally been used as an antiseptic for would care and to treat infections.  In addition, numerous studies cite the potent anti-inflammatory properties of this ingredient.  In respect, the combination of antibacterial and anti-inflammatory property of this oil is why it has been traditionally regarded as an effective antiacne therapy.  </p>
               </div>
             </div>
             <div class="row mb-5">
