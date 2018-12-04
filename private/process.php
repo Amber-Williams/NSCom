@@ -10,7 +10,7 @@ $phone = $_POST['phone'];
 $product = $_POST['product'];
 $message = $_POST['message'];
 $from = "<" . $email . ">";
-$to = "info@neriumskincare.com , amber@neriumskincare.com , LizatNeriumBiotech@gmail.com";
+$to = "info@neriumskincare.com , amber@neriumskincare.com , LizatNeriumBiotech@gmail.com, mwilliams@neriumskincare.com";
 $subject = "NeriumSkinCarecom Web General Inquiry";
 $body =
 "First name: {$firstName}
@@ -20,7 +20,7 @@ Country: {$country}
 Phone: {$phone}
 Name of the Nerium product you use: {$product}
 Message: {$message}";
-mail($to, "Web General Inquiry", $body);
+mail($to, $subject, $body);
 header('Location: ../thanks');
 }
 else

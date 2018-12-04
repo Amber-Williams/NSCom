@@ -96,9 +96,11 @@ $(document).ready(function(){
           <li>Clears Acne Blemishes allowing skin to heal</li>
           <li>Restores skin texture and reduces outbreaks</li>
           <li>Antimicrobial and anti-inflammatory properties</li>
-          <li>Balances sebum (oil) secretion by penetrating pores to control acne blemishes</li>
+          <li>Balances sebum (oil) secretion</li>
+          <li>Penetrates pores to control acne blemishes</li>
           <li>Immunoregulation support</li>
-          <li>Enhanced antioxidant protection rejuvenates and hydrates skin Stimulates regenerative properties</li>
+          <li>Enhanced antioxidant protection rejuvenates and hydrates skin</li>
+          <li>Stimulates regenerative properties</li>
         </ul>
         <div class="move-center">
           <!--Shopify buy button-->
@@ -250,7 +252,7 @@ $(document).ready(function(){
           </div>
           <div class="col-sm-6 col-md-3">
             <img src="../img/indi-stuff/ingredients/therapy/GeraniumOil.png" alt="Geranium Flower Oil"/>
-            <p class="p-indi">Geranium Flower Oil is highly regarded in herbal medicine for its antimicrobial properties.  In consideration, it has traditionally been used as an antiseptic for would care and to treat infections.  In addition, numerous studies cite the potent anti-inflammatory properties of this ingredient.  In respect, the combination of antibacterial and anti-inflammatory property of this oil is why it has been traditionally regarded as an effective antiacne therapy.  </p>
+            <p class="p-indi">Geranium Flower Oil is highly regarded in herbal medicine for its antimicrobial properties.  In consideration, it has traditionally been used as an antiseptic for wound care and to treat infections.  In addition, numerous studies cite the potent anti-inflammatory properties of this ingredient.  In respect, the combination of antibacterial and anti-inflammatory property of this oil is why it has been traditionally regarded as an effective antiacne therapy.  </p>
           </div>
         </div>
         <div class="row mb-5">
@@ -437,7 +439,7 @@ $(document).ready(function(){
               </div>
               <div class="col-12">
                 <img src="../img/indi-stuff/ingredients/therapy/GeraniumOil.png" alt="Geranium Flower Oil"/>
-                <p class="p-indi">Geranium Flower Oil is highly regarded in herbal medicine for its antimicrobial properties.  In consideration, it has traditionally been used as an antiseptic for would care and to treat infections.  In addition, numerous studies cite the potent anti-inflammatory properties of this ingredient.  In respect, the combination of antibacterial and anti-inflammatory property of this oil is why it has been traditionally regarded as an effective antiacne therapy.  </p>
+                <p class="p-indi">Geranium Flower Oil is highly regarded in herbal medicine for its antimicrobial properties.  In consideration, it has traditionally been used as an antiseptic for wound care and to treat infections.  In addition, numerous studies cite the potent anti-inflammatory properties of this ingredient.  In respect, the combination of antibacterial and anti-inflammatory property of this oil is why it has been traditionally regarded as an effective antiacne therapy.  </p>
               </div>
             </div>
             <div class="row mb-5">
@@ -462,217 +464,5 @@ $(document).ready(function(){
 
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
-    <!--PS Cream-->
-    <script type="text/javascript">
-        /*<![CDATA[*/
-
-        (function () {
-          var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-          if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
-              ShopifyBuyInit();
-            } else {
-              loadScript();
-            }
-          } else {
-            loadScript();
-          }
-
-          function loadScript() {
-            var script = document.createElement('script');
-            script.async = true;
-            script.src = scriptURL;
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-            script.onload = ShopifyBuyInit;
-          }
-
-          function ShopifyBuyInit() {
-            var client = ShopifyBuy.buildClient({
-              domain: 'neriumskincare-products.myshopify.com',
-              apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
-              appId: '6',
-            });
-
-            ShopifyBuy.UI.onReady(client).then(function (ui) {
-              ui.createComponent('product', {
-                id: [1375191367763],
-                node: document.getElementById('product-component-8b4b581f1d5'),
-                moneyFormat: '%24%7B%7Bamount%7D%7D',
-                options: {
-          "product": {
-            "variantId": "all",
-            "width": "240px",
-            "contents": {
-              "img": false,
-              "imgWithCarousel": false,
-              "title": false,
-              "variantTitle": false,
-              "price": false,
-              "description": false,
-              "buttonWithQuantity": false,
-              "quantity": false
-            },
-            "styles": {
-              "product": {
-                "text-align": "right",
-                "@media (min-width: 601px)": {
-                  "max-width": "100%",
-                  "margin-left": "0",
-                  "margin-bottom": "50px"
-                }
-              },
-              "button": {
-                "background-color": "#a1d2e6",
-                "font-family": "Arial, sans-serif",
-                "padding-left": "8px",
-                "padding-right": "8px",
-                "display": "block",
-                "margin": "0 auto",
-                ":hover": {
-                  "background-color": "#91bdcf"
-                },
-                ":focus": {
-                  "background-color": "#91bdcf"
-                },
-                "font-weight": "normal"
-              },
-              "variantTitle": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal"
-              },
-              "title": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal",
-                "color": "#808080"
-              },
-              "description": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal"
-              },
-              "price": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal"
-              },
-              "compareAt": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal",
-                "color": "#4c4c4c",
-                "font-size": "12px"
-              }
-            }
-          },
-          "cart": {
-            "contents": {
-              "button": true
-            },
-            "styles": {
-              "button": {
-                "background-color": "#a1d2e6",
-                "font-family": "Arial, sans-serif",
-                ":hover": {
-                  "background-color": "#91bdcf"
-                },
-                ":focus": {
-                  "background-color": "#91bdcf"
-                },
-                "font-weight": "normal"
-              },
-              "footer": {
-                "background-color": "#ffffff"
-              }
-            }
-          },
-          "modalProduct": {
-            "contents": {
-              "img": false,
-              "imgWithCarousel": true,
-              "variantTitle": false,
-              "buttonWithQuantity": true,
-              "button": false,
-              "quantity": false
-            },
-            "styles": {
-              "product": {
-                "@media (min-width: 601px)": {
-                  "max-width": "100%",
-                  "margin-left": "0px",
-                  "margin-bottom": "0px"
-                }
-              },
-              "button": {
-                "background-color": "#a1d2e6",
-                "font-family": "Arial, sans-serif",
-                "padding-left": "8px",
-                "padding-right": "8px",
-                ":hover": {
-                  "background-color": "#91bdcf"
-                },
-                ":focus": {
-                  "background-color": "#91bdcf"
-                },
-                "font-weight": "normal"
-              },
-              "variantTitle": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal"
-              },
-              "title": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal"
-              },
-              "description": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal"
-              },
-              "price": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal"
-              },
-              "compareAt": {
-                "font-family": "Arial, sans-serif",
-                "font-weight": "normal"
-              }
-            }
-          },
-          "toggle": {
-            "styles": {
-              "toggle": {
-                "font-family": "Arial, sans-serif",
-                "background-color": "#a1d2e6",
-                ":hover": {
-                  "background-color": "#91bdcf"
-                },
-                ":focus": {
-                  "background-color": "#91bdcf"
-                },
-                "font-weight": "normal"
-              }
-            }
-          },
-          "option": {
-            "styles": {
-              "label": {
-                "font-family": "Arial, sans-serif"
-              },
-              "select": {
-                "font-family": "Arial, sans-serif"
-              }
-            }
-          },
-          "productSet": {
-            "styles": {
-              "products": {
-                "@media (min-width: 601px)": {
-                  "margin-left": "-20px"
-                }
-              }
-            }
-          }
-        }
-              });
-            });
-          }
-        })();
-        /*]]>*/
-      </script>
+   
 <?php include('../deepPageFooter.php'); ?>
