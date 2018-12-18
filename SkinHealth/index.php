@@ -22,7 +22,7 @@
 
           <div id='product-component-8b4b581f1d5'>
               <a href="../Therapy-PS/index.php">
-                <img src="../img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Carton-Shadow.jpg" alt="Psoriasis Relief Therapy" height="300px" class="productImg-responsive"/>
+                <img src="../img/indi-stuff/white-rx/1800x2160-Psoriasis-30mL-Tube-Carton-Shadow.png" alt="Psoriasis Relief Therapy" height="300px" class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Psoriasis Relief <br/>Therapy</p>
                 <p class="p-index">$39.95</p>
               </a>
@@ -30,7 +30,7 @@
 
             <div id='product-component-2b4f706b88a'>
               <a href="../Therapy-CSduo/index.php">
-                <img src="../img/TL-packaging-web/1800x2160-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg" alt="Cold Sore Dual Treatment" height="300px"class="productImg-responsive"/>
+                <img src="../img/indi-stuff/white-rx/1800x2160-Cold-Sore-30mL-Box-Blister-Shadow.png" alt="Cold Sore Dual Treatment" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Cold Sore Dual <br/>Treatment</p>
                 <p class="p-index">$29.95</p>
               </a>
@@ -38,9 +38,17 @@
 
             <div id='product-component-65f42d102d9'>
               <a href="../Therapy-Dermal/index.php">
-                <img src="../img/TL-packaging-web/1800x2160-Dermal-Bottle-Carton-Shadow.jpg" alt="Dermal Pain Relief Therapy" height="300px"class="productImg-responsive"/>
+                <img src="../img/indi-stuff/white-rx/1800x2160-Dermal-45mL-Bottle-Carton-Shadow.png" alt="Dermal Pain Relief Therapy" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Dermal Pain Relief <br/> &amp; Shingles Support</p>
                 <p class="p-index">$42.95</p>
+              </a>
+            </div>
+
+            <div id='product-component-65f42d102d9'>
+              <a href="../Therapy-Acne/index.php">
+                <img src="../img/indi-stuff/white-rx/1800x2160-Acne-30mL-Tube-Carton-Shadow.png" alt="Dermal Pain Relief Therapy" height="300px"class="productImg-responsive"/>
+                <p class="p-index">NERIUMRX <br/>Acne <br/>Therapy</p>
+                <p class="p-index">$39.95</p>
               </a>
             </div>
 

@@ -55,32 +55,32 @@ $(document).ready(function(){
 
       <div class="col-2 d-flex flex-column"> 
         <div class="p-2 hide-md">
-          <img src="../img/TL-packaging-web/116x116-Dermal-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstDermal()"/>
+          <img src="../img/indi-stuff/white-rx/116x116-Dermal-45mL-Bottle-Carton-Shadow.jpg" class="float-left" onclick="pictureChangeFirstDermal()"/>
         </div>
         <div class="p-2 hide-md">
           <img src="../img/indi-stuff/116x116-Dermal-Smear.jpg" class="float-left" onclick="pictureChangeSecondDermal()"/>
         </div>
         <div class="p-2 hide-md">
-          <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="float-left" onclick="pictureChangeThirdDermal()"/>
+          <img src="../img/indi-stuff/white-rx/116x116-Dermal-Drug-Facts-V2.jpg" class="float-left" onclick="pictureChangeThirdDermal()"/>
         </div>
       </div>
 
       <div class="col-md-5">
         <div class="d-flex align-items-center indi-display">
-          <img id="indi-display-img" src="../img/TL-packaging-web/1800x2160-Dermal-Bottle-Carton-Shadow.jpg" class="float-right"/>
+          <img id="indi-display-img" src="../img/indi-stuff/white-rx/1800x2160-Dermal-45mL-Bottle-Carton.png" class="float-right"/>
         </div>
       </div>
 
       <div class="row show-md mx-auto">
         <div class="col-12 d-flex">
             <div class="p-2">
-              <img src="../img/TL-packaging-web/116x116-Dermal-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstDermal()"/>
+              <img src="../img/indi-stuff/white-rx/116x116-Dermal-45mL-Bottle-Carton-Shadow.jpg" class="indi-pictureChanger" onclick="pictureChangeFirstDermal()"/>
             </div>
             <div class="p-2">
               <img src="../img/indi-stuff/116x116-Dermal-Smear.jpg" class="indi-pictureChanger" onclick="pictureChangeSecondDermal()"/>
             </div>
             <div class="p-2">
-              <img src="../img/TL-packaging-web/116x116-Cold-Sore-Lip-Drug-Facts-V1.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDermal()"/>
+              <img src="../img/indi-stuff/white-rx/116x116-Dermal-Drug-Facts-V2.jpg" class="indi-pictureChanger" onclick="pictureChangeThirdDermal()"/>
             </div>
         </div>
       </div>
@@ -148,13 +148,10 @@ $(document).ready(function(){
       <div class="col-md-5 bg-c-grey">
 
         <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
-        <img src="../img/TL-packaging-web/385x420-Therapy-Line-Products.png" width="100%"/>
+        <img src="../img/indi-stuff/white-rx/385x420-RX-Products-V1.png" width="100%"/>
         <div class="move-center">
-          <a href="../Therapy-CSduo/index.php">
-            <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
-          </a>
-          <a href="../Therapy-PS/index.php">
-            <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+          <a href="../SkinHealth/index.php">
+            <button class="shop-btn m-2">Shop more NeriumRX</button>  
           </a>
         </div>
 
@@ -237,13 +234,10 @@ $(document).ready(function(){
           <div class="col-md-5 bg-c-grey">
 
             <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
-            <img src="../img/TL-packaging-web/385x420-Therapy-Line-Products.png" width="100%"/>
+            <img src="../img/indi-stuff/white-rx/385x420-RX-Products-V1.png" width="100%"/>
             <div class="move-center">
-              <a href="../Therapy-CSduo/index.php">
-                <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
-              </a>
-              <a href="../Therapy-PS/index.php">
-                <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+              <a href="../SkinHealth/index.php">
+                <button class="shop-btn m-2">Shop more NeriumRX</button>  
               </a>
             </div>
 
@@ -318,13 +312,10 @@ $(document).ready(function(){
             <div class="col-12 bg-c-grey">
 
               <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
-              <img src="../img/TL-packaging-web/385x420-Therapy-Line-Products.png" width="100%"/>
+              <img src="../img/indi-stuff/white-rx/385x420-RX-Products-V1.png" width="100%"/>
               <div class="move-center">
-                <a href="../Therapy-CSduo/index.php">
-                  <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
-                </a>
-                <a href="../Therapy-PS/index.php">
-                  <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+                <a href="../SkinHealth/index.php">
+                  <button class="shop-btn m-2">Shop more NeriumRX</button>  
                 </a>
               </div>
 
@@ -436,13 +427,10 @@ $(document).ready(function(){
               <div class="col-12 bg-c-grey">
 
                 <h2 class="h2-indi move-center">THERAPY COLLECTION</h2>
-                <img src="../img/TL-packaging-web/385x420-Therapy-Line-Products.png" width="100%"/>
+                <img src="../img/indi-stuff/white-rx/385x420-RX-Products-V1.png" width="100%"/>
                 <div class="move-center">
-                  <a href="../Therapy-CSduo/index.php">
-                    <button class="shop-btn m-2">Cold Sore Dual Treatment</button>  
-                  </a>
-                  <a href="../Therapy-PS/index.php">
-                    <button class="shop-btn m-2">Psoriasis Relief Therapy</button>
+                  <a href="../SkinHealth/index.php">
+                    <button class="shop-btn m-2">Shop more NeriumRX</button>  
                   </a>
                 </div>
 

@@ -74,13 +74,13 @@
     }
 
   function pictureChangeFirstPS() {
-    document.getElementById("indi-display-img").src="../img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Carton-Shadow.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/white-rx/1800x2160-Psoriasis-30mL-Tube-Carton-Shadow.png";
     }
   function pictureChangeSecondPS() {
     document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Psoriasis-Smear.jpg";
     }
   function pictureChangeThirdPS() {
-    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Psoriasis-Drug-Facts.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/white-rx/1800x2160-Dermal-Drug-Facts-V2.png";
     }
 
 
@@ -96,13 +96,13 @@
 
 
   function pictureChangeFirstCS() {
-    document.getElementById("indi-display-img").src="../img/TL-packaging-web/1800x2160-Cold-Sore-Lip-Bottle-Carton-Shadow.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/white-rx/1800x2160-Cold-Sore-30mL-Box-Blister-Shadow.png";
     }
   function pictureChangeSecondCS() {
-    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Cold-Sore-Lip-Smear.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/white-rx/1800x2160-Cold-Sore-Smear.jpg";
     }
   function pictureChangeThirdCS() {
-    document.getElementById("indi-display-img").src="../img/indi-stuff/1800x2160-Cold-Sore-Lip-Drug-Facts.jpg";
+    document.getElementById("indi-display-img").src="../img/indi-stuff/white-rx/1800x2160-Cold-Sore-Drug-Facts.png";
     }
 
 
