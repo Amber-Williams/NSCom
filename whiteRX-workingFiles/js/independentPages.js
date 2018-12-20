@@ -1,13 +1,15 @@
   //Script for Index Youtube Video Play on Click
-  //https://www.neriumskincare.com/img/index/GarysStoryStillOrgPack1.jpg
-  //http://localhost:8888/NSCom/img/index/GarysStoryStillOrgPack1.jpg
+  //https://www.neriumskincare.com/img/index/garyStoryStill-2.jpg
+  //http://localhost:8888/NSCom/img/index/garyStoryStill-2.jpg
   
   function changeIndexVideo() {
-    var urlk = document.getElementById('index__video').src;
-    if (urlk == 'https://www.neriumskincare.com/img/index/garyStoryStill-1.jpg') {
-        document.getElementById('index__video').src = 'img/index/garyStoryStill-2.jpg';
-    } else {
+    var urlVideo = document.getElementById('index__video').src;
+    if (urlVideo == 'https://www.neriumskincare.com/img/index/garyStoryStill-2.jpg') {
         document.getElementById('index__video').src = 'img/index/garyStoryStill-1.jpg';
+        console.log("hey");
+    } else {
+        document.getElementById('index__video').src = 'img/index/garyStoryStill-2.jpg';
+        //console.log("bye");
     }
   }
   setInterval(changeIndexVideo, 1000);
