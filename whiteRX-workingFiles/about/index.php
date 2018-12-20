@@ -46,7 +46,7 @@
 
     <div id="products" class="row">
       <div class="col-sm-8"> 
-        <img src="../img/about-us/734x807-Our-Products.jpg" width="100%"/>
+        <img src="../img/about-us/734x807-Our-Products-V2.jpg" width="100%"/>
       </div>
       <div class="col-sm-4 align-self-center">
         <h1> Our Products</h1>

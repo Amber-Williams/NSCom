@@ -43,9 +43,9 @@
     <div class="row">
       <div class="col-12 px-0">
       <!--Mobile Banner-->
-        <img src="img/index/515x452-Main-Banner.png" class="move-center d-block d-sm-block d-md-none" width="100%"/>
+        <img src="img/index/515x452-Main-RX-Banner.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/>
       <!--Desktop banner-->
-        <img src="img/index/1366x500-Main-Banner.png" class="move-center d-none d-md-block d-lg-block" width="100%"/>
+        <img src="img/index/1516x333-Main-RX-Banner.jpg" class="move-center d-none d-md-block d-lg-block" width="100%"/>
       </div>
     </div>
     <div class="container">
@@ -59,7 +59,7 @@
 
             <div id='product-component-96b5e16e7e8'>
               <a href="Therapy-Dermal/index.php">
-                <img src="img/TL-packaging-web/1800x2160-Dermal-Bottle.jpg" alt="Dermal Pain Relief Therapy" height="300px" class="productImg-responsive"/>
+                <img src="img/indi-stuff/white-rx/1800x2160-Dermal-45mL-Bottle-Carton-Shadow.png" alt="Dermal Pain Relief Therapy" height="300px" class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Dermal Pain Relief <br/> &amp; Shingles Support</p>
                 <p class="p-index">$42.95</p>
               </a>
@@ -67,7 +67,7 @@
 
                 <div id='product-component-c9bdb7359c8'>
               <a href="Therapy-CSduo/index.php">
-                <img src="img/TL-packaging-web/1800x2160-Cold-Sore-Lip-Bottle-Shadow.jpg" alt="Cold Sore Dual Treatment" height="300px"class="productImg-responsive"/>
+                <img src="img/indi-stuff/white-rx/1800x2160-Cold-Sore-30mL-Box-Blister-Shadow.png" alt="Cold Sore Dual Treatment" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Cold Sore Dual <br/>Treatment</p>
                 <p class="p-index">$29.95</p>
               </a>
@@ -75,7 +75,7 @@
 
               <div id='product-component-c41dd6e7d80'>
               <a href="Therapy-PS/index.php">
-                <img src="img/TL-packaging-web/1800x2160-Psoriasis-Bottle-Shadow.jpg" alt="Psoriasis Relief Therapy" height="300px"class="productImg-responsive"/>
+                <img src="img/indi-stuff/white-rx/1800x2160-Psoriasis-30mL-Tube-Carton-Shadow.png" alt="Psoriasis Relief Therapy" height="300px"class="productImg-responsive"/>
                 <p class="p-index">NERIUMRX <br/>Psoriasis Relief <br/>Therapy</p>
                 <p class="p-index">$39.95</p>
               </a>
@@ -94,7 +94,7 @@
         </div>
         <div class="row">
         <div class="col-12 mb-4 ">
-          <img id="index__video" src="img/index/GarysStoryStillOrgPack1.jpg" alt="Play Button for Gary's Story youtube video" width="100%"/>
+          <img id="index__video" src="img/index/garyStoryStill-2.jpg" alt="Play Button for Gary's Story youtube video" width="100%"/>
           <iframe id="index__video--play" class="d-none index__video__sizing" width="100%" src="https://www.youtube.com/embed/ir8vIQdvj9M?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         </div>
@@ -103,9 +103,9 @@
     <!--Call to action images-->
     <div class="container position-relative mb-4">
         <!--Dsktop size therapy line image-->
-        <img src="img/index/1152x584-Main-Page-Therapy-Line-V4.jpg" class="move-center d-none d-md-block d-lg-block" alt="NeriumRX Therapy Line Collection" width="100%">
+        <img src="img/index/1152x584-Main-Page-Therapy-Line-V5.jpg" class="move-center d-none d-md-block d-lg-block" alt="NeriumRX Therapy Line Collection" width="100%">
         <!--Mobile size therapy line image-->
-        <img src="img/index/545x552-Main-Page-Therapy-Line-V4.jpg" class="move-center d-block d-sm-block d-md-none" alt="NeriumRX Therapy Line Collection" width="100%"/>
+        <img src="img/index/545x552-Main-Page-Therapy-Line-V5.jpg" class="move-center d-block d-sm-block d-md-none" alt="NeriumRX Therapy Line Collection" width="100%"/>
         
         <div class="img-text-center-right text-center">
           <h1>NERIUMRX THERAPY</h1>

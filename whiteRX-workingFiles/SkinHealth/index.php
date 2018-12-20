@@ -3,11 +3,11 @@
   <div class="row">
     <div class="col-12 img-container px-0">
       <!--Mobile Banner-->
-      <img src="../img/515x278-Therapy-Main-Banner-V2.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/>
+      <img src="../img/515x278-RX-Main-Banner-V3.jpg" class="move-center d-block d-sm-block d-md-none" width="100%"/>
       <!--Desktop banner-->
-        <img src="../img/1150x310-Therapy-Main-Banner-V4.jpg" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/>
+        <img src="../img/1150x310-RX-Main-Banner-V5.jpg" class="move-center d-none d-md-block d-lg-block d-xl-none" width="100%"/>
       <!--Larger Screen Banner-->
-        <img src="../img/1150x310-Therapy-Main-Banner-V4.jpg" class="banner-container move-center d-none d-xl-block" width="100%"/>
+        <img src="../img/1150x310-RX-Main-Banner-V5.jpg" class="banner-container move-center d-none d-xl-block" width="100%"/>
     </div>
   </div>
 

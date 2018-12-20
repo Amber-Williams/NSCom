@@ -4,10 +4,10 @@
   
   function changeIndexVideo() {
     var urlk = document.getElementById('index__video').src;
-    if (urlk == 'https://www.neriumskincare.com/img/index/GarysStoryStillOrgPack1.jpg') {
-        document.getElementById('index__video').src = 'img/index/GarysStoryStillOrgPack2.jpg';
+    if (urlk == 'https://www.neriumskincare.com/img/index/garyStoryStill-1.jpg') {
+        document.getElementById('index__video').src = 'img/index/garyStoryStill-2.jpg';
     } else {
-        document.getElementById('index__video').src = 'img/index/GarysStoryStillOrgPack1.jpg';
+        document.getElementById('index__video').src = 'img/index/garyStoryStill-1.jpg';
     }
   }
   setInterval(changeIndexVideo, 1000);
@@ -173,9 +173,9 @@
                 }
             
             } else if (num == 2){
-                mobileImg = "515x278-About-Us-Products-Banner.jpg";
-                desktopImg = "1366x500-About-Us-Products-Banner.jpg";
-                lgDesktopImg = "1150x310-About-Us-Products-Banner-V1.jpg";
+                mobileImg = "515x278-About-Us-Products-Banner-V2.jpg";
+                desktopImg = "1366x500-About-Us-Products-Banner-V2.jpg";
+                lgDesktopImg = "1150x310-About-Us-Products-Banner-V2.jpg";
                 bannerInnerHTML();
                 if(currentBanner != 2){
                     fadeOutIn();
